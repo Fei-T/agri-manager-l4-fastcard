@@ -1,0 +1,19 @@
+{
+  "name": "agri-manager-l4-fastcard",
+  "version": "1.0.0",
+  "description": "农业经理人四级速记 - 离线安卓学习应用",
+  "scripts": {
+    "build:data": "node scripts/build-agri-data.js",
+    "verify": "node scripts/verify-data.js",
+    "serve": "node scripts/serve.js"
+  },
+  "keywords": ["agriculture", "exam", "flashcard", "capacitor"],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@capacitor/android": "^8.3.4",
+    "@capacitor/cli": "^8.3.4",
+    "@capacitor/core": "^8.3.4"
+  }
+}

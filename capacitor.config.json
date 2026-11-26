@@ -1,0 +1,8 @@
+{
+  "appId": "com.agri.level4.fastcard",
+  "appName": "农业经理人四级速记",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false
+  }
+}

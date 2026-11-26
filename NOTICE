@@ -1,0 +1,26 @@
+农业经理人四级速记 · 开源声明
+
+本项目基于以下开源项目改造或参考，特此致谢：
+
+1. jiechuan1011/mcu-review-app — MIT License
+   用作 Capacitor + 原生 HTML/JS 安卓壳的基础结构、CI 出包流程与零丢失校验思路。
+   https://github.com/jiechuan1011/mcu-review-app
+
+2. JiangXingChi/AlgaeTrain — MIT License（仅代码）
+   移植了 1/2/4/7/15/30 天间隔重复（SRS）算法到 www/js/srs.js；未使用其图片素材。
+   https://github.com/JiangXingChi/AlgaeTrain
+
+3. xxInovxx/Zhiti — Apache License 2.0
+   参考了题目/学习状态/练习会话的数据模型设计。
+   https://github.com/xxInovxx/Zhiti
+
+4. sd3247930/DrugQuiz-SC2-Android — 未声明 LICENSE
+   仅参考其离线数据生成与 GitHub Actions 构建思路，未复制其源码。
+   https://github.com/sd3247930/DrugQuiz-SC2-Android
+
+5. mwilliamson/mammoth.js — BSD-2-Clause
+   仅作为 docx 解析备选方案参考，本项目最终使用自研最小 ZIP/XML 解析器。
+   https://github.com/mwilliamson/mammoth.js
+
+本项目自身代码采用 MIT License，详见 LICENSE。
+文档内容来自用户提供的《农业经理人四级考试实操重点》，仅用于个人学习。

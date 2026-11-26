@@ -1,0 +1,6703 @@
+{
+  "version": "1.0.0",
+  "items": [
+    {
+      "id": "q1-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m01",
+      "sourceQuestionId": 1,
+      "prompt": "农业经理人在设计市场调研问卷时，通常应包含哪些基本部分？（要点1）（1）____：明确调研主题。",
+      "answer": "问卷标题",
+      "accept": [
+        "问卷标题"
+      ],
+      "srcRef": {
+        "questionId": 1,
+        "pointIndex": 0,
+        "para": 3
+      }
+    },
+    {
+      "id": "q1-ch-0",
+      "kind": "choice",
+      "moduleId": "m01",
+      "sourceQuestionId": 1,
+      "prompt": "农业经理人在设计市场调研问卷时，通常应包含哪些基本部分？（要点1）（1）____：明确调研主题。",
+      "options": [
+        "成本效益",
+        "源头控制",
+        "问卷标题",
+        "建立监控机制"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 1,
+        "pointIndex": 0,
+        "para": 3
+      }
+    },
+    {
+      "id": "q1-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m01",
+      "sourceQuestionId": 1,
+      "prompt": "（1）问卷标题：明确调研主题。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 1,
+        "pointIndex": 0,
+        "para": 3
+      }
+    },
+    {
+      "id": "q1-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m01",
+      "sourceQuestionId": 1,
+      "prompt": "农业经理人在设计市场调研问卷时，通常应包含哪些基本部分？（要点2）（2）____：包括问卷目的、填写说明等，帮助被调研者理解问卷。",
+      "answer": "引导语",
+      "accept": [
+        "引导语"
+      ],
+      "srcRef": {
+        "questionId": 1,
+        "pointIndex": 1,
+        "para": 4
+      }
+    },
+    {
+      "id": "q1-ch-1",
+      "kind": "choice",
+      "moduleId": "m01",
+      "sourceQuestionId": 1,
+      "prompt": "农业经理人在设计市场调研问卷时，通常应包含哪些基本部分？（要点2）（2）____：包括问卷目的、填写说明等，帮助被调研者理解问卷。",
+      "options": [
+        "询问当地农户",
+        "制定改进措施",
+        "引导语",
+        "资源节约"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 1,
+        "pointIndex": 1,
+        "para": 4
+      }
+    },
+    {
+      "id": "q1-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m01",
+      "sourceQuestionId": 1,
+      "prompt": "（2）询问当地农户：包括问卷目的、填写说明等，帮助被调研者理解问卷。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 1,
+        "pointIndex": 1,
+        "para": 4
+      }
+    },
+    {
+      "id": "q1-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m01",
+      "sourceQuestionId": 1,
+      "prompt": "农业经理人在设计市场调研问卷时，通常应包含哪些基本部分？（要点3）（3）____：确定被调研者是否符合调研要求。",
+      "answer": "筛选问题",
+      "accept": [
+        "筛选问题"
+      ],
+      "srcRef": {
+        "questionId": 1,
+        "pointIndex": 2,
+        "para": 5
+      }
+    },
+    {
+      "id": "q1-ch-2",
+      "kind": "choice",
+      "moduleId": "m01",
+      "sourceQuestionId": 1,
+      "prompt": "农业经理人在设计市场调研问卷时，通常应包含哪些基本部分？（要点3）（3）____：确定被调研者是否符合调研要求。",
+      "options": [
+        "采购部门",
+        "团队组建",
+        "筛选问题",
+        "分析成本与市场需求"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 1,
+        "pointIndex": 2,
+        "para": 5
+      }
+    },
+    {
+      "id": "q1-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m01",
+      "sourceQuestionId": 1,
+      "prompt": "（3）团队组建：确定被调研者是否符合调研要求。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 1,
+        "pointIndex": 2,
+        "para": 5
+      }
+    },
+    {
+      "id": "q1-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m01",
+      "sourceQuestionId": 1,
+      "prompt": "农业经理人在设计市场调研问卷时，通常应包含哪些基本部分？（要点4）（4）____：问卷的核心内容，收集所需信息。",
+      "answer": "主体问题",
+      "accept": [
+        "主体问题"
+      ],
+      "srcRef": {
+        "questionId": 1,
+        "pointIndex": 3,
+        "para": 6
+      }
+    },
+    {
+      "id": "q1-ch-3",
+      "kind": "choice",
+      "moduleId": "m01",
+      "sourceQuestionId": 1,
+      "prompt": "农业经理人在设计市场调研问卷时，通常应包含哪些基本部分？（要点4）（4）____：问卷的核心内容，收集所需信息。",
+      "options": [
+        "多元化销售",
+        "专业技能",
+        "主体问题",
+        "预算制定"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 1,
+        "pointIndex": 3,
+        "para": 6
+      }
+    },
+    {
+      "id": "q1-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m01",
+      "sourceQuestionId": 1,
+      "prompt": "（4）主体问题：问卷的核心内容，收集所需信息。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 1,
+        "pointIndex": 3,
+        "para": 6
+      }
+    },
+    {
+      "id": "q1-fb-4",
+      "kind": "fillBlank",
+      "moduleId": "m01",
+      "sourceQuestionId": 1,
+      "prompt": "农业经理人在设计市场调研问卷时，通常应包含哪些基本部分？（要点5）（5）____：如被调研者的年龄、性别等背景信息。",
+      "answer": "基本信息",
+      "accept": [
+        "基本信息"
+      ],
+      "srcRef": {
+        "questionId": 1,
+        "pointIndex": 4,
+        "para": 7
+      }
+    },
+    {
+      "id": "q1-ch-4",
+      "kind": "choice",
+      "moduleId": "m01",
+      "sourceQuestionId": 1,
+      "prompt": "农业经理人在设计市场调研问卷时，通常应包含哪些基本部分？（要点5）（5）____：如被调研者的年龄、性别等背景信息。",
+      "options": [
+        "基本信息",
+        "预案准备",
+        "收集数据",
+        "成本效益"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 1,
+        "pointIndex": 4,
+        "para": 7
+      }
+    },
+    {
+      "id": "q1-tf-4",
+      "kind": "trueFalse",
+      "moduleId": "m01",
+      "sourceQuestionId": 1,
+      "prompt": "（5）基本信息：如被调研者的年龄、性别等背景信息。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 1,
+        "pointIndex": 4,
+        "para": 7
+      }
+    },
+    {
+      "id": "q2-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m01",
+      "sourceQuestionId": 2,
+      "prompt": "农业经理人在收集农业生产环境信息时，应关注哪些主要因素？（要点1）（1）____：如温度、降雨量等，影响作物生长。",
+      "answer": "气候条件",
+      "accept": [
+        "气候条件"
+      ],
+      "srcRef": {
+        "questionId": 2,
+        "pointIndex": 0,
+        "para": 10
+      }
+    },
+    {
+      "id": "q2-ch-0",
+      "kind": "choice",
+      "moduleId": "m01",
+      "sourceQuestionId": 2,
+      "prompt": "农业经理人在收集农业生产环境信息时，应关注哪些主要因素？（要点1）（1）____：如温度、降雨量等，影响作物生长。",
+      "options": [
+        "生产优化",
+        "调研企业对供应商的管理流",
+        "气候条件",
+        "客户反馈"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 2,
+        "pointIndex": 0,
+        "para": 10
+      }
+    },
+    {
+      "id": "q2-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m01",
+      "sourceQuestionId": 2,
+      "prompt": "（1）气候条件：如温度、降雨量等，影响作物生长。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 2,
+        "pointIndex": 0,
+        "para": 10
+      }
+    },
+    {
+      "id": "q2-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m01",
+      "sourceQuestionId": 2,
+      "prompt": "农业经理人在收集农业生产环境信息时，应关注哪些主要因素？（要点2）（2）____：包括土壤肥力、酸碱度等。",
+      "answer": "土壤质量",
+      "accept": [
+        "土壤质量"
+      ],
+      "srcRef": {
+        "questionId": 2,
+        "pointIndex": 1,
+        "para": 11
+      }
+    },
+    {
+      "id": "q2-ch-1",
+      "kind": "choice",
+      "moduleId": "m01",
+      "sourceQuestionId": 2,
+      "prompt": "农业经理人在收集农业生产环境信息时，应关注哪些主要因素？（要点2）（2）____：包括土壤肥力、酸碱度等。",
+      "options": [
+        "明确职责",
+        "土壤质量",
+        "定期评估",
+        "成本效益"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 2,
+        "pointIndex": 1,
+        "para": 11
+      }
+    },
+    {
+      "id": "q2-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m01",
+      "sourceQuestionId": 2,
+      "prompt": "（2）土壤质量：包括土壤肥力、酸碱度等。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 2,
+        "pointIndex": 1,
+        "para": 11
+      }
+    },
+    {
+      "id": "q2-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m01",
+      "sourceQuestionId": 2,
+      "prompt": "农业经理人在收集农业生产环境信息时，应关注哪些主要因素？（要点3）（3）____：灌溉水源及水量。",
+      "answer": "水资源",
+      "accept": [
+        "水资源"
+      ],
+      "srcRef": {
+        "questionId": 2,
+        "pointIndex": 2,
+        "para": 12
+      }
+    },
+    {
+      "id": "q2-ch-2",
+      "kind": "choice",
+      "moduleId": "m01",
+      "sourceQuestionId": 2,
+      "prompt": "农业经理人在收集农业生产环境信息时，应关注哪些主要因素？（要点3）（3）____：灌溉水源及水量。",
+      "options": [
+        "优先级排序",
+        "水资源",
+        "团队协作",
+        "咨询专家"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 2,
+        "pointIndex": 2,
+        "para": 12
+      }
+    },
+    {
+      "id": "q2-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m01",
+      "sourceQuestionId": 2,
+      "prompt": "（3）水资源：灌溉水源及水量。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 2,
+        "pointIndex": 2,
+        "para": 12
+      }
+    },
+    {
+      "id": "q2-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m01",
+      "sourceQuestionId": 2,
+      "prompt": "农业经理人在收集农业生产环境信息时，应关注哪些主要因素？（要点4）（4）____：如病虫害情况，影响作物健康。",
+      "answer": "生态环境",
+      "accept": [
+        "生态环境"
+      ],
+      "srcRef": {
+        "questionId": 2,
+        "pointIndex": 3,
+        "para": 13
+      }
+    },
+    {
+      "id": "q2-ch-3",
+      "kind": "choice",
+      "moduleId": "m01",
+      "sourceQuestionId": 2,
+      "prompt": "农业经理人在收集农业生产环境信息时，应关注哪些主要因素？（要点4）（4）____：如病虫害情况，影响作物健康。",
+      "options": [
+        "生态环境",
+        "能耗管理",
+        "成果展示",
+        "信息安全"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 2,
+        "pointIndex": 3,
+        "para": 13
+      }
+    },
+    {
+      "id": "q2-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m01",
+      "sourceQuestionId": 2,
+      "prompt": "（4）信息安全：如病虫害情况，影响作物健康。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 2,
+        "pointIndex": 3,
+        "para": 13
+      }
+    },
+    {
+      "id": "q3-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m01",
+      "sourceQuestionId": 3,
+      "prompt": "论述农业经理人在信息收集过程中如何确保信息的准确性和时效性（要点1）（1）____：农业经理人应通过多个可靠信息源进行交叉验证，确保信息的准确性。例如，结合政府报告、行业报告、市场研究数据等，进行比对和分析。",
+      "answer": "多渠道验证",
+      "accept": [
+        "多渠道验证"
+      ],
+      "srcRef": {
+        "questionId": 3,
+        "pointIndex": 0,
+        "para": 16
+      }
+    },
+    {
+      "id": "q3-ch-0",
+      "kind": "choice",
+      "moduleId": "m01",
+      "sourceQuestionId": 3,
+      "prompt": "论述农业经理人在信息收集过程中如何确保信息的准确性和时效性（要点1）（1）____：农业经理人应通过多个可靠信息源进行交叉验证，确保信息的准确性。例如，结合政府报告、行业报告、市场研究数据等，进行比对和分析。",
+      "options": [
+        "替代材料",
+        "互利共赢",
+        "多渠道验证",
+        "紧急联络"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 3,
+        "pointIndex": 0,
+        "para": 16
+      }
+    },
+    {
+      "id": "q3-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m01",
+      "sourceQuestionId": 3,
+      "prompt": "（1）替代材料：农业经理人应通过多个可靠信息源进行交叉验证，确保信息的准确性。例如，结合政府报告、行业报告、市场研究数据等，进行比对和分析。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 3,
+        "pointIndex": 0,
+        "para": 16
+      }
+    },
+    {
+      "id": "q3-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m01",
+      "sourceQuestionId": 3,
+      "prompt": "论述农业经理人在信息收集过程中如何确保信息的准确性和时效性（要点2）（2）____：建立定期信息收集与更新机制，确保信息的时效性。通过订阅行业新闻、参加行业会议等方式，保持对行业动态和市场变化的敏锐感知。",
+      "answer": "定期更新机制",
+      "accept": [
+        "定期更新机制"
+      ],
+      "srcRef": {
+        "questionId": 3,
+        "pointIndex": 1,
+        "para": 17
+      }
+    },
+    {
+      "id": "q3-ch-1",
+      "kind": "choice",
+      "moduleId": "m01",
+      "sourceQuestionId": 3,
+      "prompt": "论述农业经理人在信息收集过程中如何确保信息的准确性和时效性（要点2）（2）____：建立定期信息收集与更新机制，确保信息的时效性。通过订阅行业新闻、参加行业会议等方式，保持对行业动态和市场变化的敏锐感知。",
+      "options": [
+        "定期更新机制",
+        "客户需求洞察",
+        "信息共享平台",
+        "土壤质量"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 3,
+        "pointIndex": 1,
+        "para": 17
+      }
+    },
+    {
+      "id": "q3-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m01",
+      "sourceQuestionId": 3,
+      "prompt": "（2）客户需求洞察：建立定期信息收集与更新机制，确保信息的时效性。通过订阅行业新闻、参加行业会议等方式，保持对行业动态和市场变化的敏锐感知。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 3,
+        "pointIndex": 1,
+        "para": 17
+      }
+    },
+    {
+      "id": "q3-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m01",
+      "sourceQuestionId": 3,
+      "prompt": "论述农业经理人在信息收集过程中如何确保信息的准确性和时效性（要点3）（3）____：利用大数据、人工智能等现代信息技术手段，对海量信息进行快速分析和处理，提高信息收集和更新的效率。",
+      "answer": "技术手段辅助",
+      "accept": [
+        "技术手段辅助"
+      ],
+      "srcRef": {
+        "questionId": 3,
+        "pointIndex": 2,
+        "para": 18
+      }
+    },
+    {
+      "id": "q3-ch-2",
+      "kind": "choice",
+      "moduleId": "m01",
+      "sourceQuestionId": 3,
+      "prompt": "论述农业经理人在信息收集过程中如何确保信息的准确性和时效性（要点3）（3）____：利用大数据、人工智能等现代信息技术手段，对海量信息进行快速分析和处理，提高信息收集和更新的效率。",
+      "options": [
+        "技术手段辅助",
+        "收集数据",
+        "供应商管理",
+        "价格监测"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 3,
+        "pointIndex": 2,
+        "para": 18
+      }
+    },
+    {
+      "id": "q3-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m01",
+      "sourceQuestionId": 3,
+      "prompt": "（3）价格监测：利用大数据、人工智能等现代信息技术手段，对海量信息进行快速分析和处理，提高信息收集和更新的效率。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 3,
+        "pointIndex": 2,
+        "para": 18
+      }
+    },
+    {
+      "id": "q4-or-0",
+      "kind": "order",
+      "moduleId": "m01",
+      "sourceQuestionId": 4,
+      "prompt": "请将“信息收集途径”中的 4 项措施按原文顺序排列：",
+      "steps": [
+        "社交媒体",
+        "询问当地农户",
+        "网络搜索",
+        "市场调研"
+      ],
+      "answerOrder": [
+        3,
+        1,
+        0,
+        2
+      ],
+      "srcRef": {
+        "questionId": 4,
+        "sectionIndex": 0,
+        "para": 24
+      }
+    },
+    {
+      "id": "q4-or-1",
+      "kind": "order",
+      "moduleId": "m01",
+      "sourceQuestionId": 4,
+      "prompt": "请将“信息利用”中的 4 项措施按原文顺序排列：",
+      "steps": [
+        "评估竞争",
+        "分析趋势",
+        "考虑地域特色",
+        "咨询专家"
+      ],
+      "answerOrder": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "srcRef": {
+        "questionId": 4,
+        "sectionIndex": 1,
+        "para": 29
+      }
+    },
+    {
+      "id": "q5-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m02",
+      "sourceQuestionId": 5,
+      "prompt": "农业经理人在制定年度生产目标时，应考虑哪些关键因素？（要点1）（1）____：根据市场需求量，确定生产规模和产品种类。",
+      "answer": "市场需求",
+      "accept": [
+        "市场需求"
+      ],
+      "srcRef": {
+        "questionId": 5,
+        "pointIndex": 0,
+        "para": 36
+      }
+    },
+    {
+      "id": "q5-ch-0",
+      "kind": "choice",
+      "moduleId": "m02",
+      "sourceQuestionId": 5,
+      "prompt": "农业经理人在制定年度生产目标时，应考虑哪些关键因素？（要点1）（1）____：根据市场需求量，确定生产规模和产品种类。",
+      "options": [
+        "合理规划",
+        "考虑竞争对手定价",
+        "市场需求",
+        "销售管理岗"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 5,
+        "pointIndex": 0,
+        "para": 36
+      }
+    },
+    {
+      "id": "q5-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m02",
+      "sourceQuestionId": 5,
+      "prompt": "（1）考虑竞争对手定价：根据市场需求量，确定生产规模和产品种类。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 5,
+        "pointIndex": 0,
+        "para": 36
+      }
+    },
+    {
+      "id": "q5-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m02",
+      "sourceQuestionId": 5,
+      "prompt": "农业经理人在制定年度生产目标时，应考虑哪些关键因素？（要点2）（2）____：评估自身或团队的生产能力和资源限制，确保目标可实现。",
+      "answer": "生产能力",
+      "accept": [
+        "生产能力"
+      ],
+      "srcRef": {
+        "questionId": 5,
+        "pointIndex": 1,
+        "para": 37
+      }
+    },
+    {
+      "id": "q5-ch-1",
+      "kind": "choice",
+      "moduleId": "m02",
+      "sourceQuestionId": 5,
+      "prompt": "农业经理人在制定年度生产目标时，应考虑哪些关键因素？（要点2）（2）____：评估自身或团队的生产能力和资源限制，确保目标可实现。",
+      "options": [
+        "培训与发展",
+        "倾听反馈",
+        "明确具体（Specific）",
+        "生产能力"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 5,
+        "pointIndex": 1,
+        "para": 37
+      }
+    },
+    {
+      "id": "q5-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m02",
+      "sourceQuestionId": 5,
+      "prompt": "（2）生产能力：评估自身或团队的生产能力和资源限制，确保目标可实现。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 5,
+        "pointIndex": 1,
+        "para": 37
+      }
+    },
+    {
+      "id": "q5-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m02",
+      "sourceQuestionId": 5,
+      "prompt": "农业经理人在制定年度生产目标时，应考虑哪些关键因素？（要点3）（3）____：考虑生产成本与预期收益，确保目标具有经济可行性。",
+      "answer": "成本效益",
+      "accept": [
+        "成本效益"
+      ],
+      "srcRef": {
+        "questionId": 5,
+        "pointIndex": 2,
+        "para": 38
+      }
+    },
+    {
+      "id": "q5-ch-2",
+      "kind": "choice",
+      "moduleId": "m02",
+      "sourceQuestionId": 5,
+      "prompt": "农业经理人在制定年度生产目标时，应考虑哪些关键因素？（要点3）（3）____：考虑生产成本与预期收益，确保目标具有经济可行性。",
+      "options": [
+        "信息共享",
+        "强化沟通与反馈",
+        "可追溯性",
+        "成本效益"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 5,
+        "pointIndex": 2,
+        "para": 38
+      }
+    },
+    {
+      "id": "q5-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m02",
+      "sourceQuestionId": 5,
+      "prompt": "（3）强化沟通与反馈：考虑生产成本与预期收益，确保目标具有经济可行性。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 5,
+        "pointIndex": 2,
+        "para": 38
+      }
+    },
+    {
+      "id": "q5-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m02",
+      "sourceQuestionId": 5,
+      "prompt": "农业经理人在制定年度生产目标时，应考虑哪些关键因素？（要点4）（4）____：分析可能遇到的自然灾害、市场波动等风险，制定应对措施。",
+      "answer": "风险因素",
+      "accept": [
+        "风险因素"
+      ],
+      "srcRef": {
+        "questionId": 5,
+        "pointIndex": 3,
+        "para": 39
+      }
+    },
+    {
+      "id": "q5-ch-3",
+      "kind": "choice",
+      "moduleId": "m02",
+      "sourceQuestionId": 5,
+      "prompt": "农业经理人在制定年度生产目标时，应考虑哪些关键因素？（要点4）（4）____：分析可能遇到的自然灾害、市场波动等风险，制定应对措施。",
+      "options": [
+        "合作与联盟",
+        "鱼骨图分析",
+        "风险因素",
+        "加强沟通与合作"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 5,
+        "pointIndex": 3,
+        "para": 39
+      }
+    },
+    {
+      "id": "q5-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m02",
+      "sourceQuestionId": 5,
+      "prompt": "（4）风险因素：分析可能遇到的自然灾害、市场波动等风险，制定应对措施。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 5,
+        "pointIndex": 3,
+        "para": 39
+      }
+    },
+    {
+      "id": "q6-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m02",
+      "sourceQuestionId": 6,
+      "prompt": "农业经理人在制定长期发展规划时，如何确保目标与可持续发展原则相一致？（要点1）（1）____：目标应考虑减少化肥农药使用，保护土壤和水资源。",
+      "answer": "环境保护",
+      "accept": [
+        "环境保护"
+      ],
+      "srcRef": {
+        "questionId": 6,
+        "pointIndex": 0,
+        "para": 42
+      }
+    },
+    {
+      "id": "q6-ch-0",
+      "kind": "choice",
+      "moduleId": "m02",
+      "sourceQuestionId": 6,
+      "prompt": "农业经理人在制定长期发展规划时，如何确保目标与可持续发展原则相一致？（要点1）（1）____：目标应考虑减少化肥农药使用，保护土壤和水资源。",
+      "options": [
+        "产能评估",
+        "培训与发展",
+        "环境保护",
+        "筛选问题"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 6,
+        "pointIndex": 0,
+        "para": 42
+      }
+    },
+    {
+      "id": "q6-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m02",
+      "sourceQuestionId": 6,
+      "prompt": "（1）环境保护：目标应考虑减少化肥农药使用，保护土壤和水资源。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 6,
+        "pointIndex": 0,
+        "para": 42
+      }
+    },
+    {
+      "id": "q6-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m02",
+      "sourceQuestionId": 6,
+      "prompt": "农业经理人在制定长期发展规划时，如何确保目标与可持续发展原则相一致？（要点2）（2）____：提高资源利用效率，如节水灌溉、循环利用农业废弃物。",
+      "answer": "资源节约",
+      "accept": [
+        "资源节约"
+      ],
+      "srcRef": {
+        "questionId": 6,
+        "pointIndex": 1,
+        "para": 43
+      }
+    },
+    {
+      "id": "q6-ch-1",
+      "kind": "choice",
+      "moduleId": "m02",
+      "sourceQuestionId": 6,
+      "prompt": "农业经理人在制定长期发展规划时，如何确保目标与可持续发展原则相一致？（要点2）（2）____：提高资源利用效率，如节水灌溉、循环利用农业废弃物。",
+      "options": [
+        "强化沟通与反馈",
+        "资源节约",
+        "社会责任",
+        "政策利用"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 6,
+        "pointIndex": 1,
+        "para": 43
+      }
+    },
+    {
+      "id": "q6-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m02",
+      "sourceQuestionId": 6,
+      "prompt": "（2）社会责任：提高资源利用效率，如节水灌溉、循环利用农业废弃物。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 6,
+        "pointIndex": 1,
+        "para": 43
+      }
+    },
+    {
+      "id": "q6-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m02",
+      "sourceQuestionId": 6,
+      "prompt": "农业经理人在制定长期发展规划时，如何确保目标与可持续发展原则相一致？（要点3）（3____：鼓励技术创新，提高农业生产效率和产品质量，同时减少对环境的影响。",
+      "answer": "技术创新",
+      "accept": [
+        "技术创新"
+      ],
+      "srcRef": {
+        "questionId": 6,
+        "pointIndex": 2,
+        "para": 44
+      }
+    },
+    {
+      "id": "q6-ch-2",
+      "kind": "choice",
+      "moduleId": "m02",
+      "sourceQuestionId": 6,
+      "prompt": "农业经理人在制定长期发展规划时，如何确保目标与可持续发展原则相一致？（要点3）（3____：鼓励技术创新，提高农业生产效率和产品质量，同时减少对环境的影响。",
+      "options": [
+        "财务部门",
+        "技术创新",
+        "考虑地域特色",
+        "市场调研"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 6,
+        "pointIndex": 2,
+        "para": 44
+      }
+    },
+    {
+      "id": "q6-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m02",
+      "sourceQuestionId": 6,
+      "prompt": "（3技术创新：鼓励技术创新，提高农业生产效率和产品质量，同时减少对环境的影响。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 6,
+        "pointIndex": 2,
+        "para": 44
+      }
+    },
+    {
+      "id": "q6-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m02",
+      "sourceQuestionId": 6,
+      "prompt": "农业经理人在制定长期发展规划时，如何确保目标与可持续发展原则相一致？（要点4）（4）____：与当地社区合作，促进农业知识的共享和可持续发展实践的传播。",
+      "answer": "社区参与",
+      "accept": [
+        "社区参与"
+      ],
+      "srcRef": {
+        "questionId": 6,
+        "pointIndex": 3,
+        "para": 45
+      }
+    },
+    {
+      "id": "q6-ch-3",
+      "kind": "choice",
+      "moduleId": "m02",
+      "sourceQuestionId": 6,
+      "prompt": "农业经理人在制定长期发展规划时，如何确保目标与可持续发展原则相一致？（要点4）（4）____：与当地社区合作，促进农业知识的共享和可持续发展实践的传播。",
+      "options": [
+        "土壤质量",
+        "灵活调整",
+        "社区参与",
+        "政策了解"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 6,
+        "pointIndex": 3,
+        "para": 45
+      }
+    },
+    {
+      "id": "q6-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m02",
+      "sourceQuestionId": 6,
+      "prompt": "（4）社区参与：与当地社区合作，促进农业知识的共享和可持续发展实践的传播。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 6,
+        "pointIndex": 3,
+        "para": 45
+      }
+    },
+    {
+      "id": "q7-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m02",
+      "sourceQuestionId": 7,
+      "prompt": "论述农业经理人在制定企业目标时如何确保目标的SMART原则（要点1）（1）____：农业经理人在制定目标时，应确保目标清晰明确，具体可衡量。例如，设定具体的销售额、市场份额或产品质量标准等，避免模糊不清的表述。",
+      "answer": "明确具体（Specific）",
+      "accept": [
+        "明确具体（Specific）"
+      ],
+      "srcRef": {
+        "questionId": 7,
+        "pointIndex": 0,
+        "para": 48
+      }
+    },
+    {
+      "id": "q7-ch-0",
+      "kind": "choice",
+      "moduleId": "m02",
+      "sourceQuestionId": 7,
+      "prompt": "论述农业经理人在制定企业目标时如何确保目标的SMART原则（要点1）（1）____：农业经理人在制定目标时，应确保目标清晰明确，具体可衡量。例如，设定具体的销售额、市场份额或产品质量标准等，避免模糊不清的表述。",
+      "options": [
+        "持续监测与反馈",
+        "明确具体（Specific）",
+        "咨询专家",
+        "技术手段辅助"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 7,
+        "pointIndex": 0,
+        "para": 48
+      }
+    },
+    {
+      "id": "q7-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m02",
+      "sourceQuestionId": 7,
+      "prompt": "（1）明确具体（Specific）：农业经理人在制定目标时，应确保目标清晰明确，具体可衡量。例如，设定具体的销售额、市场份额或产品质量标准等，避免模糊不清的表述。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 7,
+        "pointIndex": 0,
+        "para": 48
+      }
+    },
+    {
+      "id": "q7-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m02",
+      "sourceQuestionId": 7,
+      "prompt": "论述农业经理人在制定企业目标时如何确保目标的SMART原则（要点2）（2）____：目标应具有可衡量的标准，以便评估进度和成果。农业经理人可以设定量化的指标，如增长率、完成率等，来监测目标的实现情况。",
+      "answer": "可衡量（Measurable）",
+      "accept": [
+        "可衡量（Measurable）"
+      ],
+      "srcRef": {
+        "questionId": 7,
+        "pointIndex": 1,
+        "para": 49
+      }
+    },
+    {
+      "id": "q7-ch-1",
+      "kind": "choice",
+      "moduleId": "m02",
+      "sourceQuestionId": 7,
+      "prompt": "论述农业经理人在制定企业目标时如何确保目标的SMART原则（要点2）（2）____：目标应具有可衡量的标准，以便评估进度和成果。农业经理人可以设定量化的指标，如增长率、完成率等，来监测目标的实现情况。",
+      "options": [
+        "实地调研，了解种植过程中",
+        "政策利用",
+        "可衡量（Measurable）",
+        "生产优化"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 7,
+        "pointIndex": 1,
+        "para": 49
+      }
+    },
+    {
+      "id": "q7-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m02",
+      "sourceQuestionId": 7,
+      "prompt": "（2）生产优化：目标应具有可衡量的标准，以便评估进度和成果。农业经理人可以设定量化的指标，如增长率、完成率等，来监测目标的实现情况。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 7,
+        "pointIndex": 1,
+        "para": 49
+      }
+    },
+    {
+      "id": "q7-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m02",
+      "sourceQuestionId": 7,
+      "prompt": "论述农业经理人在制定企业目标时如何确保目标的SMART原则（要点3）（3）____：目标应基于企业的实际情况和资源条件，确保是可实现的。农业经理人在制定目标时，应充分考虑企业的能力和市场环境，避免制定过高的目标。",
+      "answer": "可达成（Achievable）",
+      "accept": [
+        "可达成（Achievable）"
+      ],
+      "srcRef": {
+        "questionId": 7,
+        "pointIndex": 2,
+        "para": 50
+      }
+    },
+    {
+      "id": "q7-ch-2",
+      "kind": "choice",
+      "moduleId": "m02",
+      "sourceQuestionId": 7,
+      "prompt": "论述农业经理人在制定企业目标时如何确保目标的SMART原则（要点3）（3）____：目标应基于企业的实际情况和资源条件，确保是可实现的。农业经理人在制定目标时，应充分考虑企业的能力和市场环境，避免制定过高的目标。",
+      "options": [
+        "SMART原则",
+        "套期保值",
+        "明确目标与责任",
+        "可达成（Achievable）"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 7,
+        "pointIndex": 2,
+        "para": 50
+      }
+    },
+    {
+      "id": "q7-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m02",
+      "sourceQuestionId": 7,
+      "prompt": "（3）套期保值：目标应基于企业的实际情况和资源条件，确保是可实现的。农业经理人在制定目标时，应充分考虑企业的能力和市场环境，避免制定过高的目标。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 7,
+        "pointIndex": 2,
+        "para": 50
+      }
+    },
+    {
+      "id": "q8-or-0",
+      "kind": "order",
+      "moduleId": "m02",
+      "sourceQuestionId": 8,
+      "prompt": "请将“目标制定”中的 3 项措施按原文顺序排列：",
+      "steps": [
+        "SMART原则",
+        "内部评估",
+        "市场研究"
+      ],
+      "answerOrder": [
+        2,
+        1,
+        0
+      ],
+      "srcRef": {
+        "questionId": 8,
+        "sectionIndex": 0,
+        "para": 56
+      }
+    },
+    {
+      "id": "q8-or-1",
+      "kind": "order",
+      "moduleId": "m02",
+      "sourceQuestionId": 8,
+      "prompt": "请将“激励机制设计”中的 4 项措施按原文顺序排列：",
+      "steps": [
+        "团队氛围",
+        "职业发展",
+        "反馈与沟通",
+        "奖励制度"
+      ],
+      "answerOrder": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "srcRef": {
+        "questionId": 8,
+        "sectionIndex": 1,
+        "para": 60
+      }
+    },
+    {
+      "id": "q9-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m03",
+      "sourceQuestionId": 9,
+      "prompt": "农业经理人在将年度生产目标分解为季度目标时，应遵循哪些原则？（要点1）（1）____：确保每个季度的目标既能满足全年总体目标，又不会造成资源过度集中或闲置。",
+      "answer": "均衡性",
+      "accept": [
+        "均衡性"
+      ],
+      "srcRef": {
+        "questionId": 9,
+        "pointIndex": 0,
+        "para": 67
+      }
+    },
+    {
+      "id": "q9-ch-0",
+      "kind": "choice",
+      "moduleId": "m03",
+      "sourceQuestionId": 9,
+      "prompt": "农业经理人在将年度生产目标分解为季度目标时，应遵循哪些原则？（要点1）（1）____：确保每个季度的目标既能满足全年总体目标，又不会造成资源过度集中或闲置。",
+      "options": [
+        "价格策略",
+        "节水灌溉",
+        "社会责任",
+        "均衡性"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 9,
+        "pointIndex": 0,
+        "para": 67
+      }
+    },
+    {
+      "id": "q9-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m03",
+      "sourceQuestionId": 9,
+      "prompt": "（1）节水灌溉：确保每个季度的目标既能满足全年总体目标，又不会造成资源过度集中或闲置。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 9,
+        "pointIndex": 0,
+        "para": 67
+      }
+    },
+    {
+      "id": "q9-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m03",
+      "sourceQuestionId": 9,
+      "prompt": "农业经理人在将年度生产目标分解为季度目标时，应遵循哪些原则？（要点2）（2）____：根据季节变化、作物生长周期等因素，设定切实可行的季度目标。",
+      "answer": "可行性",
+      "accept": [
+        "可行性"
+      ],
+      "srcRef": {
+        "questionId": 9,
+        "pointIndex": 1,
+        "para": 68
+      }
+    },
+    {
+      "id": "q9-ch-1",
+      "kind": "choice",
+      "moduleId": "m03",
+      "sourceQuestionId": 9,
+      "prompt": "农业经理人在将年度生产目标分解为季度目标时，应遵循哪些原则？（要点2）（2）____：根据季节变化、作物生长周期等因素，设定切实可行的季度目标。",
+      "options": [
+        "明确具体（Specific）",
+        "可行性",
+        "明确部门职责",
+        "建立协调机制"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 9,
+        "pointIndex": 1,
+        "para": 68
+      }
+    },
+    {
+      "id": "q9-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m03",
+      "sourceQuestionId": 9,
+      "prompt": "（2）明确具体（Specific）：根据季节变化、作物生长周期等因素，设定切实可行的季度目标。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 9,
+        "pointIndex": 1,
+        "para": 68
+      }
+    },
+    {
+      "id": "q9-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m03",
+      "sourceQuestionId": 9,
+      "prompt": "农业经理人在将年度生产目标分解为季度目标时，应遵循哪些原则？（要点3）（3）____：预留一定的调整空间，以应对不可预见的市场变化或天气影响。",
+      "answer": "灵活性",
+      "accept": [
+        "灵活性"
+      ],
+      "srcRef": {
+        "questionId": 9,
+        "pointIndex": 2,
+        "para": 69
+      }
+    },
+    {
+      "id": "q9-ch-2",
+      "kind": "choice",
+      "moduleId": "m03",
+      "sourceQuestionId": 9,
+      "prompt": "农业经理人在将年度生产目标分解为季度目标时，应遵循哪些原则？（要点3）（3）____：预留一定的调整空间，以应对不可预见的市场变化或天气影响。",
+      "options": [
+        "职责明确",
+        "灵活性",
+        "生产优化",
+        "预案准备"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 9,
+        "pointIndex": 2,
+        "para": 69
+      }
+    },
+    {
+      "id": "q9-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m03",
+      "sourceQuestionId": 9,
+      "prompt": "（3）灵活性：预留一定的调整空间，以应对不可预见的市场变化或天气影响。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 9,
+        "pointIndex": 2,
+        "para": 69
+      }
+    },
+    {
+      "id": "q9-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m03",
+      "sourceQuestionId": 9,
+      "prompt": "农业经理人在将年度生产目标分解为季度目标时，应遵循哪些原则？（要点4）（4）____：确保每个季度目标的完成情况可以清晰追踪，便于评估和调整。",
+      "answer": "可追溯性",
+      "accept": [
+        "可追溯性"
+      ],
+      "srcRef": {
+        "questionId": 9,
+        "pointIndex": 3,
+        "para": 70
+      }
+    },
+    {
+      "id": "q9-ch-3",
+      "kind": "choice",
+      "moduleId": "m03",
+      "sourceQuestionId": 9,
+      "prompt": "农业经理人在将年度生产目标分解为季度目标时，应遵循哪些原则？（要点4）（4）____：确保每个季度目标的完成情况可以清晰追踪，便于评估和调整。",
+      "options": [
+        "筛选问题",
+        "优先级排序",
+        "监控反馈",
+        "可追溯性"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 9,
+        "pointIndex": 3,
+        "para": 70
+      }
+    },
+    {
+      "id": "q9-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m03",
+      "sourceQuestionId": 9,
+      "prompt": "（4）监控反馈：确保每个季度目标的完成情况可以清晰追踪，便于评估和调整。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 9,
+        "pointIndex": 3,
+        "para": 70
+      }
+    },
+    {
+      "id": "q10-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m03",
+      "sourceQuestionId": 10,
+      "prompt": "农业经理人在将人力资源发展目标分解为个人成长计划时，应如何确保员工个人目标与组织目标的一致性？（要点1）（1）____：与员工共同制定个人成长计划，确保个人目标与组织目标在方向上保持一致。",
+      "answer": "目标对齐",
+      "accept": [
+        "目标对齐"
+      ],
+      "srcRef": {
+        "questionId": 10,
+        "pointIndex": 0,
+        "para": 73
+      }
+    },
+    {
+      "id": "q10-ch-0",
+      "kind": "choice",
+      "moduleId": "m03",
+      "sourceQuestionId": 10,
+      "prompt": "农业经理人在将人力资源发展目标分解为个人成长计划时，应如何确保员工个人目标与组织目标的一致性？（要点1）（1）____：与员工共同制定个人成长计划，确保个人目标与组织目标在方向上保持一致。",
+      "options": [
+        "目标对齐",
+        "明确责任分工",
+        "资源节约",
+        "共享资源"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 10,
+        "pointIndex": 0,
+        "para": 73
+      }
+    },
+    {
+      "id": "q10-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m03",
+      "sourceQuestionId": 10,
+      "prompt": "（1）目标对齐：与员工共同制定个人成长计划，确保个人目标与组织目标在方向上保持一致。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 10,
+        "pointIndex": 0,
+        "para": 73
+      }
+    },
+    {
+      "id": "q10-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m03",
+      "sourceQuestionId": 10,
+      "prompt": "农业经理人在将人力资源发展目标分解为个人成长计划时，应如何确保员工个人目标与组织目标的一致性？（要点2）（2）____：根据员工的岗位需求和职业发展路径，评估其当前能力和所需技能，制定针对性的培训计划。",
+      "answer": "能力评估",
+      "accept": [
+        "能力评估"
+      ],
+      "srcRef": {
+        "questionId": 10,
+        "pointIndex": 1,
+        "para": 74
+      }
+    },
+    {
+      "id": "q10-ch-1",
+      "kind": "choice",
+      "moduleId": "m03",
+      "sourceQuestionId": 10,
+      "prompt": "农业经理人在将人力资源发展目标分解为个人成长计划时，应如何确保员工个人目标与组织目标的一致性？（要点2）（2）____：根据员工的岗位需求和职业发展路径，评估其当前能力和所需技能，制定针对性的培训计划。",
+      "options": [
+        "标准制定",
+        "网络搜索",
+        "能力评估",
+        "分析价格波动对农民、消费"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 10,
+        "pointIndex": 1,
+        "para": 74
+      }
+    },
+    {
+      "id": "q10-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m03",
+      "sourceQuestionId": 10,
+      "prompt": "（2）网络搜索：根据员工的岗位需求和职业发展路径，评估其当前能力和所需技能，制定针对性的培训计划。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 10,
+        "pointIndex": 1,
+        "para": 74
+      }
+    },
+    {
+      "id": "q10-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m03",
+      "sourceQuestionId": 10,
+      "prompt": "农业经理人在将人力资源发展目标分解为个人成长计划时，应如何确保员工个人目标与组织目标的一致性？（要点3）（3）____：建立有效的绩效反馈机制，定期与员工沟通个人成长计划的执行情况，提供指导和支持。",
+      "answer": "绩效反馈",
+      "accept": [
+        "绩效反馈"
+      ],
+      "srcRef": {
+        "questionId": 10,
+        "pointIndex": 2,
+        "para": 75
+      }
+    },
+    {
+      "id": "q10-ch-2",
+      "kind": "choice",
+      "moduleId": "m03",
+      "sourceQuestionId": 10,
+      "prompt": "农业经理人在将人力资源发展目标分解为个人成长计划时，应如何确保员工个人目标与组织目标的一致性？（要点3）（3）____：建立有效的绩效反馈机制，定期与员工沟通个人成长计划的执行情况，提供指导和支持。",
+      "options": [
+        "市场需求",
+        "SMART原则",
+        "绩效反馈",
+        "品质提升"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 10,
+        "pointIndex": 2,
+        "para": 75
+      }
+    },
+    {
+      "id": "q10-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m03",
+      "sourceQuestionId": 10,
+      "prompt": "（3）绩效反馈：建立有效的绩效反馈机制，定期与员工沟通个人成长计划的执行情况，提供指导和支持。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 10,
+        "pointIndex": 2,
+        "para": 75
+      }
+    },
+    {
+      "id": "q10-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m03",
+      "sourceQuestionId": 10,
+      "prompt": "农业经理人在将人力资源发展目标分解为个人成长计划时，应如何确保员工个人目标与组织目标的一致性？（要点4）（4）____：设定与个人成长计划相挂钩的激励措施，如晋升机会、奖金等，激发员工的积极性和参与度。",
+      "answer": "激励机制",
+      "accept": [
+        "激励机制"
+      ],
+      "srcRef": {
+        "questionId": 10,
+        "pointIndex": 3,
+        "para": 76
+      }
+    },
+    {
+      "id": "q10-ch-3",
+      "kind": "choice",
+      "moduleId": "m03",
+      "sourceQuestionId": 10,
+      "prompt": "农业经理人在将人力资源发展目标分解为个人成长计划时，应如何确保员工个人目标与组织目标的一致性？（要点4）（4）____：设定与个人成长计划相挂钩的激励措施，如晋升机会、奖金等，激发员工的积极性和参与度。",
+      "options": [
+        "激励机制",
+        "产能评估",
+        "加强沟通与合作",
+        "反馈与沟通"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 10,
+        "pointIndex": 3,
+        "para": 76
+      }
+    },
+    {
+      "id": "q10-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m03",
+      "sourceQuestionId": 10,
+      "prompt": "（4）激励机制：设定与个人成长计划相挂钩的激励措施，如晋升机会、奖金等，激发员工的积极性和参与度。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 10,
+        "pointIndex": 3,
+        "para": 76
+      }
+    },
+    {
+      "id": "q11-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m03",
+      "sourceQuestionId": 11,
+      "prompt": "论述农业经理人在目标分解过程中如何确保各部门协同合作（要点1）（1）____：农业经理人在目标分解时，应首先明确各部门的职责和角色，确保每个部门都清楚自己在实现整体目标中的位置和贡献。这有助于增强部门的责任感和归属感。",
+      "answer": "明确部门职责",
+      "accept": [
+        "明确部门职责"
+      ],
+      "srcRef": {
+        "questionId": 11,
+        "pointIndex": 0,
+        "para": 79
+      }
+    },
+    {
+      "id": "q11-ch-0",
+      "kind": "choice",
+      "moduleId": "m03",
+      "sourceQuestionId": 11,
+      "prompt": "论述农业经理人在目标分解过程中如何确保各部门协同合作（要点1）（1）____：农业经理人在目标分解时，应首先明确各部门的职责和角色，确保每个部门都清楚自己在实现整体目标中的位置和贡献。这有助于增强部门的责任感和归属感。",
+      "options": [
+        "现场应变",
+        "SMART原则",
+        "源头控制",
+        "明确部门职责"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 11,
+        "pointIndex": 0,
+        "para": 79
+      }
+    },
+    {
+      "id": "q11-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m03",
+      "sourceQuestionId": 11,
+      "prompt": "（1）明确部门职责：农业经理人在目标分解时，应首先明确各部门的职责和角色，确保每个部门都清楚自己在实现整体目标中的位置和贡献。这有助于增强部门的责任感和归属感。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 11,
+        "pointIndex": 0,
+        "para": 79
+      }
+    },
+    {
+      "id": "q11-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m03",
+      "sourceQuestionId": 11,
+      "prompt": "论述农业经理人在目标分解过程中如何确保各部门协同合作（要点2）（2）____：在目标分解过程中，农业经理人应组织跨部门会议，促进各部门之间的沟通和协作。通过分享信息、讨论问题、共同制定解决方案等方式，确保各部门在目标实现过程中能够协同作战。",
+      "answer": "跨部门沟通",
+      "accept": [
+        "跨部门沟通"
+      ],
+      "srcRef": {
+        "questionId": 11,
+        "pointIndex": 1,
+        "para": 80
+      }
+    },
+    {
+      "id": "q11-ch-1",
+      "kind": "choice",
+      "moduleId": "m03",
+      "sourceQuestionId": 11,
+      "prompt": "论述农业经理人在目标分解过程中如何确保各部门协同合作（要点2）（2）____：在目标分解过程中，农业经理人应组织跨部门会议，促进各部门之间的沟通和协作。通过分享信息、讨论问题、共同制定解决方案等方式，确保各部门在目标实现过程中能够协同作战。",
+      "options": [
+        "明确职责",
+        "土地保护",
+        "跨部门沟通",
+        "定期评估"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 11,
+        "pointIndex": 1,
+        "para": 80
+      }
+    },
+    {
+      "id": "q11-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m03",
+      "sourceQuestionId": 11,
+      "prompt": "（2）土地保护：在目标分解过程中，农业经理人应组织跨部门会议，促进各部门之间的沟通和协作。通过分享信息、讨论问题、共同制定解决方案等方式，确保各部门在目标实现过程中能够协同作战。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 11,
+        "pointIndex": 1,
+        "para": 80
+      }
+    },
+    {
+      "id": "q11-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m03",
+      "sourceQuestionId": 11,
+      "prompt": "论述农业经理人在目标分解过程中如何确保各部门协同合作（要点3）（3）____：为确保各部门在目标分解和执行过程中的协同合作，农业经理人应建立有效的协调机制。这可以包括定期的项目进度汇报、问题解决会议、跨部门协作小组等，以确保各部门之间的信息共享和问题解决。",
+      "answer": "建立协调机制",
+      "accept": [
+        "建立协调机制"
+      ],
+      "srcRef": {
+        "questionId": 11,
+        "pointIndex": 2,
+        "para": 81
+      }
+    },
+    {
+      "id": "q11-ch-2",
+      "kind": "choice",
+      "moduleId": "m03",
+      "sourceQuestionId": 11,
+      "prompt": "论述农业经理人在目标分解过程中如何确保各部门协同合作（要点3）（3）____：为确保各部门在目标分解和执行过程中的协同合作，农业经理人应建立有效的协调机制。这可以包括定期的项目进度汇报、问题解决会议、跨部门协作小组等，以确保各部门之间的信息共享和问题解决。",
+      "options": [
+        "土壤质量",
+        "鱼骨图分析",
+        "客户服务",
+        "建立协调机制"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 11,
+        "pointIndex": 2,
+        "para": 81
+      }
+    },
+    {
+      "id": "q11-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m03",
+      "sourceQuestionId": 11,
+      "prompt": "（3）土壤质量：为确保各部门在目标分解和执行过程中的协同合作，农业经理人应建立有效的协调机制。这可以包括定期的项目进度汇报、问题解决会议、跨部门协作小组等，以确保各部门之间的信息共享和问题解决。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 11,
+        "pointIndex": 2,
+        "para": 81
+      }
+    },
+    {
+      "id": "q12-or-0",
+      "kind": "order",
+      "moduleId": "m03",
+      "sourceQuestionId": 12,
+      "prompt": "请将“目标分解策略”中的 5 项措施按原文顺序排列：",
+      "steps": [
+        "采购部门",
+        "生产部门",
+        "人力资源部门",
+        "财务部门",
+        "市场调研与销售部门"
+      ],
+      "answerOrder": [
+        2,
+        1,
+        4,
+        3,
+        0
+      ],
+      "srcRef": {
+        "questionId": 12,
+        "sectionIndex": 0,
+        "para": 88
+      }
+    },
+    {
+      "id": "q12-or-1",
+      "kind": "order",
+      "moduleId": "m03",
+      "sourceQuestionId": 12,
+      "prompt": "请将“协同机制”中的 3 项措施按原文顺序排列：",
+      "steps": [
+        "激励机制",
+        "目标对齐",
+        "跨部门会议"
+      ],
+      "answerOrder": [
+        2,
+        1,
+        0
+      ],
+      "srcRef": {
+        "questionId": 12,
+        "sectionIndex": 1,
+        "para": 94
+      }
+    },
+    {
+      "id": "q13-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m04",
+      "sourceQuestionId": 13,
+      "prompt": "农业经理人在组织生产要素时，如何有效管理土地资源？（要点1）（1）____：根据作物需求和土壤条件，合理规划土地使用。",
+      "answer": "合理规划",
+      "accept": [
+        "合理规划"
+      ],
+      "srcRef": {
+        "questionId": 13,
+        "pointIndex": 0,
+        "para": 100
+      }
+    },
+    {
+      "id": "q13-ch-0",
+      "kind": "choice",
+      "moduleId": "m04",
+      "sourceQuestionId": 13,
+      "prompt": "农业经理人在组织生产要素时，如何有效管理土地资源？（要点1）（1）____：根据作物需求和土壤条件，合理规划土地使用。",
+      "options": [
+        "岗位分析",
+        "紧急联络",
+        "合理规划",
+        "人力资源管理岗"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 13,
+        "pointIndex": 0,
+        "para": 100
+      }
+    },
+    {
+      "id": "q13-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m04",
+      "sourceQuestionId": 13,
+      "prompt": "（1）合理规划：根据作物需求和土壤条件，合理规划土地使用。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 13,
+        "pointIndex": 0,
+        "para": 100
+      }
+    },
+    {
+      "id": "q13-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m04",
+      "sourceQuestionId": 13,
+      "prompt": "农业经理人在组织生产要素时，如何有效管理土地资源？（要点2）（2）____：实施轮作和休耕制度，保持土壤肥力。",
+      "answer": "轮作休耕",
+      "accept": [
+        "轮作休耕"
+      ],
+      "srcRef": {
+        "questionId": 13,
+        "pointIndex": 1,
+        "para": 101
+      }
+    },
+    {
+      "id": "q13-ch-1",
+      "kind": "choice",
+      "moduleId": "m04",
+      "sourceQuestionId": 13,
+      "prompt": "农业经理人在组织生产要素时，如何有效管理土地资源？（要点2）（2）____：实施轮作和休耕制度，保持土壤肥力。",
+      "options": [
+        "定期报告",
+        "轮作休耕",
+        "灵活调整",
+        "问题梳理"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 13,
+        "pointIndex": 1,
+        "para": 101
+      }
+    },
+    {
+      "id": "q13-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m04",
+      "sourceQuestionId": 13,
+      "prompt": "（2）轮作休耕：实施轮作和休耕制度，保持土壤肥力。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 13,
+        "pointIndex": 1,
+        "para": 101
+      }
+    },
+    {
+      "id": "q13-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m04",
+      "sourceQuestionId": 13,
+      "prompt": "农业经理人在组织生产要素时，如何有效管理土地资源？（要点3）（3）____：采用节水灌溉技术，提高水资源利用效率。",
+      "answer": "节水灌溉",
+      "accept": [
+        "节水灌溉"
+      ],
+      "srcRef": {
+        "questionId": 13,
+        "pointIndex": 2,
+        "para": 102
+      }
+    },
+    {
+      "id": "q13-ch-2",
+      "kind": "choice",
+      "moduleId": "m04",
+      "sourceQuestionId": 13,
+      "prompt": "农业经理人在组织生产要素时，如何有效管理土地资源？（要点3）（3）____：采用节水灌溉技术，提高水资源利用效率。",
+      "options": [
+        "可衡量（Measurable）",
+        "节水灌溉",
+        "分析工作流程图，识别部门",
+        "灵活调整价格"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 13,
+        "pointIndex": 2,
+        "para": 102
+      }
+    },
+    {
+      "id": "q13-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m04",
+      "sourceQuestionId": 13,
+      "prompt": "（3）节水灌溉：采用节水灌溉技术，提高水资源利用效率。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 13,
+        "pointIndex": 2,
+        "para": 102
+      }
+    },
+    {
+      "id": "q13-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m04",
+      "sourceQuestionId": 13,
+      "prompt": "农业经理人在组织生产要素时，如何有效管理土地资源？（要点4）（4）____：加强土壤保护，防止水土流失和污染。",
+      "answer": "土地保护",
+      "accept": [
+        "土地保护"
+      ],
+      "srcRef": {
+        "questionId": 13,
+        "pointIndex": 3,
+        "para": 103
+      }
+    },
+    {
+      "id": "q13-ch-3",
+      "kind": "choice",
+      "moduleId": "m04",
+      "sourceQuestionId": 13,
+      "prompt": "农业经理人在组织生产要素时，如何有效管理土地资源？（要点4）（4）____：加强土壤保护，防止水土流失和污染。",
+      "options": [
+        "土地保护",
+        "现场应变",
+        "跨部门会议",
+        "激励机制"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 13,
+        "pointIndex": 3,
+        "para": 103
+      }
+    },
+    {
+      "id": "q13-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m04",
+      "sourceQuestionId": 13,
+      "prompt": "（4）激励机制：加强土壤保护，防止水土流失和污染。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 13,
+        "pointIndex": 3,
+        "para": 103
+      }
+    },
+    {
+      "id": "q14-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m04",
+      "sourceQuestionId": 14,
+      "prompt": "农业经理人在组织生产信息时，如何确保信息的准确性和有效性？（要点1）（1）____：建立有效的信息收集渠道，确保信息全面。",
+      "answer": "信息收集",
+      "accept": [
+        "信息收集"
+      ],
+      "srcRef": {
+        "questionId": 14,
+        "pointIndex": 0,
+        "para": 106
+      }
+    },
+    {
+      "id": "q14-ch-0",
+      "kind": "choice",
+      "moduleId": "m04",
+      "sourceQuestionId": 14,
+      "prompt": "农业经理人在组织生产信息时，如何确保信息的准确性和有效性？（要点1）（1）____：建立有效的信息收集渠道，确保信息全面。",
+      "options": [
+        "信息收集",
+        "技术革新",
+        "明确部门职责",
+        "建立监控机制"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 14,
+        "pointIndex": 0,
+        "para": 106
+      }
+    },
+    {
+      "id": "q14-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m04",
+      "sourceQuestionId": 14,
+      "prompt": "（1）建立监控机制：建立有效的信息收集渠道，确保信息全面。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 14,
+        "pointIndex": 0,
+        "para": 106
+      }
+    },
+    {
+      "id": "q14-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m04",
+      "sourceQuestionId": 14,
+      "prompt": "农业经理人在组织生产信息时，如何确保信息的准确性和有效性？（要点2）（2）____：对收集到的信息进行筛选，确保信息准确。",
+      "answer": "信息筛选",
+      "accept": [
+        "信息筛选"
+      ],
+      "srcRef": {
+        "questionId": 14,
+        "pointIndex": 1,
+        "para": 107
+      }
+    },
+    {
+      "id": "q14-ch-1",
+      "kind": "choice",
+      "moduleId": "m04",
+      "sourceQuestionId": 14,
+      "prompt": "农业经理人在组织生产信息时，如何确保信息的准确性和有效性？（要点2）（2）____：对收集到的信息进行筛选，确保信息准确。",
+      "options": [
+        "奖励制度",
+        "主体问题",
+        "能力匹配",
+        "信息筛选"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 14,
+        "pointIndex": 1,
+        "para": 107
+      }
+    },
+    {
+      "id": "q14-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m04",
+      "sourceQuestionId": 14,
+      "prompt": "（2）信息筛选：对收集到的信息进行筛选，确保信息准确。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 14,
+        "pointIndex": 1,
+        "para": 107
+      }
+    },
+    {
+      "id": "q14-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m04",
+      "sourceQuestionId": 14,
+      "prompt": "农业经理人在组织生产信息时，如何确保信息的准确性和有效性？（要点3）（3）____：加强内部信息共享，提高信息利用效率。",
+      "answer": "信息共享",
+      "accept": [
+        "信息共享"
+      ],
+      "srcRef": {
+        "questionId": 14,
+        "pointIndex": 2,
+        "para": 108
+      }
+    },
+    {
+      "id": "q14-ch-2",
+      "kind": "choice",
+      "moduleId": "m04",
+      "sourceQuestionId": 14,
+      "prompt": "农业经理人在组织生产信息时，如何确保信息的准确性和有效性？（要点3）（3）____：加强内部信息共享，提高信息利用效率。",
+      "options": [
+        "流程审查",
+        "信息共享",
+        "生产优化",
+        "成本控制与利润提升"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 14,
+        "pointIndex": 2,
+        "para": 108
+      }
+    },
+    {
+      "id": "q14-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m04",
+      "sourceQuestionId": 14,
+      "prompt": "（3）成本控制与利润提升：加强内部信息共享，提高信息利用效率。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 14,
+        "pointIndex": 2,
+        "para": 108
+      }
+    },
+    {
+      "id": "q14-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m04",
+      "sourceQuestionId": 14,
+      "prompt": "农业经理人在组织生产信息时，如何确保信息的准确性和有效性？（要点4）（4）____：加强信息安全管理，防止信息泄露和滥用。",
+      "answer": "信息安全",
+      "accept": [
+        "信息安全"
+      ],
+      "srcRef": {
+        "questionId": 14,
+        "pointIndex": 3,
+        "para": 109
+      }
+    },
+    {
+      "id": "q14-ch-3",
+      "kind": "choice",
+      "moduleId": "m04",
+      "sourceQuestionId": 14,
+      "prompt": "农业经理人在组织生产信息时，如何确保信息的准确性和有效性？（要点4）（4）____：加强信息安全管理，防止信息泄露和滥用。",
+      "options": [
+        "替代材料",
+        "标准制定",
+        "信息安全",
+        "精细化管理"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 14,
+        "pointIndex": 3,
+        "para": 109
+      }
+    },
+    {
+      "id": "q14-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m04",
+      "sourceQuestionId": 14,
+      "prompt": "（4）信息安全：加强信息安全管理，防止信息泄露和滥用。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 14,
+        "pointIndex": 3,
+        "para": 109
+      }
+    },
+    {
+      "id": "q15-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m04",
+      "sourceQuestionId": 15,
+      "prompt": "论述农业经理人在生产要素组织中如何优化资源配置（要点1）（1）____：农业经理人在组织生产要素时，首先需要精准评估生产活动对各类资源（如土地、资金、劳动力、技术等）的需求。通过详细分析生产计划和市场需求，确保资源配置的准确性和针对性，避免资源浪费。",
+      "answer": "精准评估需求",
+      "accept": [
+        "精准评估需求"
+      ],
+      "srcRef": {
+        "questionId": 15,
+        "pointIndex": 0,
+        "para": 112
+      }
+    },
+    {
+      "id": "q15-ch-0",
+      "kind": "choice",
+      "moduleId": "m04",
+      "sourceQuestionId": 15,
+      "prompt": "论述农业经理人在生产要素组织中如何优化资源配置（要点1）（1）____：农业经理人在组织生产要素时，首先需要精准评估生产活动对各类资源（如土地、资金、劳动力、技术等）的需求。通过详细分析生产计划和市场需求，确保资源配置的准确性和针对性，避免资源浪费。",
+      "options": [
+        "项目合作",
+        "工作环境",
+        "精准评估需求",
+        "灵活性"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 15,
+        "pointIndex": 0,
+        "para": 112
+      }
+    },
+    {
+      "id": "q15-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m04",
+      "sourceQuestionId": 15,
+      "prompt": "（1）项目合作：农业经理人在组织生产要素时，首先需要精准评估生产活动对各类资源（如土地、资金、劳动力、技术等）的需求。通过详细分析生产计划和市场需求，确保资源配置的准确性和针对性，避免资源浪费。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 15,
+        "pointIndex": 0,
+        "para": 112
+      }
+    },
+    {
+      "id": "q15-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m04",
+      "sourceQuestionId": 15,
+      "prompt": "论述农业经理人在生产要素组织中如何优化资源配置（要点2）（2）____：资源配置不应是一成不变的，农业经理人需根据生产进度、市场变化及资源利用效率，动态调整资源配置策略。例如，在劳动力紧张时，可考虑引入机械化作业；在资金充裕时，加大对新技术的投资等，以实现资源的最优配置。",
+      "answer": "动态调整策略",
+      "accept": [
+        "动态调整策略"
+      ],
+      "srcRef": {
+        "questionId": 15,
+        "pointIndex": 1,
+        "para": 113
+      }
+    },
+    {
+      "id": "q15-ch-1",
+      "kind": "choice",
+      "moduleId": "m04",
+      "sourceQuestionId": 15,
+      "prompt": "论述农业经理人在生产要素组织中如何优化资源配置（要点2）（2）____：资源配置不应是一成不变的，农业经理人需根据生产进度、市场变化及资源利用效率，动态调整资源配置策略。例如，在劳动力紧张时，可考虑引入机械化作业；在资金充裕时，加大对新技术的投资等，以实现资源的最优配置。",
+      "options": [
+        "现场应变",
+        "合理分工",
+        "动态调整策略",
+        "可衡量（Measurable）"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 15,
+        "pointIndex": 1,
+        "para": 113
+      }
+    },
+    {
+      "id": "q15-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m04",
+      "sourceQuestionId": 15,
+      "prompt": "（2）可衡量（Measurable）：资源配置不应是一成不变的，农业经理人需根据生产进度、市场变化及资源利用效率，动态调整资源配置策略。例如，在劳动力紧张时，可考虑引入机械化作业；在资金充裕时，加大对新技术的投资等，以实现资源的最优配置。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 15,
+        "pointIndex": 1,
+        "para": 113
+      }
+    },
+    {
+      "id": "q16-or-0",
+      "kind": "order",
+      "moduleId": "m04",
+      "sourceQuestionId": 16,
+      "prompt": "请将“劳动力组织与管理”中的 3 项措施按原文顺序排列：",
+      "steps": [
+        "合理分工",
+        "培训与发展",
+        "灵活排班"
+      ],
+      "answerOrder": [
+        0,
+        2,
+        1
+      ],
+      "srcRef": {
+        "questionId": 16,
+        "sectionIndex": 0,
+        "para": 120
+      }
+    },
+    {
+      "id": "q16-or-1",
+      "kind": "order",
+      "moduleId": "m04",
+      "sourceQuestionId": 16,
+      "prompt": "请将“提高生产效率”中的 3 项措施按原文顺序排列：",
+      "steps": [
+        "团队协作",
+        "引入机械化",
+        "激励机制"
+      ],
+      "answerOrder": [
+        2,
+        0,
+        1
+      ],
+      "srcRef": {
+        "questionId": 16,
+        "sectionIndex": 1,
+        "para": 124
+      }
+    },
+    {
+      "id": "q17-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m05",
+      "sourceQuestionId": 17,
+      "prompt": "农业经理人在设置管理岗位时，应考虑哪些关键因素？（要点1）（1）____：根据农业生产的具体需求设置岗位。",
+      "answer": "业务需求",
+      "accept": [
+        "业务需求"
+      ],
+      "srcRef": {
+        "questionId": 17,
+        "pointIndex": 0,
+        "para": 130
+      }
+    },
+    {
+      "id": "q17-ch-0",
+      "kind": "choice",
+      "moduleId": "m05",
+      "sourceQuestionId": 17,
+      "prompt": "农业经理人在设置管理岗位时，应考虑哪些关键因素？（要点1）（1）____：根据农业生产的具体需求设置岗位。",
+      "options": [
+        "过程检测",
+        "业务需求",
+        "资源分配",
+        "评估竞争"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 17,
+        "pointIndex": 0,
+        "para": 130
+      }
+    },
+    {
+      "id": "q17-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m05",
+      "sourceQuestionId": 17,
+      "prompt": "（1）业务需求：根据农业生产的具体需求设置岗位。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 17,
+        "pointIndex": 0,
+        "para": 130
+      }
+    },
+    {
+      "id": "q17-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m05",
+      "sourceQuestionId": 17,
+      "prompt": "农业经理人在设置管理岗位时，应考虑哪些关键因素？（要点2）（2）____：确保每个岗位的职责清晰，避免职责重叠或遗漏。",
+      "answer": "职责明确",
+      "accept": [
+        "职责明确"
+      ],
+      "srcRef": {
+        "questionId": 17,
+        "pointIndex": 1,
+        "para": 131
+      }
+    },
+    {
+      "id": "q17-ch-1",
+      "kind": "choice",
+      "moduleId": "m05",
+      "sourceQuestionId": 17,
+      "prompt": "农业经理人在设置管理岗位时，应考虑哪些关键因素？（要点2）（2）____：确保每个岗位的职责清晰，避免职责重叠或遗漏。",
+      "options": [
+        "财务管理岗",
+        "职责明确",
+        "紧急联络",
+        "职业发展"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 17,
+        "pointIndex": 1,
+        "para": 131
+      }
+    },
+    {
+      "id": "q17-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m05",
+      "sourceQuestionId": 17,
+      "prompt": "（2）紧急联络：确保每个岗位的职责清晰，避免职责重叠或遗漏。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 17,
+        "pointIndex": 1,
+        "para": 131
+      }
+    },
+    {
+      "id": "q17-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m05",
+      "sourceQuestionId": 17,
+      "prompt": "农业经理人在设置管理岗位时，应考虑哪些关键因素？（要点3）（3）____：根据员工的专业能力和经验，合理分配岗位。",
+      "answer": "人员能力",
+      "accept": [
+        "人员能力"
+      ],
+      "srcRef": {
+        "questionId": 17,
+        "pointIndex": 2,
+        "para": 132
+      }
+    },
+    {
+      "id": "q17-ch-2",
+      "kind": "choice",
+      "moduleId": "m05",
+      "sourceQuestionId": 17,
+      "prompt": "农业经理人在设置管理岗位时，应考虑哪些关键因素？（要点3）（3）____：根据员工的专业能力和经验，合理分配岗位。",
+      "options": [
+        "可达成（Achievable）",
+        "反馈与沟通",
+        "社会责任",
+        "人员能力"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 17,
+        "pointIndex": 2,
+        "para": 132
+      }
+    },
+    {
+      "id": "q17-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m05",
+      "sourceQuestionId": 17,
+      "prompt": "（3）人员能力：根据员工的专业能力和经验，合理分配岗位。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 17,
+        "pointIndex": 2,
+        "para": 132
+      }
+    },
+    {
+      "id": "q17-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m05",
+      "sourceQuestionId": 17,
+      "prompt": "农业经理人在设置管理岗位时，应考虑哪些关键因素？（要点4）（4）____：促进岗位间的协作，提高工作效率。",
+      "answer": "协作效率",
+      "accept": [
+        "协作效率"
+      ],
+      "srcRef": {
+        "questionId": 17,
+        "pointIndex": 3,
+        "para": 133
+      }
+    },
+    {
+      "id": "q17-ch-3",
+      "kind": "choice",
+      "moduleId": "m05",
+      "sourceQuestionId": 17,
+      "prompt": "农业经理人在设置管理岗位时，应考虑哪些关键因素？（要点4）（4）____：促进岗位间的协作，提高工作效率。",
+      "options": [
+        "引入机械化",
+        "协作效率",
+        "评估风险影响",
+        "动态调整策略"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 17,
+        "pointIndex": 3,
+        "para": 133
+      }
+    },
+    {
+      "id": "q17-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m05",
+      "sourceQuestionId": 17,
+      "prompt": "（4）评估风险影响：促进岗位间的协作，提高工作效率。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 17,
+        "pointIndex": 3,
+        "para": 133
+      }
+    },
+    {
+      "id": "q18-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m05",
+      "sourceQuestionId": 18,
+      "prompt": "农业经理人在设置技术岗位时，如何确保技术团队的专业性？（要点1）（1）____：要求技术岗位人员具备相关专业技能和知识。",
+      "answer": "专业技能",
+      "accept": [
+        "专业技能"
+      ],
+      "srcRef": {
+        "questionId": 18,
+        "pointIndex": 0,
+        "para": 136
+      }
+    },
+    {
+      "id": "q18-ch-0",
+      "kind": "choice",
+      "moduleId": "m05",
+      "sourceQuestionId": 18,
+      "prompt": "农业经理人在设置技术岗位时，如何确保技术团队的专业性？（要点1）（1）____：要求技术岗位人员具备相关专业技能和知识。",
+      "options": [
+        "能力匹配",
+        "项目介绍",
+        "可行性",
+        "专业技能"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 18,
+        "pointIndex": 0,
+        "para": 136
+      }
+    },
+    {
+      "id": "q18-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m05",
+      "sourceQuestionId": 18,
+      "prompt": "（1）专业技能：要求技术岗位人员具备相关专业技能和知识。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 18,
+        "pointIndex": 0,
+        "para": 136
+      }
+    },
+    {
+      "id": "q18-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m05",
+      "sourceQuestionId": 18,
+      "prompt": "农业经理人在设置技术岗位时，如何确保技术团队的专业性？（要点2）（2）____：提供持续的培训和学习机会，保持技术团队的先进性。",
+      "answer": "持续培训",
+      "accept": [
+        "持续培训"
+      ],
+      "srcRef": {
+        "questionId": 18,
+        "pointIndex": 1,
+        "para": 137
+      }
+    },
+    {
+      "id": "q18-ch-1",
+      "kind": "choice",
+      "moduleId": "m05",
+      "sourceQuestionId": 18,
+      "prompt": "农业经理人在设置技术岗位时，如何确保技术团队的专业性？（要点2）（2）____：提供持续的培训和学习机会，保持技术团队的先进性。",
+      "options": [
+        "信息共享平台",
+        "长期可持续发展",
+        "业务需求",
+        "持续培训"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 18,
+        "pointIndex": 1,
+        "para": 137
+      }
+    },
+    {
+      "id": "q18-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m05",
+      "sourceQuestionId": 18,
+      "prompt": "（2）业务需求：提供持续的培训和学习机会，保持技术团队的先进性。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 18,
+        "pointIndex": 1,
+        "para": 137
+      }
+    },
+    {
+      "id": "q18-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m05",
+      "sourceQuestionId": 18,
+      "prompt": "农业经理人在设置技术岗位时，如何确保技术团队的专业性？（要点3）（3）____：鼓励技术团队内部和外部的交流，分享经验和创新。",
+      "answer": "技术交流",
+      "accept": [
+        "技术交流"
+      ],
+      "srcRef": {
+        "questionId": 18,
+        "pointIndex": 2,
+        "para": 138
+      }
+    },
+    {
+      "id": "q18-ch-2",
+      "kind": "choice",
+      "moduleId": "m05",
+      "sourceQuestionId": 18,
+      "prompt": "农业经理人在设置技术岗位时，如何确保技术团队的专业性？（要点3）（3）____：鼓励技术团队内部和外部的交流，分享经验和创新。",
+      "options": [
+        "技术交流",
+        "建立反馈机制",
+        "客户服务优化",
+        "岗位分析"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 18,
+        "pointIndex": 2,
+        "para": 138
+      }
+    },
+    {
+      "id": "q18-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m05",
+      "sourceQuestionId": 18,
+      "prompt": "（3）技术交流：鼓励技术团队内部和外部的交流，分享经验和创新。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 18,
+        "pointIndex": 2,
+        "para": 138
+      }
+    },
+    {
+      "id": "q18-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m05",
+      "sourceQuestionId": 18,
+      "prompt": "农业经理人在设置技术岗位时，如何确保技术团队的专业性？（要点4）（4）____：通过实际项目，提升技术团队的实践能力和解决问题的能力。",
+      "answer": "项目实践",
+      "accept": [
+        "项目实践"
+      ],
+      "srcRef": {
+        "questionId": 18,
+        "pointIndex": 3,
+        "para": 139
+      }
+    },
+    {
+      "id": "q18-ch-3",
+      "kind": "choice",
+      "moduleId": "m05",
+      "sourceQuestionId": 18,
+      "prompt": "农业经理人在设置技术岗位时，如何确保技术团队的专业性？（要点4）（4）____：通过实际项目，提升技术团队的实践能力和解决问题的能力。",
+      "options": [
+        "市场推广",
+        "定期评估",
+        "项目实践",
+        "绩效反馈"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 18,
+        "pointIndex": 3,
+        "para": 139
+      }
+    },
+    {
+      "id": "q18-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m05",
+      "sourceQuestionId": 18,
+      "prompt": "（4）项目实践：通过实际项目，提升技术团队的实践能力和解决问题的能力。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 18,
+        "pointIndex": 3,
+        "para": 139
+      }
+    },
+    {
+      "id": "q19-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m05",
+      "sourceQuestionId": 19,
+      "prompt": "论述农业经理人在岗位设置中如何确保岗位职责的明确性与合理性（要点1）（1）____：农业经理人应通过岗位分析，明确每个岗位的工作内容、职责范围、技能要求等，确保岗位职责的清晰界定。这有助于员工理解自己的职责所在，提高工作效率。",
+      "answer": "岗位分析",
+      "accept": [
+        "岗位分析"
+      ],
+      "srcRef": {
+        "questionId": 19,
+        "pointIndex": 0,
+        "para": 142
+      }
+    },
+    {
+      "id": "q19-ch-0",
+      "kind": "choice",
+      "moduleId": "m05",
+      "sourceQuestionId": 19,
+      "prompt": "论述农业经理人在岗位设置中如何确保岗位职责的明确性与合理性（要点1）（1）____：农业经理人应通过岗位分析，明确每个岗位的工作内容、职责范围、技能要求等，确保岗位职责的清晰界定。这有助于员工理解自己的职责所在，提高工作效率。",
+      "options": [
+        "市场调研",
+        "项目介绍",
+        "岗位分析",
+        "分析成本与市场需求"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 19,
+        "pointIndex": 0,
+        "para": 142
+      }
+    },
+    {
+      "id": "q19-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m05",
+      "sourceQuestionId": 19,
+      "prompt": "（1）岗位分析：农业经理人应通过岗位分析，明确每个岗位的工作内容、职责范围、技能要求等，确保岗位职责的清晰界定。这有助于员工理解自己的职责所在，提高工作效率。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 19,
+        "pointIndex": 0,
+        "para": 142
+      }
+    },
+    {
+      "id": "q19-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m05",
+      "sourceQuestionId": 19,
+      "prompt": "论述农业经理人在岗位设置中如何确保岗位职责的明确性与合理性（要点2）（2）____：在岗位设置中，农业经理人应考虑员工的个人能力和职业发展规划，将合适的员工安排到与其能力相匹配的岗位上。这不仅能提升员工的工作满意度，还能发挥员工的最大潜能。",
+      "answer": "能力匹配",
+      "accept": [
+        "能力匹配"
+      ],
+      "srcRef": {
+        "questionId": 19,
+        "pointIndex": 1,
+        "para": 143
+      }
+    },
+    {
+      "id": "q19-ch-1",
+      "kind": "choice",
+      "moduleId": "m05",
+      "sourceQuestionId": 19,
+      "prompt": "论述农业经理人在岗位设置中如何确保岗位职责的明确性与合理性（要点2）（2）____：在岗位设置中，农业经理人应考虑员工的个人能力和职业发展规划，将合适的员工安排到与其能力相匹配的岗位上。这不仅能提升员工的工作满意度，还能发挥员工的最大潜能。",
+      "options": [
+        "项目合作",
+        "定期评估",
+        "标准制定",
+        "能力匹配"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 19,
+        "pointIndex": 1,
+        "para": 143
+      }
+    },
+    {
+      "id": "q19-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m05",
+      "sourceQuestionId": 19,
+      "prompt": "（2）项目合作：在岗位设置中，农业经理人应考虑员工的个人能力和职业发展规划，将合适的员工安排到与其能力相匹配的岗位上。这不仅能提升员工的工作满意度，还能发挥员工的最大潜能。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 19,
+        "pointIndex": 1,
+        "para": 143
+      }
+    },
+    {
+      "id": "q19-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m05",
+      "sourceQuestionId": 19,
+      "prompt": "论述农业经理人在岗位设置中如何确保岗位职责的明确性与合理性（要点3）（3）____：随着企业发展和市场变化，农业经理人应定期对岗位设置进行评估和调整，确保岗位职责的合理性和适应性。这包括新增岗位、合并岗位、调整岗位职责等，以适应企业发展的需要。",
+      "answer": "动态调整",
+      "accept": [
+        "动态调整"
+      ],
+      "srcRef": {
+        "questionId": 19,
+        "pointIndex": 2,
+        "para": 144
+      }
+    },
+    {
+      "id": "q19-ch-2",
+      "kind": "choice",
+      "moduleId": "m05",
+      "sourceQuestionId": 19,
+      "prompt": "论述农业经理人在岗位设置中如何确保岗位职责的明确性与合理性（要点3）（3）____：随着企业发展和市场变化，农业经理人应定期对岗位设置进行评估和调整，确保岗位职责的合理性和适应性。这包括新增岗位、合并岗位、调整岗位职责等，以适应企业发展的需要。",
+      "options": [
+        "品牌建设",
+        "项目团队",
+        "问题梳理",
+        "动态调整"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 19,
+        "pointIndex": 2,
+        "para": 144
+      }
+    },
+    {
+      "id": "q19-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m05",
+      "sourceQuestionId": 19,
+      "prompt": "（3）问题梳理：随着企业发展和市场变化，农业经理人应定期对岗位设置进行评估和调整，确保岗位职责的合理性和适应性。这包括新增岗位、合并岗位、调整岗位职责等，以适应企业发展的需要。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 19,
+        "pointIndex": 2,
+        "para": 144
+      }
+    },
+    {
+      "id": "q20-or-0",
+      "kind": "order",
+      "moduleId": "m05",
+      "sourceQuestionId": 20,
+      "prompt": "请将“管理岗位设置”中的 4 项措施按原文顺序排列：",
+      "steps": [
+        "财务管理岗",
+        "人力资源管理岗",
+        "生产管理岗",
+        "销售管理岗"
+      ],
+      "answerOrder": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "srcRef": {
+        "questionId": 20,
+        "sectionIndex": 0,
+        "para": 151
+      }
+    },
+    {
+      "id": "q20-or-1",
+      "kind": "order",
+      "moduleId": "m05",
+      "sourceQuestionId": 20,
+      "prompt": "请将“提升运营效率”中的 3 项措施按原文顺序排列：",
+      "steps": [
+        "明确职责",
+        "绩效考核",
+        "定期沟通"
+      ],
+      "answerOrder": [
+        0,
+        2,
+        1
+      ],
+      "srcRef": {
+        "questionId": 20,
+        "sectionIndex": 1,
+        "para": 156
+      }
+    },
+    {
+      "id": "q21-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m06",
+      "sourceQuestionId": 21,
+      "prompt": "农业经理人在组织项目启动会议时，如何确保项目顺利启动？（要点1）（1）____：详细介绍项目背景、目标和计划，确保参会者理解项目重要性。",
+      "answer": "项目介绍",
+      "accept": [
+        "项目介绍"
+      ],
+      "srcRef": {
+        "questionId": 21,
+        "pointIndex": 0,
+        "para": 162
+      }
+    },
+    {
+      "id": "q21-ch-0",
+      "kind": "choice",
+      "moduleId": "m06",
+      "sourceQuestionId": 21,
+      "prompt": "农业经理人在组织项目启动会议时，如何确保项目顺利启动？（要点1）（1）____：详细介绍项目背景、目标和计划，确保参会者理解项目重要性。",
+      "options": [
+        "可追溯性",
+        "项目介绍",
+        "集中采购",
+        "社区参与"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 21,
+        "pointIndex": 0,
+        "para": 162
+      }
+    },
+    {
+      "id": "q21-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m06",
+      "sourceQuestionId": 21,
+      "prompt": "（1）项目介绍：详细介绍项目背景、目标和计划，确保参会者理解项目重要性。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 21,
+        "pointIndex": 0,
+        "para": 162
+      }
+    },
+    {
+      "id": "q21-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m06",
+      "sourceQuestionId": 21,
+      "prompt": "农业经理人在组织项目启动会议时，如何确保项目顺利启动？（要点2）（2）____：明确项目团队成员和职责分工，确保团队协同作战。",
+      "answer": "团队组建",
+      "accept": [
+        "团队组建"
+      ],
+      "srcRef": {
+        "questionId": 21,
+        "pointIndex": 1,
+        "para": 163
+      }
+    },
+    {
+      "id": "q21-ch-1",
+      "kind": "choice",
+      "moduleId": "m06",
+      "sourceQuestionId": 21,
+      "prompt": "农业经理人在组织项目启动会议时，如何确保项目顺利启动？（要点2）（2）____：明确项目团队成员和职责分工，确保团队协同作战。",
+      "options": [
+        "明确责任分工",
+        "技术手段辅助",
+        "品牌定位",
+        "团队组建"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 21,
+        "pointIndex": 1,
+        "para": 163
+      }
+    },
+    {
+      "id": "q21-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m06",
+      "sourceQuestionId": 21,
+      "prompt": "（2）品牌定位：明确项目团队成员和职责分工，确保团队协同作战。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 21,
+        "pointIndex": 1,
+        "para": 163
+      }
+    },
+    {
+      "id": "q21-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m06",
+      "sourceQuestionId": 21,
+      "prompt": "农业经理人在组织项目启动会议时，如何确保项目顺利启动？（要点3）（3）____：讨论并确定项目所需资源的分配，包括资金、物资和人力。",
+      "answer": "资源分配",
+      "accept": [
+        "资源分配"
+      ],
+      "srcRef": {
+        "questionId": 21,
+        "pointIndex": 2,
+        "para": 164
+      }
+    },
+    {
+      "id": "q21-ch-2",
+      "kind": "choice",
+      "moduleId": "m06",
+      "sourceQuestionId": 21,
+      "prompt": "农业经理人在组织项目启动会议时，如何确保项目顺利启动？（要点3）（3）____：讨论并确定项目所需资源的分配，包括资金、物资和人力。",
+      "options": [
+        "信息收集",
+        "筛选问题",
+        "供应商管理",
+        "资源分配"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 21,
+        "pointIndex": 2,
+        "para": 164
+      }
+    },
+    {
+      "id": "q21-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m06",
+      "sourceQuestionId": 21,
+      "prompt": "（3）资源分配：讨论并确定项目所需资源的分配，包括资金、物资和人力。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 21,
+        "pointIndex": 2,
+        "para": 164
+      }
+    },
+    {
+      "id": "q21-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m06",
+      "sourceQuestionId": 21,
+      "prompt": "农业经理人在组织项目启动会议时，如何确保项目顺利启动？（要点4）（4）____：识别潜在风险并制定应对策略，确保项目顺利推进。",
+      "answer": "风险预警",
+      "accept": [
+        "风险预警"
+      ],
+      "srcRef": {
+        "questionId": 21,
+        "pointIndex": 3,
+        "para": 165
+      }
+    },
+    {
+      "id": "q21-ch-3",
+      "kind": "choice",
+      "moduleId": "m06",
+      "sourceQuestionId": 21,
+      "prompt": "农业经理人在组织项目启动会议时，如何确保项目顺利启动？（要点4）（4）____：识别潜在风险并制定应对策略，确保项目顺利推进。",
+      "options": [
+        "沟通平台",
+        "预案准备",
+        "风险预警",
+        "定期会议"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 21,
+        "pointIndex": 3,
+        "para": 165
+      }
+    },
+    {
+      "id": "q21-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m06",
+      "sourceQuestionId": 21,
+      "prompt": "（4）沟通平台：识别潜在风险并制定应对策略，确保项目顺利推进。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 21,
+        "pointIndex": 3,
+        "para": 165
+      }
+    },
+    {
+      "id": "q22-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m06",
+      "sourceQuestionId": 22,
+      "prompt": "农业经理人在组织年度总结会议时，如何确保会议成果得到有效利用？（要点1）（1）____：各部门展示年度工作成果，总结经验教训。",
+      "answer": "成果展示",
+      "accept": [
+        "成果展示"
+      ],
+      "srcRef": {
+        "questionId": 22,
+        "pointIndex": 0,
+        "para": 168
+      }
+    },
+    {
+      "id": "q22-ch-0",
+      "kind": "choice",
+      "moduleId": "m06",
+      "sourceQuestionId": 22,
+      "prompt": "农业经理人在组织年度总结会议时，如何确保会议成果得到有效利用？（要点1）（1）____：各部门展示年度工作成果，总结经验教训。",
+      "options": [
+        "成果展示",
+        "调研天气、供应链、市场需",
+        "定期报告",
+        "激励机制"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 22,
+        "pointIndex": 0,
+        "para": 168
+      }
+    },
+    {
+      "id": "q22-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m06",
+      "sourceQuestionId": 22,
+      "prompt": "（1）激励机制：各部门展示年度工作成果，总结经验教训。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 22,
+        "pointIndex": 0,
+        "para": 168
+      }
+    },
+    {
+      "id": "q22-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m06",
+      "sourceQuestionId": 22,
+      "prompt": "农业经理人在组织年度总结会议时，如何确保会议成果得到有效利用？（要点2）（2）____：对表现优秀的部门和个人进行表彰，激发团队积极性。",
+      "answer": "表彰激励",
+      "accept": [
+        "表彰激励"
+      ],
+      "srcRef": {
+        "questionId": 22,
+        "pointIndex": 1,
+        "para": 169
+      }
+    },
+    {
+      "id": "q22-ch-1",
+      "kind": "choice",
+      "moduleId": "m06",
+      "sourceQuestionId": 22,
+      "prompt": "农业经理人在组织年度总结会议时，如何确保会议成果得到有效利用？（要点2）（2）____：对表现优秀的部门和个人进行表彰，激发团队积极性。",
+      "options": [
+        "土壤质量",
+        "强化沟通与反馈",
+        "通过员工访谈和问卷调查，",
+        "表彰激励"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 22,
+        "pointIndex": 1,
+        "para": 169
+      }
+    },
+    {
+      "id": "q22-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m06",
+      "sourceQuestionId": 22,
+      "prompt": "（2）表彰激励：对表现优秀的部门和个人进行表彰，激发团队积极性。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 22,
+        "pointIndex": 1,
+        "para": 169
+      }
+    },
+    {
+      "id": "q22-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m06",
+      "sourceQuestionId": 22,
+      "prompt": "农业经理人在组织年度总结会议时，如何确保会议成果得到有效利用？（要点3）（3）____：梳理存在的问题和不足，共同讨论改进措施。",
+      "answer": "问题梳理",
+      "accept": [
+        "问题梳理"
+      ],
+      "srcRef": {
+        "questionId": 22,
+        "pointIndex": 2,
+        "para": 170
+      }
+    },
+    {
+      "id": "q22-ch-2",
+      "kind": "choice",
+      "moduleId": "m06",
+      "sourceQuestionId": 22,
+      "prompt": "农业经理人在组织年度总结会议时，如何确保会议成果得到有效利用？（要点3）（3）____：梳理存在的问题和不足，共同讨论改进措施。",
+      "options": [
+        "明确职责",
+        "收集数据",
+        "问题梳理",
+        "气候条件"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 22,
+        "pointIndex": 2,
+        "para": 170
+      }
+    },
+    {
+      "id": "q22-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m06",
+      "sourceQuestionId": 22,
+      "prompt": "（3）气候条件：梳理存在的问题和不足，共同讨论改进措施。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 22,
+        "pointIndex": 2,
+        "para": 170
+      }
+    },
+    {
+      "id": "q22-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m06",
+      "sourceQuestionId": 22,
+      "prompt": "农业经理人在组织年度总结会议时，如何确保会议成果得到有效利用？（要点4）（4）____：基于会议成果，制定下一年度的工作计划和目标。",
+      "answer": "规划制定",
+      "accept": [
+        "规划制定"
+      ],
+      "srcRef": {
+        "questionId": 22,
+        "pointIndex": 3,
+        "para": 171
+      }
+    },
+    {
+      "id": "q22-ch-3",
+      "kind": "choice",
+      "moduleId": "m06",
+      "sourceQuestionId": 22,
+      "prompt": "农业经理人在组织年度总结会议时，如何确保会议成果得到有效利用？（要点4）（4）____：基于会议成果，制定下一年度的工作计划和目标。",
+      "options": [
+        "规划制定",
+        "信息收集",
+        "能耗管理",
+        "评估外部因素，如市场价格"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 22,
+        "pointIndex": 3,
+        "para": 171
+      }
+    },
+    {
+      "id": "q22-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m06",
+      "sourceQuestionId": 22,
+      "prompt": "（4）评估外部因素，如市场价格：基于会议成果，制定下一年度的工作计划和目标。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 22,
+        "pointIndex": 3,
+        "para": 171
+      }
+    },
+    {
+      "id": "q23-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m06",
+      "sourceQuestionId": 23,
+      "prompt": "论述农业经理人在会务组织中如何确保会议成果的落实（要点1）（1）____：会议结束后，农业经理人应明确各项决议的责任人和完成时限，确保会议成果得到有效落实。通过设立跟踪机制，定期检查决议执行情况，及时发现问题并予以解决。",
+      "answer": "明确责任分工",
+      "accept": [
+        "明确责任分工"
+      ],
+      "srcRef": {
+        "questionId": 23,
+        "pointIndex": 0,
+        "para": 174
+      }
+    },
+    {
+      "id": "q23-ch-0",
+      "kind": "choice",
+      "moduleId": "m06",
+      "sourceQuestionId": 23,
+      "prompt": "论述农业经理人在会务组织中如何确保会议成果的落实（要点1）（1）____：会议结束后，农业经理人应明确各项决议的责任人和完成时限，确保会议成果得到有效落实。通过设立跟踪机制，定期检查决议执行情况，及时发现问题并予以解决。",
+      "options": [
+        "信息共享",
+        "培训与发展",
+        "明确责任分工",
+        "人员能力"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 23,
+        "pointIndex": 0,
+        "para": 174
+      }
+    },
+    {
+      "id": "q23-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m06",
+      "sourceQuestionId": 23,
+      "prompt": "（1）明确责任分工：会议结束后，农业经理人应明确各项决议的责任人和完成时限，确保会议成果得到有效落实。通过设立跟踪机制，定期检查决议执行情况，及时发现问题并予以解决。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 23,
+        "pointIndex": 0,
+        "para": 174
+      }
+    },
+    {
+      "id": "q23-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m06",
+      "sourceQuestionId": 23,
+      "prompt": "论述农业经理人在会务组织中如何确保会议成果的落实（要点2）（2）____：建立有效的沟通渠道和反馈机制，鼓励参会者就决议执行情况提出意见和建议。农业经理人应定期组织会议回顾，总结经验教训，不断优化会务组织流程，确保会议成果持续发挥效用。",
+      "answer": "强化沟通与反馈",
+      "accept": [
+        "强化沟通与反馈"
+      ],
+      "srcRef": {
+        "questionId": 23,
+        "pointIndex": 1,
+        "para": 175
+      }
+    },
+    {
+      "id": "q23-ch-1",
+      "kind": "choice",
+      "moduleId": "m06",
+      "sourceQuestionId": 23,
+      "prompt": "论述农业经理人在会务组织中如何确保会议成果的落实（要点2）（2）____：建立有效的沟通渠道和反馈机制，鼓励参会者就决议执行情况提出意见和建议。农业经理人应定期组织会议回顾，总结经验教训，不断优化会务组织流程，确保会议成果持续发挥效用。",
+      "options": [
+        "强化沟通与反馈",
+        "采购部门",
+        "土壤质量",
+        "能力匹配"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 23,
+        "pointIndex": 1,
+        "para": 175
+      }
+    },
+    {
+      "id": "q23-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m06",
+      "sourceQuestionId": 23,
+      "prompt": "（2）强化沟通与反馈：建立有效的沟通渠道和反馈机制，鼓励参会者就决议执行情况提出意见和建议。农业经理人应定期组织会议回顾，总结经验教训，不断优化会务组织流程，确保会议成果持续发挥效用。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 23,
+        "pointIndex": 1,
+        "para": 175
+      }
+    },
+    {
+      "id": "q24-or-0",
+      "kind": "order",
+      "moduleId": "m06",
+      "sourceQuestionId": 24,
+      "prompt": "请将“资源调配”中的 3 项措施按原文顺序排列：",
+      "steps": [
+        "优先级排序",
+        "灵活调整",
+        "共享资源"
+      ],
+      "answerOrder": [
+        0,
+        2,
+        1
+      ],
+      "srcRef": {
+        "questionId": 24,
+        "sectionIndex": 0,
+        "para": 182
+      }
+    },
+    {
+      "id": "q24-or-1",
+      "kind": "order",
+      "moduleId": "m06",
+      "sourceQuestionId": 24,
+      "prompt": "请将“应对突发情况”中的 3 项措施按原文顺序排列：",
+      "steps": [
+        "紧急联络",
+        "预案准备",
+        "现场应变"
+      ],
+      "answerOrder": [
+        1,
+        0,
+        2
+      ],
+      "srcRef": {
+        "questionId": 24,
+        "sectionIndex": 1,
+        "para": 186
+      }
+    },
+    {
+      "id": "q25-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m07",
+      "sourceQuestionId": 25,
+      "prompt": "农业经理人在实施计划控制时，如何确保生产计划的准确性？（要点1）（1）____：定期进行市场调研，了解需求变化。",
+      "answer": "市场调研",
+      "accept": [
+        "市场调研"
+      ],
+      "srcRef": {
+        "questionId": 25,
+        "pointIndex": 0,
+        "para": 192
+      }
+    },
+    {
+      "id": "q25-ch-0",
+      "kind": "choice",
+      "moduleId": "m07",
+      "sourceQuestionId": 25,
+      "prompt": "农业经理人在实施计划控制时，如何确保生产计划的准确性？（要点1）（1）____：定期进行市场调研，了解需求变化。",
+      "options": [
+        "市场调研",
+        "风险因素",
+        "水资源",
+        "持续培训"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 25,
+        "pointIndex": 0,
+        "para": 192
+      }
+    },
+    {
+      "id": "q25-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m07",
+      "sourceQuestionId": 25,
+      "prompt": "（1）持续培训：定期进行市场调研，了解需求变化。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 25,
+        "pointIndex": 0,
+        "para": 192
+      }
+    },
+    {
+      "id": "q25-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m07",
+      "sourceQuestionId": 25,
+      "prompt": "农业经理人在实施计划控制时，如何确保生产计划的准确性？（要点2）（2）____：根据设备、人力评估实际生产能力。",
+      "answer": "产能评估",
+      "accept": [
+        "产能评估"
+      ],
+      "srcRef": {
+        "questionId": 25,
+        "pointIndex": 1,
+        "para": 193
+      }
+    },
+    {
+      "id": "q25-ch-1",
+      "kind": "choice",
+      "moduleId": "m07",
+      "sourceQuestionId": 25,
+      "prompt": "农业经理人在实施计划控制时，如何确保生产计划的准确性？（要点2）（2）____：根据设备、人力评估实际生产能力。",
+      "options": [
+        "规划制定",
+        "产能评估",
+        "生产优化",
+        "技术交流"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 25,
+        "pointIndex": 1,
+        "para": 193
+      }
+    },
+    {
+      "id": "q25-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m07",
+      "sourceQuestionId": 25,
+      "prompt": "（2）技术交流：根据设备、人力评估实际生产能力。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 25,
+        "pointIndex": 1,
+        "para": 193
+      }
+    },
+    {
+      "id": "q25-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m07",
+      "sourceQuestionId": 25,
+      "prompt": "农业经理人在实施计划控制时，如何确保生产计划的准确性？（要点3）（3）____：根据市场和生产变化，灵活调整生产计划。",
+      "answer": "灵活调整",
+      "accept": [
+        "灵活调整"
+      ],
+      "srcRef": {
+        "questionId": 25,
+        "pointIndex": 2,
+        "para": 194
+      }
+    },
+    {
+      "id": "q25-ch-2",
+      "kind": "choice",
+      "moduleId": "m07",
+      "sourceQuestionId": 25,
+      "prompt": "农业经理人在实施计划控制时，如何确保生产计划的准确性？（要点3）（3）____：根据市场和生产变化，灵活调整生产计划。",
+      "options": [
+        "主体问题",
+        "水资源",
+        "灵活调整",
+        "生产管理岗"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 25,
+        "pointIndex": 2,
+        "para": 194
+      }
+    },
+    {
+      "id": "q25-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m07",
+      "sourceQuestionId": 25,
+      "prompt": "（3）灵活调整：根据市场和生产变化，灵活调整生产计划。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 25,
+        "pointIndex": 2,
+        "para": 194
+      }
+    },
+    {
+      "id": "q25-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m07",
+      "sourceQuestionId": 25,
+      "prompt": "农业经理人在实施计划控制时，如何确保生产计划的准确性？（要点4）（4）____：建立监控机制，及时反馈生产进度和问题。",
+      "answer": "监控反馈",
+      "accept": [
+        "监控反馈"
+      ],
+      "srcRef": {
+        "questionId": 25,
+        "pointIndex": 3,
+        "para": 195
+      }
+    },
+    {
+      "id": "q25-ch-3",
+      "kind": "choice",
+      "moduleId": "m07",
+      "sourceQuestionId": 25,
+      "prompt": "农业经理人在实施计划控制时，如何确保生产计划的准确性？（要点4）（4）____：建立监控机制，及时反馈生产进度和问题。",
+      "options": [
+        "多元化销售",
+        "监控反馈",
+        "品牌建设",
+        "技术革新"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 25,
+        "pointIndex": 3,
+        "para": 195
+      }
+    },
+    {
+      "id": "q25-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m07",
+      "sourceQuestionId": 25,
+      "prompt": "（4）技术革新：建立监控机制，及时反馈生产进度和问题。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 25,
+        "pointIndex": 3,
+        "para": 195
+      }
+    },
+    {
+      "id": "q26-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m07",
+      "sourceQuestionId": 26,
+      "prompt": "农业经理人在进行成本控制时，如何有效减少不必要的开支？（要点1）（1）____：制定详细的成本预算，明确开支范围。",
+      "answer": "预算制定",
+      "accept": [
+        "预算制定"
+      ],
+      "srcRef": {
+        "questionId": 26,
+        "pointIndex": 0,
+        "para": 198
+      }
+    },
+    {
+      "id": "q26-ch-0",
+      "kind": "choice",
+      "moduleId": "m07",
+      "sourceQuestionId": 26,
+      "prompt": "农业经理人在进行成本控制时，如何有效减少不必要的开支？（要点1）（1）____：制定详细的成本预算，明确开支范围。",
+      "options": [
+        "加强沟通与合作",
+        "土壤质量",
+        "预算制定",
+        "项目团队"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 26,
+        "pointIndex": 0,
+        "para": 198
+      }
+    },
+    {
+      "id": "q26-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m07",
+      "sourceQuestionId": 26,
+      "prompt": "（1）项目团队：制定详细的成本预算，明确开支范围。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 26,
+        "pointIndex": 0,
+        "para": 198
+      }
+    },
+    {
+      "id": "q26-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m07",
+      "sourceQuestionId": 26,
+      "prompt": "农业经理人在进行成本控制时，如何有效减少不必要的开支？（要点2）（2）____：优化采购流程，降低采购成本。",
+      "answer": "采购管理",
+      "accept": [
+        "采购管理"
+      ],
+      "srcRef": {
+        "questionId": 26,
+        "pointIndex": 1,
+        "para": 199
+      }
+    },
+    {
+      "id": "q26-ch-1",
+      "kind": "choice",
+      "moduleId": "m07",
+      "sourceQuestionId": 26,
+      "prompt": "农业经理人在进行成本控制时，如何有效减少不必要的开支？（要点2）（2）____：优化采购流程，降低采购成本。",
+      "options": [
+        "生产能力",
+        "采购管理",
+        "实地调研，了解种植过程中",
+        "价格策略"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 26,
+        "pointIndex": 1,
+        "para": 199
+      }
+    },
+    {
+      "id": "q26-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m07",
+      "sourceQuestionId": 26,
+      "prompt": "（2）采购管理：优化采购流程，降低采购成本。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 26,
+        "pointIndex": 1,
+        "para": 199
+      }
+    },
+    {
+      "id": "q26-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m07",
+      "sourceQuestionId": 26,
+      "prompt": "农业经理人在进行成本控制时，如何有效减少不必要的开支？（要点3）（3）____：节能降耗，提高资源利用效率。",
+      "answer": "能耗管理",
+      "accept": [
+        "能耗管理"
+      ],
+      "srcRef": {
+        "questionId": 26,
+        "pointIndex": 2,
+        "para": 200
+      }
+    },
+    {
+      "id": "q26-ch-2",
+      "kind": "choice",
+      "moduleId": "m07",
+      "sourceQuestionId": 26,
+      "prompt": "农业经理人在进行成本控制时，如何有效减少不必要的开支？（要点3）（3）____：节能降耗，提高资源利用效率。",
+      "options": [
+        "能耗管理",
+        "集中采购",
+        "培训与发展",
+        "明确部门职责"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 26,
+        "pointIndex": 2,
+        "para": 200
+      }
+    },
+    {
+      "id": "q26-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m07",
+      "sourceQuestionId": 26,
+      "prompt": "（3）能耗管理：节能降耗，提高资源利用效率。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 26,
+        "pointIndex": 2,
+        "para": 200
+      }
+    },
+    {
+      "id": "q26-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m07",
+      "sourceQuestionId": 26,
+      "prompt": "农业经理人在进行成本控制时，如何有效减少不必要的开支？（要点4）（4）____：定期进行成本审计，查找并减少浪费。",
+      "answer": "定期审计",
+      "accept": [
+        "定期审计"
+      ],
+      "srcRef": {
+        "questionId": 26,
+        "pointIndex": 3,
+        "para": 201
+      }
+    },
+    {
+      "id": "q26-ch-3",
+      "kind": "choice",
+      "moduleId": "m07",
+      "sourceQuestionId": 26,
+      "prompt": "农业经理人在进行成本控制时，如何有效减少不必要的开支？（要点4）（4）____：定期进行成本审计，查找并减少浪费。",
+      "options": [
+        "替代材料",
+        "沟通平台",
+        "定期审计",
+        "明确部门职责"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 26,
+        "pointIndex": 3,
+        "para": 201
+      }
+    },
+    {
+      "id": "q26-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m07",
+      "sourceQuestionId": 26,
+      "prompt": "（4）定期审计：定期进行成本审计，查找并减少浪费。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 26,
+        "pointIndex": 3,
+        "para": 201
+      }
+    },
+    {
+      "id": "q27-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m07",
+      "sourceQuestionId": 27,
+      "prompt": "论述农业经理人在计划控制中如何确保计划的有效执行（要点1）（1）____：农业经理人在制定计划时，需明确各项任务的具体目标、完成时间和责任人，确保每个参与者都清楚自己的职责和期望成果。通过定期检查和评估，确保计划按照既定方向推进。",
+      "answer": "明确目标与责任",
+      "accept": [
+        "明确目标与责任"
+      ],
+      "srcRef": {
+        "questionId": 27,
+        "pointIndex": 0,
+        "para": 203
+      }
+    },
+    {
+      "id": "q27-ch-0",
+      "kind": "choice",
+      "moduleId": "m07",
+      "sourceQuestionId": 27,
+      "prompt": "论述农业经理人在计划控制中如何确保计划的有效执行（要点1）（1）____：农业经理人在制定计划时，需明确各项任务的具体目标、完成时间和责任人，确保每个参与者都清楚自己的职责和期望成果。通过定期检查和评估，确保计划按照既定方向推进。",
+      "options": [
+        "定期评估",
+        "明确目标与责任",
+        "培训与发展",
+        "职业发展"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 27,
+        "pointIndex": 0,
+        "para": 203
+      }
+    },
+    {
+      "id": "q27-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m07",
+      "sourceQuestionId": 27,
+      "prompt": "（1）职业发展：农业经理人在制定计划时，需明确各项任务的具体目标、完成时间和责任人，确保每个参与者都清楚自己的职责和期望成果。通过定期检查和评估，确保计划按照既定方向推进。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 27,
+        "pointIndex": 0,
+        "para": 203
+      }
+    },
+    {
+      "id": "q27-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m07",
+      "sourceQuestionId": 27,
+      "prompt": "论述农业经理人在计划控制中如何确保计划的有效执行（要点2）（2）____：建立有效的计划监控机制，如进度跟踪表、关键绩效指标（KPIs）等，实时掌握计划执行情况。一旦发现偏差，立即采取措施进行调整，确保计划能够按时、按质、按量完成。",
+      "answer": "建立监控机制",
+      "accept": [
+        "建立监控机制"
+      ],
+      "srcRef": {
+        "questionId": 27,
+        "pointIndex": 1,
+        "para": 204
+      }
+    },
+    {
+      "id": "q27-ch-1",
+      "kind": "choice",
+      "moduleId": "m07",
+      "sourceQuestionId": 27,
+      "prompt": "论述农业经理人在计划控制中如何确保计划的有效执行（要点2）（2）____：建立有效的计划监控机制，如进度跟踪表、关键绩效指标（KPIs）等，实时掌握计划执行情况。一旦发现偏差，立即采取措施进行调整，确保计划能够按时、按质、按量完成。",
+      "options": [
+        "建立监控机制",
+        "可行性",
+        "客户需求洞察",
+        "强化沟通与反馈"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 27,
+        "pointIndex": 1,
+        "para": 204
+      }
+    },
+    {
+      "id": "q27-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m07",
+      "sourceQuestionId": 27,
+      "prompt": "（2）客户需求洞察：建立有效的计划监控机制，如进度跟踪表、关键绩效指标（KPIs）等，实时掌握计划执行情况。一旦发现偏差，立即采取措施进行调整，确保计划能够按时、按质、按量完成。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 27,
+        "pointIndex": 1,
+        "para": 204
+      }
+    },
+    {
+      "id": "q28-or-0",
+      "kind": "order",
+      "moduleId": "m07",
+      "sourceQuestionId": 28,
+      "prompt": "请将“制定进度计划”中的 3 项措施按原文顺序排列：",
+      "steps": [
+        "分解任务",
+        "建立监控机制",
+        "资源分配"
+      ],
+      "answerOrder": [
+        0,
+        2,
+        1
+      ],
+      "srcRef": {
+        "questionId": 28,
+        "sectionIndex": 0,
+        "para": 211
+      }
+    },
+    {
+      "id": "q28-or-1",
+      "kind": "order",
+      "moduleId": "m07",
+      "sourceQuestionId": 28,
+      "prompt": "请将“监控和调整进度”中的 3 项措施按原文顺序排列：",
+      "steps": [
+        "定期报告",
+        "灵活调整",
+        "风险评估"
+      ],
+      "answerOrder": [
+        0,
+        2,
+        1
+      ],
+      "srcRef": {
+        "questionId": 28,
+        "sectionIndex": 1,
+        "para": 215
+      }
+    },
+    {
+      "id": "q29-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m08",
+      "sourceQuestionId": 29,
+      "prompt": "农业经理人在质量控制中，如何确保农产品符合安全标准？（要点1）（1）____：依据国家和行业标准，制定农产品安全标准。",
+      "answer": "标准制定",
+      "accept": [
+        "标准制定"
+      ],
+      "srcRef": {
+        "questionId": 29,
+        "pointIndex": 0,
+        "para": 221
+      }
+    },
+    {
+      "id": "q29-ch-0",
+      "kind": "choice",
+      "moduleId": "m08",
+      "sourceQuestionId": 29,
+      "prompt": "农业经理人在质量控制中，如何确保农产品符合安全标准？（要点1）（1）____：依据国家和行业标准，制定农产品安全标准。",
+      "options": [
+        "标准制定",
+        "技术创新",
+        "互利共赢",
+        "市场调研与销售部门"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 29,
+        "pointIndex": 0,
+        "para": 221
+      }
+    },
+    {
+      "id": "q29-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m08",
+      "sourceQuestionId": 29,
+      "prompt": "（1）标准制定：依据国家和行业标准，制定农产品安全标准。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 29,
+        "pointIndex": 0,
+        "para": 221
+      }
+    },
+    {
+      "id": "q29-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m08",
+      "sourceQuestionId": 29,
+      "prompt": "农业经理人在质量控制中，如何确保农产品符合安全标准？（要点2）（2）____：加强原材料和农药、化肥等投入品的质量监控。",
+      "answer": "源头控制",
+      "accept": [
+        "源头控制"
+      ],
+      "srcRef": {
+        "questionId": 29,
+        "pointIndex": 1,
+        "para": 222
+      }
+    },
+    {
+      "id": "q29-ch-1",
+      "kind": "choice",
+      "moduleId": "m08",
+      "sourceQuestionId": 29,
+      "prompt": "农业经理人在质量控制中，如何确保农产品符合安全标准？（要点2）（2）____：加强原材料和农药、化肥等投入品的质量监控。",
+      "options": [
+        "品质保证",
+        "团队氛围",
+        "源头控制",
+        "生产部门"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 29,
+        "pointIndex": 1,
+        "para": 222
+      }
+    },
+    {
+      "id": "q29-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m08",
+      "sourceQuestionId": 29,
+      "prompt": "（2）源头控制：加强原材料和农药、化肥等投入品的质量监控。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 29,
+        "pointIndex": 1,
+        "para": 222
+      }
+    },
+    {
+      "id": "q29-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m08",
+      "sourceQuestionId": 29,
+      "prompt": "农业经理人在质量控制中，如何确保农产品符合安全标准？（要点3）（3）____：在生产过程中定期检测农产品质量，确保符合标准。",
+      "answer": "过程检测",
+      "accept": [
+        "过程检测"
+      ],
+      "srcRef": {
+        "questionId": 29,
+        "pointIndex": 2,
+        "para": 223
+      }
+    },
+    {
+      "id": "q29-ch-2",
+      "kind": "choice",
+      "moduleId": "m08",
+      "sourceQuestionId": 29,
+      "prompt": "农业经理人在质量控制中，如何确保农产品符合安全标准？（要点3）（3）____：在生产过程中定期检测农产品质量，确保符合标准。",
+      "options": [
+        "跨部门会议",
+        "明确责任分工",
+        "过程检测",
+        "集中采购"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 29,
+        "pointIndex": 2,
+        "para": 223
+      }
+    },
+    {
+      "id": "q29-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m08",
+      "sourceQuestionId": 29,
+      "prompt": "（3）跨部门会议：在生产过程中定期检测农产品质量，确保符合标准。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 29,
+        "pointIndex": 2,
+        "para": 223
+      }
+    },
+    {
+      "id": "q29-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m08",
+      "sourceQuestionId": 29,
+      "prompt": "农业经理人在质量控制中，如何确保农产品符合安全标准？（要点4）（4）____：建立农产品追溯体系，便于问题产品召回和原因追溯。",
+      "answer": "追溯体系",
+      "accept": [
+        "追溯体系"
+      ],
+      "srcRef": {
+        "questionId": 29,
+        "pointIndex": 3,
+        "para": 224
+      }
+    },
+    {
+      "id": "q29-ch-3",
+      "kind": "choice",
+      "moduleId": "m08",
+      "sourceQuestionId": 29,
+      "prompt": "农业经理人在质量控制中，如何确保农产品符合安全标准？（要点4）（4）____：建立农产品追溯体系，便于问题产品召回和原因追溯。",
+      "options": [
+        "客户服务",
+        "调研天气、供应链、市场需",
+        "节水灌溉",
+        "追溯体系"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 29,
+        "pointIndex": 3,
+        "para": 224
+      }
+    },
+    {
+      "id": "q29-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m08",
+      "sourceQuestionId": 29,
+      "prompt": "（4）节水灌溉：建立农产品追溯体系，便于问题产品召回和原因追溯。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 29,
+        "pointIndex": 3,
+        "para": 224
+      }
+    },
+    {
+      "id": "q30-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m08",
+      "sourceQuestionId": 30,
+      "prompt": "农业经理人在质量控制中，如何提升农产品的市场竞争力？（要点1）（1）____：通过改进生产工艺和种植技术，提升农产品品质。",
+      "answer": "品质提升",
+      "accept": [
+        "品质提升"
+      ],
+      "srcRef": {
+        "questionId": 30,
+        "pointIndex": 0,
+        "para": 227
+      }
+    },
+    {
+      "id": "q30-ch-0",
+      "kind": "choice",
+      "moduleId": "m08",
+      "sourceQuestionId": 30,
+      "prompt": "农业经理人在质量控制中，如何提升农产品的市场竞争力？（要点1）（1）____：通过改进生产工艺和种植技术，提升农产品品质。",
+      "options": [
+        "建立标准化流程",
+        "品质提升",
+        "建立供应商管理制度",
+        "定期会议"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 30,
+        "pointIndex": 0,
+        "para": 227
+      }
+    },
+    {
+      "id": "q30-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m08",
+      "sourceQuestionId": 30,
+      "prompt": "（1）建立标准化流程：通过改进生产工艺和种植技术，提升农产品品质。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 30,
+        "pointIndex": 0,
+        "para": 227
+      }
+    },
+    {
+      "id": "q30-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m08",
+      "sourceQuestionId": 30,
+      "prompt": "农业经理人在质量控制中，如何提升农产品的市场竞争力？（要点2）（2）____：积极收集客户反馈，根据市场需求调整产品方向。",
+      "answer": "客户反馈",
+      "accept": [
+        "客户反馈"
+      ],
+      "srcRef": {
+        "questionId": 30,
+        "pointIndex": 1,
+        "para": 228
+      }
+    },
+    {
+      "id": "q30-ch-1",
+      "kind": "choice",
+      "moduleId": "m08",
+      "sourceQuestionId": 30,
+      "prompt": "农业经理人在质量控制中，如何提升农产品的市场竞争力？（要点2）（2）____：积极收集客户反馈，根据市场需求调整产品方向。",
+      "options": [
+        "优先级排序",
+        "咨询专家",
+        "信息筛选",
+        "客户反馈"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 30,
+        "pointIndex": 1,
+        "para": 228
+      }
+    },
+    {
+      "id": "q30-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m08",
+      "sourceQuestionId": 30,
+      "prompt": "（2）优先级排序：积极收集客户反馈，根据市场需求调整产品方向。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 30,
+        "pointIndex": 1,
+        "para": 228
+      }
+    },
+    {
+      "id": "q30-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m08",
+      "sourceQuestionId": 30,
+      "prompt": "农业经理人在质量控制中，如何提升农产品的市场竞争力？（要点3）（3）____：加强品牌宣传，提升农产品知名度和美誉度。",
+      "answer": "品牌建设",
+      "accept": [
+        "品牌建设"
+      ],
+      "srcRef": {
+        "questionId": 30,
+        "pointIndex": 2,
+        "para": 229
+      }
+    },
+    {
+      "id": "q30-ch-2",
+      "kind": "choice",
+      "moduleId": "m08",
+      "sourceQuestionId": 30,
+      "prompt": "农业经理人在质量控制中，如何提升农产品的市场竞争力？（要点3）（3）____：加强品牌宣传，提升农产品知名度和美誉度。",
+      "options": [
+        "持续监测与反馈",
+        "主体问题",
+        "网络搜索",
+        "品牌建设"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 30,
+        "pointIndex": 2,
+        "para": 229
+      }
+    },
+    {
+      "id": "q30-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m08",
+      "sourceQuestionId": 30,
+      "prompt": "（3）品牌建设：加强品牌宣传，提升农产品知名度和美誉度。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 30,
+        "pointIndex": 2,
+        "para": 229
+      }
+    },
+    {
+      "id": "q30-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m08",
+      "sourceQuestionId": 30,
+      "prompt": "农业经理人在质量控制中，如何提升农产品的市场竞争力？（要点4）（4）____：获取有机、绿色等农产品认证，增强市场竞争力。",
+      "answer": "认证获取",
+      "accept": [
+        "认证获取"
+      ],
+      "srcRef": {
+        "questionId": 30,
+        "pointIndex": 3,
+        "para": 230
+      }
+    },
+    {
+      "id": "q30-ch-3",
+      "kind": "choice",
+      "moduleId": "m08",
+      "sourceQuestionId": 30,
+      "prompt": "农业经理人在质量控制中，如何提升农产品的市场竞争力？（要点4）（4）____：获取有机、绿色等农产品认证，增强市场竞争力。",
+      "options": [
+        "灵活调整",
+        "基本信息",
+        "认证获取",
+        "均衡性"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 30,
+        "pointIndex": 3,
+        "para": 230
+      }
+    },
+    {
+      "id": "q30-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m08",
+      "sourceQuestionId": 30,
+      "prompt": "（4）认证获取：获取有机、绿色等农产品认证，增强市场竞争力。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 30,
+        "pointIndex": 3,
+        "para": 230
+      }
+    },
+    {
+      "id": "q31-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m08",
+      "sourceQuestionId": 31,
+      "prompt": "论述农业经理人在质量控制中如何确保产品质量的稳定性（要点1）（1）____：农业经理人应制定详细的操作规程和质量标准，确保从原材料采购、生产加工到产品包装、运输等各个环节都遵循统一的标准。通过标准化流程，减少人为误差，提高产品质量的一致性和稳定性。",
+      "answer": "建立标准化流程",
+      "accept": [
+        "建立标准化流程"
+      ],
+      "srcRef": {
+        "questionId": 31,
+        "pointIndex": 0,
+        "para": 233
+      }
+    },
+    {
+      "id": "q31-ch-0",
+      "kind": "choice",
+      "moduleId": "m08",
+      "sourceQuestionId": 31,
+      "prompt": "论述农业经理人在质量控制中如何确保产品质量的稳定性（要点1）（1）____：农业经理人应制定详细的操作规程和质量标准，确保从原材料采购、生产加工到产品包装、运输等各个环节都遵循统一的标准。通过标准化流程，减少人为误差，提高产品质量的一致性和稳定性。",
+      "options": [
+        "成本控制与利润提升",
+        "建立标准化流程",
+        "政策了解",
+        "跨部门沟通"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 31,
+        "pointIndex": 0,
+        "para": 233
+      }
+    },
+    {
+      "id": "q31-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m08",
+      "sourceQuestionId": 31,
+      "prompt": "（1）政策了解：农业经理人应制定详细的操作规程和质量标准，确保从原材料采购、生产加工到产品包装、运输等各个环节都遵循统一的标准。通过标准化流程，减少人为误差，提高产品质量的一致性和稳定性。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 31,
+        "pointIndex": 0,
+        "para": 233
+      }
+    },
+    {
+      "id": "q31-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m08",
+      "sourceQuestionId": 31,
+      "prompt": "论述农业经理人在质量控制中如何确保产品质量的稳定性（要点2）（2）____：建立质量监测体系，对产品进行定期抽检和全面检测，确保产品质量符合既定标准。同时，建立有效的反馈机制，及时收集客户反馈和市场信息，对产品进行持续改进和优化，以适应市场需求和提升客户满意度。",
+      "answer": "持续监测与反馈",
+      "accept": [
+        "持续监测与反馈"
+      ],
+      "srcRef": {
+        "questionId": 31,
+        "pointIndex": 1,
+        "para": 234
+      }
+    },
+    {
+      "id": "q31-ch-1",
+      "kind": "choice",
+      "moduleId": "m08",
+      "sourceQuestionId": 31,
+      "prompt": "论述农业经理人在质量控制中如何确保产品质量的稳定性（要点2）（2）____：建立质量监测体系，对产品进行定期抽检和全面检测，确保产品质量符合既定标准。同时，建立有效的反馈机制，及时收集客户反馈和市场信息，对产品进行持续改进和优化，以适应市场需求和提升客户满意度。",
+      "options": [
+        "套期保值",
+        "成果展示",
+        "价格策略",
+        "持续监测与反馈"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 31,
+        "pointIndex": 1,
+        "para": 234
+      }
+    },
+    {
+      "id": "q31-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m08",
+      "sourceQuestionId": 31,
+      "prompt": "（2）持续监测与反馈：建立质量监测体系，对产品进行定期抽检和全面检测，确保产品质量符合既定标准。同时，建立有效的反馈机制，及时收集客户反馈和市场信息，对产品进行持续改进和优化，以适应市场需求和提升客户满意度。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 31,
+        "pointIndex": 1,
+        "para": 234
+      }
+    },
+    {
+      "id": "q32-or-0",
+      "kind": "order",
+      "moduleId": "m08",
+      "sourceQuestionId": 32,
+      "prompt": "请将“识别和分析薄弱环节”中的 3 项措施按原文顺序排列：",
+      "steps": [
+        "收集数据",
+        "流程审查",
+        "鱼骨图分析"
+      ],
+      "answerOrder": [
+        0,
+        2,
+        1
+      ],
+      "srcRef": {
+        "questionId": 32,
+        "sectionIndex": 0,
+        "para": 241
+      }
+    },
+    {
+      "id": "q32-or-1",
+      "kind": "order",
+      "moduleId": "m08",
+      "sourceQuestionId": 32,
+      "prompt": "请将“设计并实施优化方案”中的 4 项措施按原文顺序排列：",
+      "steps": [
+        "引入新技术",
+        "持续监控与评估",
+        "制定改进措施",
+        "建立反馈机制"
+      ],
+      "answerOrder": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "srcRef": {
+        "questionId": 32,
+        "sectionIndex": 1,
+        "para": 245
+      }
+    },
+    {
+      "id": "q33-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m09",
+      "sourceQuestionId": 33,
+      "prompt": "农业经理人在成本控制中，如何有效管理原材料成本？（要点1）（1）____：通过集中采购降低原材料单价。",
+      "answer": "集中采购",
+      "accept": [
+        "集中采购"
+      ],
+      "srcRef": {
+        "questionId": 33,
+        "pointIndex": 0,
+        "para": 252
+      }
+    },
+    {
+      "id": "q33-ch-0",
+      "kind": "choice",
+      "moduleId": "m09",
+      "sourceQuestionId": 33,
+      "prompt": "农业经理人在成本控制中，如何有效管理原材料成本？（要点1）（1）____：通过集中采购降低原材料单价。",
+      "options": [
+        "节能设备",
+        "合理分工",
+        "文化融合",
+        "集中采购"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 33,
+        "pointIndex": 0,
+        "para": 252
+      }
+    },
+    {
+      "id": "q33-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m09",
+      "sourceQuestionId": 33,
+      "prompt": "（1）合理分工：通过集中采购降低原材料单价。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 33,
+        "pointIndex": 0,
+        "para": 252
+      }
+    },
+    {
+      "id": "q33-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m09",
+      "sourceQuestionId": 33,
+      "prompt": "农业经理人在成本控制中，如何有效管理原材料成本？（要点2）（2）____：建立长期合作关系，争取优惠价格和稳定供应。",
+      "answer": "供应商管理",
+      "accept": [
+        "供应商管理"
+      ],
+      "srcRef": {
+        "questionId": 33,
+        "pointIndex": 1,
+        "para": 253
+      }
+    },
+    {
+      "id": "q33-ch-1",
+      "kind": "choice",
+      "moduleId": "m09",
+      "sourceQuestionId": 33,
+      "prompt": "农业经理人在成本控制中，如何有效管理原材料成本？（要点2）（2）____：建立长期合作关系，争取优惠价格和稳定供应。",
+      "options": [
+        "采购优化",
+        "分析成本与市场需求",
+        "品牌定位",
+        "供应商管理"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 33,
+        "pointIndex": 1,
+        "para": 253
+      }
+    },
+    {
+      "id": "q33-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m09",
+      "sourceQuestionId": 33,
+      "prompt": "（2）品牌定位：建立长期合作关系，争取优惠价格和稳定供应。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 33,
+        "pointIndex": 1,
+        "para": 253
+      }
+    },
+    {
+      "id": "q33-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m09",
+      "sourceQuestionId": 33,
+      "prompt": "农业经理人在成本控制中，如何有效管理原材料成本？（要点3）（3）____：优化库存水平，减少库存积压和浪费。",
+      "answer": "库存管理",
+      "accept": [
+        "库存管理"
+      ],
+      "srcRef": {
+        "questionId": 33,
+        "pointIndex": 2,
+        "para": 254
+      }
+    },
+    {
+      "id": "q33-ch-2",
+      "kind": "choice",
+      "moduleId": "m09",
+      "sourceQuestionId": 33,
+      "prompt": "农业经理人在成本控制中，如何有效管理原材料成本？（要点3）（3）____：优化库存水平，减少库存积压和浪费。",
+      "options": [
+        "评估协调问题对运营效率、",
+        "社交媒体",
+        "持续监控与评估",
+        "库存管理"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 33,
+        "pointIndex": 2,
+        "para": 254
+      }
+    },
+    {
+      "id": "q33-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m09",
+      "sourceQuestionId": 33,
+      "prompt": "（3）社交媒体：优化库存水平，减少库存积压和浪费。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 33,
+        "pointIndex": 2,
+        "para": 254
+      }
+    },
+    {
+      "id": "q33-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m09",
+      "sourceQuestionId": 33,
+      "prompt": "农业经理人在成本控制中，如何有效管理原材料成本？（要点4）（4）____：寻找性价比更高的替代材料，降低原材料成本。",
+      "answer": "替代材料",
+      "accept": [
+        "替代材料"
+      ],
+      "srcRef": {
+        "questionId": 33,
+        "pointIndex": 3,
+        "para": 255
+      }
+    },
+    {
+      "id": "q33-ch-3",
+      "kind": "choice",
+      "moduleId": "m09",
+      "sourceQuestionId": 33,
+      "prompt": "农业经理人在成本控制中，如何有效管理原材料成本？（要点4）（4）____：寻找性价比更高的替代材料，降低原材料成本。",
+      "options": [
+        "替代材料",
+        "通过员工访谈和问卷调查，",
+        "技术手段辅助",
+        "评估供应商协调问题对企业"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 33,
+        "pointIndex": 3,
+        "para": 255
+      }
+    },
+    {
+      "id": "q33-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m09",
+      "sourceQuestionId": 33,
+      "prompt": "（4）评估供应商协调问题对企业：寻找性价比更高的替代材料，降低原材料成本。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 33,
+        "pointIndex": 3,
+        "para": 255
+      }
+    },
+    {
+      "id": "q34-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m09",
+      "sourceQuestionId": 34,
+      "prompt": "农业经理人在成本控制中，如何降低能源消耗？（要点1）（1）____：采用节能型生产设备，减少能源消耗。",
+      "answer": "节能设备",
+      "accept": [
+        "节能设备"
+      ],
+      "srcRef": {
+        "questionId": 34,
+        "pointIndex": 0,
+        "para": 258
+      }
+    },
+    {
+      "id": "q34-ch-0",
+      "kind": "choice",
+      "moduleId": "m09",
+      "sourceQuestionId": 34,
+      "prompt": "农业经理人在成本控制中，如何降低能源消耗？（要点1）（1）____：采用节能型生产设备，减少能源消耗。",
+      "options": [
+        "节能设备",
+        "财务管理岗",
+        "主体问题",
+        "反馈与沟通"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 34,
+        "pointIndex": 0,
+        "para": 258
+      }
+    },
+    {
+      "id": "q34-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m09",
+      "sourceQuestionId": 34,
+      "prompt": "（1）反馈与沟通：采用节能型生产设备，减少能源消耗。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 34,
+        "pointIndex": 0,
+        "para": 258
+      }
+    },
+    {
+      "id": "q34-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m09",
+      "sourceQuestionId": 34,
+      "prompt": "农业经理人在成本控制中，如何降低能源消耗？（要点2）（2）____：安装能耗监测设备，实时掌握能耗情况，及时调整。",
+      "answer": "能耗监控",
+      "accept": [
+        "能耗监控"
+      ],
+      "srcRef": {
+        "questionId": 34,
+        "pointIndex": 1,
+        "para": 259
+      }
+    },
+    {
+      "id": "q34-ch-1",
+      "kind": "choice",
+      "moduleId": "m09",
+      "sourceQuestionId": 34,
+      "prompt": "农业经理人在成本控制中，如何降低能源消耗？（要点2）（2）____：安装能耗监测设备，实时掌握能耗情况，及时调整。",
+      "options": [
+        "合理分工",
+        "能耗监控",
+        "绩效反馈",
+        "定期会议"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 34,
+        "pointIndex": 1,
+        "para": 259
+      }
+    },
+    {
+      "id": "q34-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m09",
+      "sourceQuestionId": 34,
+      "prompt": "（2）定期会议：安装能耗监测设备，实时掌握能耗情况，及时调整。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 34,
+        "pointIndex": 1,
+        "para": 259
+      }
+    },
+    {
+      "id": "q34-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m09",
+      "sourceQuestionId": 34,
+      "prompt": "农业经理人在成本控制中，如何降低能源消耗？（要点3）（3）____：优化生产流程，减少不必要的能源消耗。",
+      "answer": "生产优化",
+      "accept": [
+        "生产优化"
+      ],
+      "srcRef": {
+        "questionId": 34,
+        "pointIndex": 2,
+        "para": 260
+      }
+    },
+    {
+      "id": "q34-ch-2",
+      "kind": "choice",
+      "moduleId": "m09",
+      "sourceQuestionId": 34,
+      "prompt": "农业经理人在成本控制中，如何降低能源消耗？（要点3）（3）____：优化生产流程，减少不必要的能源消耗。",
+      "options": [
+        "可达成（Achievable）",
+        "调研天气、供应链、市场需",
+        "套期保值",
+        "生产优化"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 34,
+        "pointIndex": 2,
+        "para": 260
+      }
+    },
+    {
+      "id": "q34-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m09",
+      "sourceQuestionId": 34,
+      "prompt": "（3）套期保值：优化生产流程，减少不必要的能源消耗。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 34,
+        "pointIndex": 2,
+        "para": 260
+      }
+    },
+    {
+      "id": "q34-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m09",
+      "sourceQuestionId": 34,
+      "prompt": "农业经理人在成本控制中，如何降低能源消耗？（要点4）（4）____：提高员工节能意识，鼓励节能行为。",
+      "answer": "员工培训",
+      "accept": [
+        "员工培训"
+      ],
+      "srcRef": {
+        "questionId": 34,
+        "pointIndex": 3,
+        "para": 261
+      }
+    },
+    {
+      "id": "q34-ch-3",
+      "kind": "choice",
+      "moduleId": "m09",
+      "sourceQuestionId": 34,
+      "prompt": "农业经理人在成本控制中，如何降低能源消耗？（要点4）（4）____：提高员工节能意识，鼓励节能行为。",
+      "options": [
+        "考虑地域特色",
+        "动态调整策略",
+        "明确目标与责任",
+        "员工培训"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 34,
+        "pointIndex": 3,
+        "para": 261
+      }
+    },
+    {
+      "id": "q34-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m09",
+      "sourceQuestionId": 34,
+      "prompt": "（4）员工培训：提高员工节能意识，鼓励节能行为。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 34,
+        "pointIndex": 3,
+        "para": 261
+      }
+    },
+    {
+      "id": "q35-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m09",
+      "sourceQuestionId": 35,
+      "prompt": "成本控制对企业盈利能力的影响（要点1）1. ____: 阐述成本控制如何直接影响企业的利润水平。通过减少不必要的开支和浪费，企业能够保留更多的收入作为利润，从而提升盈利能力。",
+      "answer": "成本控制与利润提升",
+      "accept": [
+        "成本控制与利润提升"
+      ],
+      "srcRef": {
+        "questionId": 35,
+        "pointIndex": 0,
+        "para": 264
+      }
+    },
+    {
+      "id": "q35-ch-0",
+      "kind": "choice",
+      "moduleId": "m09",
+      "sourceQuestionId": 35,
+      "prompt": "成本控制对企业盈利能力的影响（要点1）1. ____: 阐述成本控制如何直接影响企业的利润水平。通过减少不必要的开支和浪费，企业能够保留更多的收入作为利润，从而提升盈利能力。",
+      "options": [
+        "成本控制与利润提升",
+        "明确具体（Specific）",
+        "节能设备",
+        "精细化管理"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 35,
+        "pointIndex": 0,
+        "para": 264
+      }
+    },
+    {
+      "id": "q35-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m09",
+      "sourceQuestionId": 35,
+      "prompt": "1. 节能设备: 阐述成本控制如何直接影响企业的利润水平。通过减少不必要的开支和浪费，企业能够保留更多的收入作为利润，从而提升盈利能力。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 35,
+        "pointIndex": 0,
+        "para": 264
+      }
+    },
+    {
+      "id": "q35-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m09",
+      "sourceQuestionId": 35,
+      "prompt": "成本控制对企业盈利能力的影响（要点2）2. ____: 讨论有效的成本控制如何帮助企业获得市场竞争优势。在价格战中，成本控制得当的企业能够以更低的成本提供相同或更高质量的产品和服务，从而吸引更多消费者，扩大市场份额。",
+      "answer": "市场竞争优势",
+      "accept": [
+        "市场竞争优势"
+      ],
+      "srcRef": {
+        "questionId": 35,
+        "pointIndex": 1,
+        "para": 265
+      }
+    },
+    {
+      "id": "q35-ch-1",
+      "kind": "choice",
+      "moduleId": "m09",
+      "sourceQuestionId": 35,
+      "prompt": "成本控制对企业盈利能力的影响（要点2）2. ____: 讨论有效的成本控制如何帮助企业获得市场竞争优势。在价格战中，成本控制得当的企业能够以更低的成本提供相同或更高质量的产品和服务，从而吸引更多消费者，扩大市场份额。",
+      "options": [
+        "目标对齐",
+        "市场竞争优势",
+        "定期报告",
+        "灵活调整"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 35,
+        "pointIndex": 1,
+        "para": 265
+      }
+    },
+    {
+      "id": "q35-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m09",
+      "sourceQuestionId": 35,
+      "prompt": "2. 目标对齐: 讨论有效的成本控制如何帮助企业获得市场竞争优势。在价格战中，成本控制得当的企业能够以更低的成本提供相同或更高质量的产品和服务，从而吸引更多消费者，扩大市场份额。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 35,
+        "pointIndex": 1,
+        "para": 265
+      }
+    },
+    {
+      "id": "q35-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m09",
+      "sourceQuestionId": 35,
+      "prompt": "成本控制对企业盈利能力的影响（要点3）3. ____: 分析成本控制对企业长期可持续发展的重要性。通过持续优化成本结构，企业能够更好地应对市场变化和经济波动，保持稳定的盈利能力和市场竞争力。",
+      "answer": "长期可持续发展",
+      "accept": [
+        "长期可持续发展"
+      ],
+      "srcRef": {
+        "questionId": 35,
+        "pointIndex": 2,
+        "para": 266
+      }
+    },
+    {
+      "id": "q35-ch-2",
+      "kind": "choice",
+      "moduleId": "m09",
+      "sourceQuestionId": 35,
+      "prompt": "成本控制对企业盈利能力的影响（要点3）3. ____: 分析成本控制对企业长期可持续发展的重要性。通过持续优化成本结构，企业能够更好地应对市场变化和经济波动，保持稳定的盈利能力和市场竞争力。",
+      "options": [
+        "技术革新",
+        "长期可持续发展",
+        "资源分配",
+        "持续监控与评估"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 35,
+        "pointIndex": 2,
+        "para": 266
+      }
+    },
+    {
+      "id": "q35-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m09",
+      "sourceQuestionId": 35,
+      "prompt": "3. 长期可持续发展: 分析成本控制对企业长期可持续发展的重要性。通过持续优化成本结构，企业能够更好地应对市场变化和经济波动，保持稳定的盈利能力和市场竞争力。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 35,
+        "pointIndex": 2,
+        "para": 266
+      }
+    },
+    {
+      "id": "q36-or-0",
+      "kind": "order",
+      "moduleId": "m09",
+      "sourceQuestionId": 36,
+      "prompt": "请将“识别成本驱动因素”中的 3 项措施按原文顺序排列：",
+      "steps": [
+        "分析财务报表，确定各项成",
+        "实地调研，了解种植过程中",
+        "评估外部因素，如市场价格"
+      ],
+      "answerOrder": [
+        0,
+        1,
+        2
+      ],
+      "srcRef": {
+        "questionId": 36,
+        "sectionIndex": 0,
+        "para": 273
+      }
+    },
+    {
+      "id": "q36-or-1",
+      "kind": "order",
+      "moduleId": "m09",
+      "sourceQuestionId": 36,
+      "prompt": "请将“实施成本控制策略”中的 4 项措施按原文顺序排列：",
+      "steps": [
+        "政策利用",
+        "精细化管理",
+        "技术革新",
+        "采购优化"
+      ],
+      "answerOrder": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "srcRef": {
+        "questionId": 36,
+        "sectionIndex": 1,
+        "para": 277
+      }
+    },
+    {
+      "id": "q37-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m10",
+      "sourceQuestionId": 37,
+      "prompt": "农业经理人在市场控制中，如何有效应对价格波动？（要点1）（1）____：定期监测市场价格，了解价格趋势。",
+      "answer": "价格监测",
+      "accept": [
+        "价格监测"
+      ],
+      "srcRef": {
+        "questionId": 37,
+        "pointIndex": 0,
+        "para": 284
+      }
+    },
+    {
+      "id": "q37-ch-0",
+      "kind": "choice",
+      "moduleId": "m10",
+      "sourceQuestionId": 37,
+      "prompt": "农业经理人在市场控制中，如何有效应对价格波动？（要点1）（1）____：定期监测市场价格，了解价格趋势。",
+      "options": [
+        "工作环境",
+        "明确责任分工",
+        "价格监测",
+        "集中采购"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 37,
+        "pointIndex": 0,
+        "para": 284
+      }
+    },
+    {
+      "id": "q37-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m10",
+      "sourceQuestionId": 37,
+      "prompt": "（1）集中采购：定期监测市场价格，了解价格趋势。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 37,
+        "pointIndex": 0,
+        "para": 284
+      }
+    },
+    {
+      "id": "q37-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m10",
+      "sourceQuestionId": 37,
+      "prompt": "农业经理人在市场控制中，如何有效应对价格波动？（要点2）（2）____：根据价格预测调整库存，平衡供需。",
+      "answer": "库存管理",
+      "accept": [
+        "库存管理"
+      ],
+      "srcRef": {
+        "questionId": 37,
+        "pointIndex": 1,
+        "para": 285
+      }
+    },
+    {
+      "id": "q37-ch-1",
+      "kind": "choice",
+      "moduleId": "m10",
+      "sourceQuestionId": 37,
+      "prompt": "农业经理人在市场控制中，如何有效应对价格波动？（要点2）（2）____：根据价格预测调整库存，平衡供需。",
+      "options": [
+        "均衡性",
+        "财务部门",
+        "节能设备",
+        "库存管理"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 37,
+        "pointIndex": 1,
+        "para": 285
+      }
+    },
+    {
+      "id": "q37-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m10",
+      "sourceQuestionId": 37,
+      "prompt": "（2）库存管理：根据价格预测调整库存，平衡供需。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 37,
+        "pointIndex": 1,
+        "para": 285
+      }
+    },
+    {
+      "id": "q37-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m10",
+      "sourceQuestionId": 37,
+      "prompt": "农业经理人在市场控制中，如何有效应对价格波动？（要点3）（3）____：拓展销售渠道，减少单一市场依赖。",
+      "answer": "多元化销售",
+      "accept": [
+        "多元化销售"
+      ],
+      "srcRef": {
+        "questionId": 37,
+        "pointIndex": 2,
+        "para": 286
+      }
+    },
+    {
+      "id": "q37-ch-2",
+      "kind": "choice",
+      "moduleId": "m10",
+      "sourceQuestionId": 37,
+      "prompt": "农业经理人在市场控制中，如何有效应对价格波动？（要点3）（3）____：拓展销售渠道，减少单一市场依赖。",
+      "options": [
+        "流程审查",
+        "多元化销售",
+        "精细化管理",
+        "成果展示"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 37,
+        "pointIndex": 2,
+        "para": 286
+      }
+    },
+    {
+      "id": "q37-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m10",
+      "sourceQuestionId": 37,
+      "prompt": "（3）多元化销售：拓展销售渠道，减少单一市场依赖。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 37,
+        "pointIndex": 2,
+        "para": 286
+      }
+    },
+    {
+      "id": "q37-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m10",
+      "sourceQuestionId": 37,
+      "prompt": "农业经理人在市场控制中，如何有效应对价格波动？（要点4）（4）____：利用金融工具，对冲价格波动风险。",
+      "answer": "套期保值",
+      "accept": [
+        "套期保值"
+      ],
+      "srcRef": {
+        "questionId": 37,
+        "pointIndex": 3,
+        "para": 287
+      }
+    },
+    {
+      "id": "q37-ch-3",
+      "kind": "choice",
+      "moduleId": "m10",
+      "sourceQuestionId": 37,
+      "prompt": "农业经理人在市场控制中，如何有效应对价格波动？（要点4）（4）____：利用金融工具，对冲价格波动风险。",
+      "options": [
+        "制定风险应对策略",
+        "问卷标题",
+        "品牌建设",
+        "套期保值"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 37,
+        "pointIndex": 3,
+        "para": 287
+      }
+    },
+    {
+      "id": "q37-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m10",
+      "sourceQuestionId": 37,
+      "prompt": "（4）制定风险应对策略：利用金融工具，对冲价格波动风险。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 37,
+        "pointIndex": 3,
+        "para": 287
+      }
+    },
+    {
+      "id": "q38-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m10",
+      "sourceQuestionId": 38,
+      "prompt": "农业经理人在市场控制中，如何提升品牌影响力？（要点1）（1）____：明确品牌定位和核心价值，塑造独特形象。",
+      "answer": "品牌定位",
+      "accept": [
+        "品牌定位"
+      ],
+      "srcRef": {
+        "questionId": 38,
+        "pointIndex": 0,
+        "para": 290
+      }
+    },
+    {
+      "id": "q38-ch-0",
+      "kind": "choice",
+      "moduleId": "m10",
+      "sourceQuestionId": 38,
+      "prompt": "农业经理人在市场控制中，如何提升品牌影响力？（要点1）（1）____：明确品牌定位和核心价值，塑造独特形象。",
+      "options": [
+        "倾听反馈",
+        "成果展示",
+        "套期保值",
+        "品牌定位"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 38,
+        "pointIndex": 0,
+        "para": 290
+      }
+    },
+    {
+      "id": "q38-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m10",
+      "sourceQuestionId": 38,
+      "prompt": "（1）套期保值：明确品牌定位和核心价值，塑造独特形象。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 38,
+        "pointIndex": 0,
+        "para": 290
+      }
+    },
+    {
+      "id": "q38-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m10",
+      "sourceQuestionId": 38,
+      "prompt": "农业经理人在市场控制中，如何提升品牌影响力？（要点2）（2）____：确保产品质量，提升消费者信任度。",
+      "answer": "品质保证",
+      "accept": [
+        "品质保证"
+      ],
+      "srcRef": {
+        "questionId": 38,
+        "pointIndex": 1,
+        "para": 291
+      }
+    },
+    {
+      "id": "q38-ch-1",
+      "kind": "choice",
+      "moduleId": "m10",
+      "sourceQuestionId": 38,
+      "prompt": "农业经理人在市场控制中，如何提升品牌影响力？（要点2）（2）____：确保产品质量，提升消费者信任度。",
+      "options": [
+        "品质保证",
+        "资源节约",
+        "明确责任分工",
+        "定期评估"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 38,
+        "pointIndex": 1,
+        "para": 291
+      }
+    },
+    {
+      "id": "q38-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m10",
+      "sourceQuestionId": 38,
+      "prompt": "（2）定期评估：确保产品质量，提升消费者信任度。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 38,
+        "pointIndex": 1,
+        "para": 291
+      }
+    },
+    {
+      "id": "q38-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m10",
+      "sourceQuestionId": 38,
+      "prompt": "农业经理人在市场控制中，如何提升品牌影响力？（要点3）（3）____：加大宣传力度，利用线上线下渠道扩大品牌知名度。",
+      "answer": "市场推广",
+      "accept": [
+        "市场推广"
+      ],
+      "srcRef": {
+        "questionId": 38,
+        "pointIndex": 2,
+        "para": 292
+      }
+    },
+    {
+      "id": "q38-ch-2",
+      "kind": "choice",
+      "moduleId": "m10",
+      "sourceQuestionId": 38,
+      "prompt": "农业经理人在市场控制中，如何提升品牌影响力？（要点3）（3）____：加大宣传力度，利用线上线下渠道扩大品牌知名度。",
+      "options": [
+        "市场推广",
+        "引入机械化",
+        "分解任务",
+        "能力评估"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 38,
+        "pointIndex": 2,
+        "para": 292
+      }
+    },
+    {
+      "id": "q38-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m10",
+      "sourceQuestionId": 38,
+      "prompt": "（3）引入机械化：加大宣传力度，利用线上线下渠道扩大品牌知名度。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 38,
+        "pointIndex": 2,
+        "para": 292
+      }
+    },
+    {
+      "id": "q38-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m10",
+      "sourceQuestionId": 38,
+      "prompt": "农业经理人在市场控制中，如何提升品牌影响力？（要点4）（4）____：提供优质服务，增强客户忠诚度。",
+      "answer": "客户服务",
+      "accept": [
+        "客户服务"
+      ],
+      "srcRef": {
+        "questionId": 38,
+        "pointIndex": 3,
+        "para": 293
+      }
+    },
+    {
+      "id": "q38-ch-3",
+      "kind": "choice",
+      "moduleId": "m10",
+      "sourceQuestionId": 38,
+      "prompt": "农业经理人在市场控制中，如何提升品牌影响力？（要点4）（4）____：提供优质服务，增强客户忠诚度。",
+      "options": [
+        "明确职责",
+        "引入机械化",
+        "SMART原则",
+        "客户服务"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 38,
+        "pointIndex": 3,
+        "para": 293
+      }
+    },
+    {
+      "id": "q38-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m10",
+      "sourceQuestionId": 38,
+      "prompt": "（4）SMART原则：提供优质服务，增强客户忠诚度。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 38,
+        "pointIndex": 3,
+        "para": 293
+      }
+    },
+    {
+      "id": "q39-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m10",
+      "sourceQuestionId": 39,
+      "prompt": "论述农业经理人在市场控制中如何制定有效的价格策略（15分）（要点1）（1）____：农业经理人需全面了解产品的生产成本和市场需求，为制定价格策略提供依据。",
+      "answer": "分析成本与市场需求",
+      "accept": [
+        "分析成本与市场需求"
+      ],
+      "srcRef": {
+        "questionId": 39,
+        "pointIndex": 0,
+        "para": 296
+      }
+    },
+    {
+      "id": "q39-ch-0",
+      "kind": "choice",
+      "moduleId": "m10",
+      "sourceQuestionId": 39,
+      "prompt": "论述农业经理人在市场控制中如何制定有效的价格策略（15分）（要点1）（1）____：农业经理人需全面了解产品的生产成本和市场需求，为制定价格策略提供依据。",
+      "options": [
+        "筛选问题",
+        "分析成本与市场需求",
+        "精细化管理",
+        "引导语"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 39,
+        "pointIndex": 0,
+        "para": 296
+      }
+    },
+    {
+      "id": "q39-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m10",
+      "sourceQuestionId": 39,
+      "prompt": "（1）引导语：农业经理人需全面了解产品的生产成本和市场需求，为制定价格策略提供依据。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 39,
+        "pointIndex": 0,
+        "para": 296
+      }
+    },
+    {
+      "id": "q39-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m10",
+      "sourceQuestionId": 39,
+      "prompt": "论述农业经理人在市场控制中如何制定有效的价格策略（15分）（要点2）（2）____：分析竞争对手的定价策略，确保自身价格具有竞争力。同时，避免价格战，保持合理的利润空间。",
+      "answer": "考虑竞争对手定价",
+      "accept": [
+        "考虑竞争对手定价"
+      ],
+      "srcRef": {
+        "questionId": 39,
+        "pointIndex": 1,
+        "para": 297
+      }
+    },
+    {
+      "id": "q39-ch-1",
+      "kind": "choice",
+      "moduleId": "m10",
+      "sourceQuestionId": 39,
+      "prompt": "论述农业经理人在市场控制中如何制定有效的价格策略（15分）（要点2）（2）____：分析竞争对手的定价策略，确保自身价格具有竞争力。同时，避免价格战，保持合理的利润空间。",
+      "options": [
+        "评估风险影响",
+        "危机应对",
+        "考虑竞争对手定价",
+        "建立供应商管理制度"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 39,
+        "pointIndex": 1,
+        "para": 297
+      }
+    },
+    {
+      "id": "q39-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m10",
+      "sourceQuestionId": 39,
+      "prompt": "（2）考虑竞争对手定价：分析竞争对手的定价策略，确保自身价格具有竞争力。同时，避免价格战，保持合理的利润空间。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 39,
+        "pointIndex": 1,
+        "para": 297
+      }
+    },
+    {
+      "id": "q39-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m10",
+      "sourceQuestionId": 39,
+      "prompt": "论述农业经理人在市场控制中如何制定有效的价格策略（15分）（要点3）（3）____：根据市场变化、成本波动和消费者需求，灵活调整价格策略。通过促销活动、折扣优惠等方式，吸引消费者，提升市场份额。",
+      "answer": "灵活调整价格",
+      "accept": [
+        "灵活调整价格"
+      ],
+      "srcRef": {
+        "questionId": 39,
+        "pointIndex": 2,
+        "para": 298
+      }
+    },
+    {
+      "id": "q39-ch-2",
+      "kind": "choice",
+      "moduleId": "m10",
+      "sourceQuestionId": 39,
+      "prompt": "论述农业经理人在市场控制中如何制定有效的价格策略（15分）（要点3）（3）____：根据市场变化、成本波动和消费者需求，灵活调整价格策略。通过促销活动、折扣优惠等方式，吸引消费者，提升市场份额。",
+      "options": [
+        "灵活调整",
+        "可行性",
+        "长期可持续发展",
+        "灵活调整价格"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 39,
+        "pointIndex": 2,
+        "para": 298
+      }
+    },
+    {
+      "id": "q39-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m10",
+      "sourceQuestionId": 39,
+      "prompt": "（3）灵活调整：根据市场变化、成本波动和消费者需求，灵活调整价格策略。通过促销活动、折扣优惠等方式，吸引消费者，提升市场份额。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 39,
+        "pointIndex": 2,
+        "para": 298
+      }
+    },
+    {
+      "id": "q40-or-0",
+      "kind": "order",
+      "moduleId": "m10",
+      "sourceQuestionId": 40,
+      "prompt": "请将“分析价格波动原因及影响”中的 2 项措施按原文顺序排列：",
+      "steps": [
+        "分析价格波动对农民、消费",
+        "调研天气、供应链、市场需"
+      ],
+      "answerOrder": [
+        1,
+        0
+      ],
+      "srcRef": {
+        "questionId": 40,
+        "sectionIndex": 0,
+        "para": 305
+      }
+    },
+    {
+      "id": "q40-or-1",
+      "kind": "order",
+      "moduleId": "m10",
+      "sourceQuestionId": 40,
+      "prompt": "请将“实施市场控制策略”中的 4 项措施按原文顺序排列：",
+      "steps": [
+        "渠道拓展",
+        "价格策略",
+        "库存管理",
+        "合作与联盟"
+      ],
+      "answerOrder": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "srcRef": {
+        "questionId": 40,
+        "sectionIndex": 1,
+        "para": 308
+      }
+    },
+    {
+      "id": "q41-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m11",
+      "sourceQuestionId": 41,
+      "prompt": "农业经理人在内部协调中，如何促进部门间沟通？（要点1）（1）____：组织跨部门会议，分享信息，讨论问题。",
+      "answer": "定期会议",
+      "accept": [
+        "定期会议"
+      ],
+      "srcRef": {
+        "questionId": 41,
+        "pointIndex": 0,
+        "para": 315
+      }
+    },
+    {
+      "id": "q41-ch-0",
+      "kind": "choice",
+      "moduleId": "m11",
+      "sourceQuestionId": 41,
+      "prompt": "农业经理人在内部协调中，如何促进部门间沟通？（要点1）（1）____：组织跨部门会议，分享信息，讨论问题。",
+      "options": [
+        "紧急联络",
+        "定期会议",
+        "灵活排班",
+        "倾听反馈"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 41,
+        "pointIndex": 0,
+        "para": 315
+      }
+    },
+    {
+      "id": "q41-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m11",
+      "sourceQuestionId": 41,
+      "prompt": "（1）倾听反馈：组织跨部门会议，分享信息，讨论问题。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 41,
+        "pointIndex": 0,
+        "para": 315
+      }
+    },
+    {
+      "id": "q41-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m11",
+      "sourceQuestionId": 41,
+      "prompt": "农业经理人在内部协调中，如何促进部门间沟通？（要点2）（2）____：建立内部沟通平台，如企业微信、钉钉等，方便即时交流。",
+      "answer": "沟通平台",
+      "accept": [
+        "沟通平台"
+      ],
+      "srcRef": {
+        "questionId": 41,
+        "pointIndex": 1,
+        "para": 316
+      }
+    },
+    {
+      "id": "q41-ch-1",
+      "kind": "choice",
+      "moduleId": "m11",
+      "sourceQuestionId": 41,
+      "prompt": "农业经理人在内部协调中，如何促进部门间沟通？（要点2）（2）____：建立内部沟通平台，如企业微信、钉钉等，方便即时交流。",
+      "options": [
+        "预案准备",
+        "沟通平台",
+        "监控反馈",
+        "市场需求"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 41,
+        "pointIndex": 1,
+        "para": 316
+      }
+    },
+    {
+      "id": "q41-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m11",
+      "sourceQuestionId": 41,
+      "prompt": "（2）预案准备：建立内部沟通平台，如企业微信、钉钉等，方便即时交流。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 41,
+        "pointIndex": 1,
+        "para": 316
+      }
+    },
+    {
+      "id": "q41-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m11",
+      "sourceQuestionId": 41,
+      "prompt": "农业经理人在内部协调中，如何促进部门间沟通？（要点3）（3）____：针对特定项目组建跨部门团队，促进协作。",
+      "answer": "项目团队",
+      "accept": [
+        "项目团队"
+      ],
+      "srcRef": {
+        "questionId": 41,
+        "pointIndex": 2,
+        "para": 317
+      }
+    },
+    {
+      "id": "q41-ch-2",
+      "kind": "choice",
+      "moduleId": "m11",
+      "sourceQuestionId": 41,
+      "prompt": "农业经理人在内部协调中，如何促进部门间沟通？（要点3）（3）____：针对特定项目组建跨部门团队，促进协作。",
+      "options": [
+        "跨部门会议",
+        "项目团队",
+        "土地保护",
+        "员工培训"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 41,
+        "pointIndex": 2,
+        "para": 317
+      }
+    },
+    {
+      "id": "q41-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m11",
+      "sourceQuestionId": 41,
+      "prompt": "（3）项目团队：针对特定项目组建跨部门团队，促进协作。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 41,
+        "pointIndex": 2,
+        "para": 317
+      }
+    },
+    {
+      "id": "q41-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m11",
+      "sourceQuestionId": 41,
+      "prompt": "农业经理人在内部协调中，如何促进部门间沟通？（要点4）（4）____：营造包容性企业文化，鼓励跨部门合作。",
+      "answer": "文化融合",
+      "accept": [
+        "文化融合"
+      ],
+      "srcRef": {
+        "questionId": 41,
+        "pointIndex": 3,
+        "para": 318
+      }
+    },
+    {
+      "id": "q41-ch-3",
+      "kind": "choice",
+      "moduleId": "m11",
+      "sourceQuestionId": 41,
+      "prompt": "农业经理人在内部协调中，如何促进部门间沟通？（要点4）（4）____：营造包容性企业文化，鼓励跨部门合作。",
+      "options": [
+        "文化融合",
+        "收集数据",
+        "成本效益",
+        "加强沟通与合作"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 41,
+        "pointIndex": 3,
+        "para": 318
+      }
+    },
+    {
+      "id": "q41-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m11",
+      "sourceQuestionId": 41,
+      "prompt": "（4）文化融合：营造包容性企业文化，鼓励跨部门合作。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 41,
+        "pointIndex": 3,
+        "para": 318
+      }
+    },
+    {
+      "id": "q42-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m11",
+      "sourceQuestionId": 42,
+      "prompt": "农业经理人在内部协调中，如何提升员工满意度？（要点1）（1）____：定期收集员工意见，了解需求。",
+      "answer": "倾听反馈",
+      "accept": [
+        "倾听反馈"
+      ],
+      "srcRef": {
+        "questionId": 42,
+        "pointIndex": 0,
+        "para": 321
+      }
+    },
+    {
+      "id": "q42-ch-0",
+      "kind": "choice",
+      "moduleId": "m11",
+      "sourceQuestionId": 42,
+      "prompt": "农业经理人在内部协调中，如何提升员工满意度？（要点1）（1）____：定期收集员工意见，了解需求。",
+      "options": [
+        "成本控制与利润提升",
+        "建立标准化流程",
+        "人力资源管理岗",
+        "倾听反馈"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 42,
+        "pointIndex": 0,
+        "para": 321
+      }
+    },
+    {
+      "id": "q42-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m11",
+      "sourceQuestionId": 42,
+      "prompt": "（1）成本控制与利润提升：定期收集员工意见，了解需求。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 42,
+        "pointIndex": 0,
+        "para": 321
+      }
+    },
+    {
+      "id": "q42-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m11",
+      "sourceQuestionId": 42,
+      "prompt": "农业经理人在内部协调中，如何提升员工满意度？（要点2）（2）____：提供职业发展机会和培训，提升员工能力。",
+      "answer": "培训发展",
+      "accept": [
+        "培训发展"
+      ],
+      "srcRef": {
+        "questionId": 42,
+        "pointIndex": 1,
+        "para": 322
+      }
+    },
+    {
+      "id": "q42-ch-1",
+      "kind": "choice",
+      "moduleId": "m11",
+      "sourceQuestionId": 42,
+      "prompt": "农业经理人在内部协调中，如何提升员工满意度？（要点2）（2）____：提供职业发展机会和培训，提升员工能力。",
+      "options": [
+        "培训发展",
+        "替代材料",
+        "能力评估",
+        "主体问题"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 42,
+        "pointIndex": 1,
+        "para": 322
+      }
+    },
+    {
+      "id": "q42-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m11",
+      "sourceQuestionId": 42,
+      "prompt": "（2）培训发展：提供职业发展机会和培训，提升员工能力。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 42,
+        "pointIndex": 1,
+        "para": 322
+      }
+    },
+    {
+      "id": "q42-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m11",
+      "sourceQuestionId": 42,
+      "prompt": "农业经理人在内部协调中，如何提升员工满意度？（要点3）（3）____：设计公平合理的薪酬和奖励制度，激发员工积极性。",
+      "answer": "激励机制",
+      "accept": [
+        "激励机制"
+      ],
+      "srcRef": {
+        "questionId": 42,
+        "pointIndex": 2,
+        "para": 323
+      }
+    },
+    {
+      "id": "q42-ch-2",
+      "kind": "choice",
+      "moduleId": "m11",
+      "sourceQuestionId": 42,
+      "prompt": "农业经理人在内部协调中，如何提升员工满意度？（要点3）（3）____：设计公平合理的薪酬和奖励制度，激发员工积极性。",
+      "options": [
+        "土地保护",
+        "协作效率",
+        "激励机制",
+        "社区参与"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 42,
+        "pointIndex": 2,
+        "para": 323
+      }
+    },
+    {
+      "id": "q42-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m11",
+      "sourceQuestionId": 42,
+      "prompt": "（3）激励机制：设计公平合理的薪酬和奖励制度，激发员工积极性。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 42,
+        "pointIndex": 2,
+        "para": 323
+      }
+    },
+    {
+      "id": "q42-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m11",
+      "sourceQuestionId": 42,
+      "prompt": "农业经理人在内部协调中，如何提升员工满意度？（要点4）（4）____：改善工作环境，提升员工舒适度。",
+      "answer": "工作环境",
+      "accept": [
+        "工作环境"
+      ],
+      "srcRef": {
+        "questionId": 42,
+        "pointIndex": 3,
+        "para": 324
+      }
+    },
+    {
+      "id": "q42-ch-3",
+      "kind": "choice",
+      "moduleId": "m11",
+      "sourceQuestionId": 42,
+      "prompt": "农业经理人在内部协调中，如何提升员工满意度？（要点4）（4）____：改善工作环境，提升员工舒适度。",
+      "options": [
+        "业务需求",
+        "分析成本与市场需求",
+        "采购管理",
+        "工作环境"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 42,
+        "pointIndex": 3,
+        "para": 324
+      }
+    },
+    {
+      "id": "q42-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m11",
+      "sourceQuestionId": 42,
+      "prompt": "（4）工作环境：改善工作环境，提升员工舒适度。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 42,
+        "pointIndex": 3,
+        "para": 324
+      }
+    },
+    {
+      "id": "q43-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m11",
+      "sourceQuestionId": 43,
+      "prompt": "论述农业企业在内部控制中如何建立有效的风险评估机制（15分）（要点1）（1）____：农业企业应全面识别业务流程中的潜在风险点，包括财务风险、运营风险、合规风险等，确保风险评估的全面性和准确性。",
+      "answer": "识别风险点",
+      "accept": [
+        "识别风险点"
+      ],
+      "srcRef": {
+        "questionId": 43,
+        "pointIndex": 0,
+        "para": 327
+      }
+    },
+    {
+      "id": "q43-ch-0",
+      "kind": "choice",
+      "moduleId": "m11",
+      "sourceQuestionId": 43,
+      "prompt": "论述农业企业在内部控制中如何建立有效的风险评估机制（15分）（要点1）（1）____：农业企业应全面识别业务流程中的潜在风险点，包括财务风险、运营风险、合规风险等，确保风险评估的全面性和准确性。",
+      "options": [
+        "品质保证",
+        "识别风险点",
+        "互利共赢",
+        "工作环境"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 43,
+        "pointIndex": 0,
+        "para": 327
+      }
+    },
+    {
+      "id": "q43-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m11",
+      "sourceQuestionId": 43,
+      "prompt": "（1）识别风险点：农业企业应全面识别业务流程中的潜在风险点，包括财务风险、运营风险、合规风险等，确保风险评估的全面性和准确性。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 43,
+        "pointIndex": 0,
+        "para": 327
+      }
+    },
+    {
+      "id": "q43-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m11",
+      "sourceQuestionId": 43,
+      "prompt": "论述农业企业在内部控制中如何建立有效的风险评估机制（15分）（要点2）（2）____：对识别出的风险点进行定量和定性分析，评估其对企业的影响程度和可能性。根据评估结果，确定风险等级和优先级，为制定风险应对措施提供依据。",
+      "answer": "评估风险影响",
+      "accept": [
+        "评估风险影响"
+      ],
+      "srcRef": {
+        "questionId": 43,
+        "pointIndex": 1,
+        "para": 328
+      }
+    },
+    {
+      "id": "q43-ch-1",
+      "kind": "choice",
+      "moduleId": "m11",
+      "sourceQuestionId": 43,
+      "prompt": "论述农业企业在内部控制中如何建立有效的风险评估机制（15分）（要点2）（2）____：对识别出的风险点进行定量和定性分析，评估其对企业的影响程度和可能性。根据评估结果，确定风险等级和优先级，为制定风险应对措施提供依据。",
+      "options": [
+        "过程检测",
+        "评估风险影响",
+        "成果展示",
+        "问题梳理"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 43,
+        "pointIndex": 1,
+        "para": 328
+      }
+    },
+    {
+      "id": "q43-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m11",
+      "sourceQuestionId": 43,
+      "prompt": "（2）评估风险影响：对识别出的风险点进行定量和定性分析，评估其对企业的影响程度和可能性。根据评估结果，确定风险等级和优先级，为制定风险应对措施提供依据。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 43,
+        "pointIndex": 1,
+        "para": 328
+      }
+    },
+    {
+      "id": "q43-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m11",
+      "sourceQuestionId": 43,
+      "prompt": "论述农业企业在内部控制中如何建立有效的风险评估机制（15分）（要点3）（3）____：根据风险评估结果，制定相应的风险应对策略，如风险规避、风险降低、风险转移和风险接受。同时，建立风险预警机制，及时发现和应对潜在风险。",
+      "answer": "制定风险应对策略",
+      "accept": [
+        "制定风险应对策略"
+      ],
+      "srcRef": {
+        "questionId": 43,
+        "pointIndex": 2,
+        "para": 329
+      }
+    },
+    {
+      "id": "q43-ch-2",
+      "kind": "choice",
+      "moduleId": "m11",
+      "sourceQuestionId": 43,
+      "prompt": "论述农业企业在内部控制中如何建立有效的风险评估机制（15分）（要点3）（3）____：根据风险评估结果，制定相应的风险应对策略，如风险规避、风险降低、风险转移和风险接受。同时，建立风险预警机制，及时发现和应对潜在风险。",
+      "options": [
+        "长期可持续发展",
+        "紧急联络",
+        "人力资源部门",
+        "制定风险应对策略"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 43,
+        "pointIndex": 2,
+        "para": 329
+      }
+    },
+    {
+      "id": "q43-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m11",
+      "sourceQuestionId": 43,
+      "prompt": "（3）人力资源部门：根据风险评估结果，制定相应的风险应对策略，如风险规避、风险降低、风险转移和风险接受。同时，建立风险预警机制，及时发现和应对潜在风险。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 43,
+        "pointIndex": 2,
+        "para": 329
+      }
+    },
+    {
+      "id": "q44-or-0",
+      "kind": "order",
+      "moduleId": "m11",
+      "sourceQuestionId": 44,
+      "prompt": "请将“识别和分析协调问题”中的 3 项措施按原文顺序排列：",
+      "steps": [
+        "分析工作流程图，识别部门",
+        "通过员工访谈和问卷调查，",
+        "评估协调问题对运营效率、"
+      ],
+      "answerOrder": [
+        1,
+        0,
+        2
+      ],
+      "srcRef": {
+        "questionId": 44,
+        "sectionIndex": 0,
+        "para": 336
+      }
+    },
+    {
+      "id": "q44-or-1",
+      "kind": "order",
+      "moduleId": "m11",
+      "sourceQuestionId": 44,
+      "prompt": "请将“优化部门间协调”中的 4 项措施按原文顺序排列：",
+      "steps": [
+        "信息共享平台",
+        "定期沟通会议",
+        "培训与发展",
+        "建立协调机制"
+      ],
+      "answerOrder": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "srcRef": {
+        "questionId": 44,
+        "sectionIndex": 1,
+        "para": 340
+      }
+    },
+    {
+      "id": "q45-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m12",
+      "sourceQuestionId": 45,
+      "prompt": "农业经理人在外部协调中，如何维护与政府部门的良好关系？（要点1）（1）____：密切关注政府政策动态，确保企业合规运营。",
+      "answer": "政策了解",
+      "accept": [
+        "政策了解"
+      ],
+      "srcRef": {
+        "questionId": 45,
+        "pointIndex": 0,
+        "para": 347
+      }
+    },
+    {
+      "id": "q45-ch-0",
+      "kind": "choice",
+      "moduleId": "m12",
+      "sourceQuestionId": 45,
+      "prompt": "农业经理人在外部协调中，如何维护与政府部门的良好关系？（要点1）（1）____：密切关注政府政策动态，确保企业合规运营。",
+      "options": [
+        "政策了解",
+        "风险评估",
+        "SMART原则",
+        "培训发展"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 45,
+        "pointIndex": 0,
+        "para": 347
+      }
+    },
+    {
+      "id": "q45-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m12",
+      "sourceQuestionId": 45,
+      "prompt": "（1）SMART原则：密切关注政府政策动态，确保企业合规运营。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 45,
+        "pointIndex": 0,
+        "para": 347
+      }
+    },
+    {
+      "id": "q45-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m12",
+      "sourceQuestionId": 45,
+      "prompt": "农业经理人在外部协调中，如何维护与政府部门的良好关系？（要点2）（2）____：定期与政府部门沟通，反馈企业情况，争取支持。",
+      "answer": "主动沟通",
+      "accept": [
+        "主动沟通"
+      ],
+      "srcRef": {
+        "questionId": 45,
+        "pointIndex": 1,
+        "para": 348
+      }
+    },
+    {
+      "id": "q45-ch-1",
+      "kind": "choice",
+      "moduleId": "m12",
+      "sourceQuestionId": 45,
+      "prompt": "农业经理人在外部协调中，如何维护与政府部门的良好关系？（要点2）（2）____：定期与政府部门沟通，反馈企业情况，争取支持。",
+      "options": [
+        "主动沟通",
+        "灵活性",
+        "协作效率",
+        "建立供应商管理制度"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 45,
+        "pointIndex": 1,
+        "para": 348
+      }
+    },
+    {
+      "id": "q45-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m12",
+      "sourceQuestionId": 45,
+      "prompt": "（2）主动沟通：定期与政府部门沟通，反馈企业情况，争取支持。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 45,
+        "pointIndex": 1,
+        "para": 348
+      }
+    },
+    {
+      "id": "q45-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m12",
+      "sourceQuestionId": 45,
+      "prompt": "农业经理人在外部协调中，如何维护与政府部门的良好关系？（要点3）（3）____：积极参与政府项目，提升企业形象和影响力。",
+      "answer": "项目合作",
+      "accept": [
+        "项目合作"
+      ],
+      "srcRef": {
+        "questionId": 45,
+        "pointIndex": 2,
+        "para": 349
+      }
+    },
+    {
+      "id": "q45-ch-2",
+      "kind": "choice",
+      "moduleId": "m12",
+      "sourceQuestionId": 45,
+      "prompt": "农业经理人在外部协调中，如何维护与政府部门的良好关系？（要点3）（3）____：积极参与政府项目，提升企业形象和影响力。",
+      "options": [
+        "专业技能",
+        "采购优化",
+        "多元化销售",
+        "项目合作"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 45,
+        "pointIndex": 2,
+        "para": 349
+      }
+    },
+    {
+      "id": "q45-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m12",
+      "sourceQuestionId": 45,
+      "prompt": "（3）多元化销售：积极参与政府项目，提升企业形象和影响力。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 45,
+        "pointIndex": 2,
+        "para": 349
+      }
+    },
+    {
+      "id": "q45-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m12",
+      "sourceQuestionId": 45,
+      "prompt": "农业经理人在外部协调中，如何维护与政府部门的良好关系？（要点4）（4）____：履行社会责任，参与公益活动，树立良好社会形象。",
+      "answer": "社会责任",
+      "accept": [
+        "社会责任"
+      ],
+      "srcRef": {
+        "questionId": 45,
+        "pointIndex": 3,
+        "para": 350
+      }
+    },
+    {
+      "id": "q45-ch-3",
+      "kind": "choice",
+      "moduleId": "m12",
+      "sourceQuestionId": 45,
+      "prompt": "农业经理人在外部协调中，如何维护与政府部门的良好关系？（要点4）（4）____：履行社会责任，参与公益活动，树立良好社会形象。",
+      "options": [
+        "明确部门职责",
+        "社会责任",
+        "建立监控机制",
+        "评估供应商协调问题对企业"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 45,
+        "pointIndex": 3,
+        "para": 350
+      }
+    },
+    {
+      "id": "q45-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m12",
+      "sourceQuestionId": 45,
+      "prompt": "（4）评估供应商协调问题对企业：履行社会责任，参与公益活动，树立良好社会形象。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 45,
+        "pointIndex": 3,
+        "para": 350
+      }
+    },
+    {
+      "id": "q46-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m12",
+      "sourceQuestionId": 46,
+      "prompt": "农业经理人在外部协调中，如何与供应商建立长期合作关系？（要点1）（1）____：保持诚信，按时付款，建立良好信誉。",
+      "answer": "诚信合作",
+      "accept": [
+        "诚信合作"
+      ],
+      "srcRef": {
+        "questionId": 46,
+        "pointIndex": 0,
+        "para": 353
+      }
+    },
+    {
+      "id": "q46-ch-0",
+      "kind": "choice",
+      "moduleId": "m12",
+      "sourceQuestionId": 46,
+      "prompt": "农业经理人在外部协调中，如何与供应商建立长期合作关系？（要点1）（1）____：保持诚信，按时付款，建立良好信誉。",
+      "options": [
+        "动态调整",
+        "诚信合作",
+        "监控反馈",
+        "合作与联盟"
+      ],
+      "answerIndex": 1,
+      "srcRef": {
+        "questionId": 46,
+        "pointIndex": 0,
+        "para": 353
+      }
+    },
+    {
+      "id": "q46-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m12",
+      "sourceQuestionId": 46,
+      "prompt": "（1）合作与联盟：保持诚信，按时付款，建立良好信誉。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 46,
+        "pointIndex": 0,
+        "para": 353
+      }
+    },
+    {
+      "id": "q46-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m12",
+      "sourceQuestionId": 46,
+      "prompt": "农业经理人在外部协调中，如何与供应商建立长期合作关系？（要点2）（2）____：与供应商共同寻找降低成本、提升质量的方法。",
+      "answer": "互利共赢",
+      "accept": [
+        "互利共赢"
+      ],
+      "srcRef": {
+        "questionId": 46,
+        "pointIndex": 1,
+        "para": 354
+      }
+    },
+    {
+      "id": "q46-ch-1",
+      "kind": "choice",
+      "moduleId": "m12",
+      "sourceQuestionId": 46,
+      "prompt": "农业经理人在外部协调中，如何与供应商建立长期合作关系？（要点2）（2）____：与供应商共同寻找降低成本、提升质量的方法。",
+      "options": [
+        "互利共赢",
+        "评估协调问题对运营效率、",
+        "强化沟通与反馈",
+        "可衡量（Measurable）"
+      ],
+      "answerIndex": 0,
+      "srcRef": {
+        "questionId": 46,
+        "pointIndex": 1,
+        "para": 354
+      }
+    },
+    {
+      "id": "q46-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m12",
+      "sourceQuestionId": 46,
+      "prompt": "（2）可衡量（Measurable）：与供应商共同寻找降低成本、提升质量的方法。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 46,
+        "pointIndex": 1,
+        "para": 354
+      }
+    },
+    {
+      "id": "q46-fb-2",
+      "kind": "fillBlank",
+      "moduleId": "m12",
+      "sourceQuestionId": 46,
+      "prompt": "农业经理人在外部协调中，如何与供应商建立长期合作关系？（要点3）（3）____：对供应商进行定期评估，确保供应质量。",
+      "answer": "定期评估",
+      "accept": [
+        "定期评估"
+      ],
+      "srcRef": {
+        "questionId": 46,
+        "pointIndex": 2,
+        "para": 355
+      }
+    },
+    {
+      "id": "q46-ch-2",
+      "kind": "choice",
+      "moduleId": "m12",
+      "sourceQuestionId": 46,
+      "prompt": "农业经理人在外部协调中，如何与供应商建立长期合作关系？（要点3）（3）____：对供应商进行定期评估，确保供应质量。",
+      "options": [
+        "技术革新",
+        "财务管理岗",
+        "品牌定位",
+        "定期评估"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 46,
+        "pointIndex": 2,
+        "para": 355
+      }
+    },
+    {
+      "id": "q46-tf-2",
+      "kind": "trueFalse",
+      "moduleId": "m12",
+      "sourceQuestionId": 46,
+      "prompt": "（3）技术革新：对供应商进行定期评估，确保供应质量。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 46,
+        "pointIndex": 2,
+        "para": 355
+      }
+    },
+    {
+      "id": "q46-fb-3",
+      "kind": "fillBlank",
+      "moduleId": "m12",
+      "sourceQuestionId": 46,
+      "prompt": "农业经理人在外部协调中，如何与供应商建立长期合作关系？（要点4）（4）____：在供应链危机时，与供应商共同应对，共渡难关。",
+      "answer": "危机应对",
+      "accept": [
+        "危机应对"
+      ],
+      "srcRef": {
+        "questionId": 46,
+        "pointIndex": 3,
+        "para": 356
+      }
+    },
+    {
+      "id": "q46-ch-3",
+      "kind": "choice",
+      "moduleId": "m12",
+      "sourceQuestionId": 46,
+      "prompt": "农业经理人在外部协调中，如何与供应商建立长期合作关系？（要点4）（4）____：在供应链危机时，与供应商共同应对，共渡难关。",
+      "options": [
+        "定期审计",
+        "定期报告",
+        "社会责任",
+        "危机应对"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 46,
+        "pointIndex": 3,
+        "para": 356
+      }
+    },
+    {
+      "id": "q46-tf-3",
+      "kind": "trueFalse",
+      "moduleId": "m12",
+      "sourceQuestionId": 46,
+      "prompt": "（4）定期报告：在供应链危机时，与供应商共同应对，共渡难关。",
+      "answer": false,
+      "srcRef": {
+        "questionId": 46,
+        "pointIndex": 3,
+        "para": 356
+      }
+    },
+    {
+      "id": "q47-fb-0",
+      "kind": "fillBlank",
+      "moduleId": "m12",
+      "sourceQuestionId": 47,
+      "prompt": "论述农业企业在外部控制中如何加强客户关系管理（要点1）（1）____：通过市场调研、客户反馈等方式，深入了解客户需求和偏好。根据客户需求，调整产品和服务策略，提升客户满意度和忠诚度。",
+      "answer": "客户需求洞察",
+      "accept": [
+        "客户需求洞察"
+      ],
+      "srcRef": {
+        "questionId": 47,
+        "pointIndex": 0,
+        "para": 359
+      }
+    },
+    {
+      "id": "q47-ch-0",
+      "kind": "choice",
+      "moduleId": "m12",
+      "sourceQuestionId": 47,
+      "prompt": "论述农业企业在外部控制中如何加强客户关系管理（要点1）（1）____：通过市场调研、客户反馈等方式，深入了解客户需求和偏好。根据客户需求，调整产品和服务策略，提升客户满意度和忠诚度。",
+      "options": [
+        "优先级排序",
+        "流程审查",
+        "客户需求洞察",
+        "多元化销售"
+      ],
+      "answerIndex": 2,
+      "srcRef": {
+        "questionId": 47,
+        "pointIndex": 0,
+        "para": 359
+      }
+    },
+    {
+      "id": "q47-tf-0",
+      "kind": "trueFalse",
+      "moduleId": "m12",
+      "sourceQuestionId": 47,
+      "prompt": "（1）客户需求洞察：通过市场调研、客户反馈等方式，深入了解客户需求和偏好。根据客户需求，调整产品和服务策略，提升客户满意度和忠诚度。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 47,
+        "pointIndex": 0,
+        "para": 359
+      }
+    },
+    {
+      "id": "q47-fb-1",
+      "kind": "fillBlank",
+      "moduleId": "m12",
+      "sourceQuestionId": 47,
+      "prompt": "论述农业企业在外部控制中如何加强客户关系管理（要点2）（2）____：建立完善的客户服务体系，包括售前咨询、售中服务和售后支持等。通过提供优质的客户服务，增强客户对企业的信任和依赖，促进客户关系的长期稳定发展。",
+      "answer": "客户服务优化",
+      "accept": [
+        "客户服务优化"
+      ],
+      "srcRef": {
+        "questionId": 47,
+        "pointIndex": 1,
+        "para": 360
+      }
+    },
+    {
+      "id": "q47-ch-1",
+      "kind": "choice",
+      "moduleId": "m12",
+      "sourceQuestionId": 47,
+      "prompt": "论述农业企业在外部控制中如何加强客户关系管理（要点2）（2）____：建立完善的客户服务体系，包括售前咨询、售中服务和售后支持等。通过提供优质的客户服务，增强客户对企业的信任和依赖，促进客户关系的长期稳定发展。",
+      "options": [
+        "政策了解",
+        "气候条件",
+        "奖励制度",
+        "客户服务优化"
+      ],
+      "answerIndex": 3,
+      "srcRef": {
+        "questionId": 47,
+        "pointIndex": 1,
+        "para": 360
+      }
+    },
+    {
+      "id": "q47-tf-1",
+      "kind": "trueFalse",
+      "moduleId": "m12",
+      "sourceQuestionId": 47,
+      "prompt": "（2）客户服务优化：建立完善的客户服务体系，包括售前咨询、售中服务和售后支持等。通过提供优质的客户服务，增强客户对企业的信任和依赖，促进客户关系的长期稳定发展。",
+      "answer": true,
+      "srcRef": {
+        "questionId": 47,
+        "pointIndex": 1,
+        "para": 360
+      }
+    },
+    {
+      "id": "q48-or-0",
+      "kind": "order",
+      "moduleId": "m12",
+      "sourceQuestionId": 48,
+      "prompt": "请将“识别和分析协调问题”中的 3 项措施按原文顺序排列：",
+      "steps": [
+        "评估供应商协调问题对企业",
+        "通过供应商评估和历史数据",
+        "调研企业对供应商的管理流"
+      ],
+      "answerOrder": [
+        2,
+        0,
+        1
+      ],
+      "srcRef": {
+        "questionId": 48,
+        "sectionIndex": 0,
+        "para": 367
+      }
+    },
+    {
+      "id": "q48-or-1",
+      "kind": "order",
+      "moduleId": "m12",
+      "sourceQuestionId": 48,
+      "prompt": "请将“优化与供应商的外部协调”中的 4 项措施按原文顺序排列：",
+      "steps": [
+        "长期合作协议",
+        "建立供应商管理制度",
+        "信息共享平台",
+        "加强沟通与合作"
+      ],
+      "answerOrder": [
+        3,
+        0,
+        2,
+        1
+      ],
+      "srcRef": {
+        "questionId": 48,
+        "sectionIndex": 1,
+        "para": 371
+      }
+    }
+  ],
+  "counts": {
+    "fillBlank": 128,
+    "choice": 128,
+    "trueFalse": 128,
+    "order": 24
+  }
+}
