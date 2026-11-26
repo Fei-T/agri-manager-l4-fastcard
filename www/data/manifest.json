@@ -1,18 +1,56 @@
 {
   "appName": "农业经理人四级速记",
   "appVersion": "1.0.0",
-  "generatedAt": "2026-11-26T01:52:57.009Z",
+  "generatedAt": "2026-11-26T03:38:41.567Z",
   "docxSha256": "b86ff849cff0bb57e8f97ff7d17212f188ab6d1f21d0d759ae2f14d597a34ff1",
+  "bankSha256": "e7c55c36d5962da330b45d0dc68b7a492b2a82a1e171fbc89e811540b93bf1c2",
   "counts": {
     "modules": 12,
     "questions": 48,
     "fillBlank": 128,
     "choice": 128,
     "trueFalse": 128,
-    "order": 24
+    "order": 24,
+    "bankTheory": 1206,
+    "bankPractical": 48,
+    "bankObjective": 1206,
+    "bankTotal": 1254
   },
+  "bankMeta": {
+    "sourceFile": "question_bank.json",
+    "total": 1254,
+    "theory": 1206,
+    "practical": 48,
+    "choice": 804,
+    "trueFalse": 402,
+    "repairedCount": 3
+  },
+  "bankRepairs": [
+    {
+      "no": "880",
+      "field": "答案",
+      "from": "N",
+      "to": "B",
+      "reason": "单选题答案误填判断题符号，选项 B 为正确答案"
+    },
+    {
+      "no": "882",
+      "field": "答案",
+      "from": "",
+      "to": "Y",
+      "reason": "判断题答案空缺，题干表述正确"
+    },
+    {
+      "no": "904",
+      "field": "答案",
+      "from": "",
+      "to": "C",
+      "reason": "单选题答案空缺，选项 C 为正确答案"
+    }
+  ],
   "checks": {
     "zeroLoss": true,
+    "bankValid": true,
     "pass": true
   }
 }

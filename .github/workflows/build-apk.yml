@@ -85,7 +85,7 @@ jobs:
           git tag -d "$TAG" 2>/dev/null || true
           gh release create "$TAG" \
             --title "农业经理人四级速记 v${VER}" \
-            --notes "离线速记 APK，包含 12 模块 / 48 题 / 记忆曲线 / 模拟考试。" \
+            --notes "德弘主题离线速记 APK：12 模块 / 48 速记卡 / 1254 题库 / 首页随机15题 / 记忆曲线 / 模拟考试 / 错题本。" \
             --latest \
             agri-manager-l4-fastcard-v${VER}.apk agri-manager-l4-fastcard-v${VER}.apk.sha256
         env:

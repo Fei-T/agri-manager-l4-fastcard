@@ -10,7 +10,7 @@
 <body>
   <header class="topbar">
     <div class="brand">
-      <span class="brand-mark">农</span>
+      <span class="brand-mark">德</span>
       <div>
         <h1>农业经理人四级速记</h1>
         <p id="app-subtitle">12 模块 · 48 题 · 离线学习</p>
@@ -21,6 +21,7 @@
 
   <main id="app" class="app-main">
     <section class="view" id="view-modules"></section>
+    <section class="view hidden" id="view-random"></section>
     <section class="view hidden" id="view-cards"></section>
     <section class="view hidden" id="view-review"></section>
     <section class="view hidden" id="view-practice"></section>
@@ -44,6 +45,7 @@ const APP_VERSION = '1.0.2';
   </script>
   <script src="data/data-inline.js"></script>
   <script src="js/data-loader.js"></script>
+  <script src="js/random-quiz.js"></script>
   <script src="js/cloze-state.js"></script>
   <script src="js/srs.js"></script>
   <script src="js/infer-tag.js"></script>

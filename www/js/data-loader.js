@@ -16,8 +16,9 @@
     return Promise.all([
       tryFetch('notes.json'),
       tryFetch('questions.json'),
+      tryFetch('bank.json'),
       tryFetch('manifest.json')
-    ]).then(([notes, questions, manifest]) => ({ notes, questions, manifest }));
+    ]).then(([notes, questions, bank, manifest]) => ({ notes, questions, bank, manifest }));
   }
 
   global.AgriData = { load };

@@ -7,6 +7,7 @@ const { readDocxParagraphs } = require('./lib/docx-zip');
 
 const ROOT = path.resolve(__dirname, '..');
 const SRC = path.join(ROOT, 'source', '农业经理人四级考试实操重点(5).docx');
+const BANK_SRC = path.join(ROOT, 'source', 'question_bank.json');
 const OUT_DIR = path.join(ROOT, 'www', 'data');
 
 const MODULES = [
@@ -363,37 +364,139 @@ function deriveQuestions(notes) {
   return { version: '1.0.0', items, counts };
 }
 
+/** 源表中 3 道题的答案缺失或错填，按题干与选项语义修正并记录在 manifest 中。 */
+const BANK_REPAIRS = {
+  '880': { field: '答案', from: 'N', to: 'B', reason: '单选题答案误填判断题符号，选项 B 为正确答案' },
+  '882': { field: '答案', from: '', to: 'Y', reason: '判断题答案空缺，题干表述正确' },
+  '904': { field: '答案', from: '', to: 'C', reason: '单选题答案空缺，选项 C 为正确答案' }
+};
+
+function normalizeBank(raw) {
+  if (!raw || !Array.isArray(raw.理论) || !Array.isArray(raw.实操)) {
+    throw new Error('题库 JSON 结构不正确');
+  }
+
+  const repairs = [];
+  const objective = raw.理论.map(item => {
+    const no = String(item['序号'] || '').trim();
+    const type = String(item['题型'] || '').trim();
+    const prompt = strip(item['试题内容']);
+    let answer = strip(item['答案']).toUpperCase();
+    if (BANK_REPAIRS[no] && answer === BANK_REPAIRS[no].from) {
+      answer = BANK_REPAIRS[no].to;
+      repairs.push({ no, ...BANK_REPAIRS[no] });
+    }
+
+    const pointCode = strip(item['所属要素知识点']);
+    if (type === '单项选择') {
+      const options = ['可选答案A', '可选答案B', '可选答案C', '可选答案D'].map(k => strip(item[k]));
+      if (!/^[A-D]$/.test(answer) || options.some(o => !o)) {
+        throw new Error('理论题 ' + no + ' 不是有效单选题');
+      }
+      return {
+        id: 't' + no,
+        no: Number(no),
+        kind: 'choice',
+        prompt,
+        options,
+        answerIndex: answer.charCodeAt(0) - 65,
+        answerLabel: answer,
+        pointCode,
+        source: 'theory'
+      };
+    }
+    if (type === '判断题') {
+      if (!/^[YN]$/.test(answer)) throw new Error('理论题 ' + no + ' 不是有效判断题');
+      return {
+        id: 't' + no,
+        no: Number(no),
+        kind: 'trueFalse',
+        prompt,
+        options: ['正确', '错误'],
+        answerIndex: answer === 'Y' ? 0 : 1,
+        answerLabel: answer === 'Y' ? '正确' : '错误',
+        pointCode,
+        source: 'theory'
+      };
+    }
+    throw new Error('理论题 ' + no + ' 出现未知题型: ' + type);
+  });
+
+  const practical = raw.实操.map(item => {
+    const no = String(item['序号'] || '').trim();
+    return {
+      id: 'p' + no,
+      no: Number(no),
+      type: strip(item['题型']),
+      stem: strip(item['试题内容']),
+      answer: String(item['参考答案'] || '').trim(),
+      pointCode: strip(item['所属要素知识点']),
+      source: 'practical'
+    };
+  });
+
+  if (objective.length !== 1206) throw new Error('理论题数应为 1206，实际 ' + objective.length);
+  if (practical.length !== 48) throw new Error('实操题数应为 48，实际 ' + practical.length);
+
+  return {
+    meta: {
+      sourceFile: path.basename(BANK_SRC),
+      total: objective.length + practical.length,
+      theory: objective.length,
+      practical: practical.length,
+      choice: objective.filter(q => q.kind === 'choice').length,
+      trueFalse: objective.filter(q => q.kind === 'trueFalse').length,
+      repairedCount: repairs.length
+    },
+    repairs,
+    objective,
+    practical
+  };
+}
+
 function main() {
   if (!fs.existsSync(SRC)) throw new Error('未找到源文档: ' + SRC);
+  if (!fs.existsSync(BANK_SRC)) throw new Error('未找到题库文件: ' + BANK_SRC);
   const paragraphs = readDocxParagraphs(SRC);
   const notes = buildNotes(paragraphs);
   const questions = deriveQuestions(notes);
+  const bank = normalizeBank(JSON.parse(fs.readFileSync(BANK_SRC, 'utf8')));
   const docxSha256 = crypto.createHash('sha256').update(fs.readFileSync(SRC)).digest('hex');
+  const bankSha256 = crypto.createHash('sha256').update(fs.readFileSync(BANK_SRC)).digest('hex');
 
   const manifest = {
     appName: '农业经理人四级速记',
     appVersion: '1.0.0',
     generatedAt: notes.meta.generatedAt,
     docxSha256,
+    bankSha256,
     counts: {
       modules: notes.modules.length,
       questions: notes.questions.length,
-      ...questions.counts
+      ...questions.counts,
+      bankTheory: bank.meta.theory,
+      bankPractical: bank.meta.practical,
+      bankObjective: bank.meta.theory,
+      bankTotal: bank.meta.total
     },
-    checks: { zeroLoss: true, pass: true }
+    bankMeta: bank.meta,
+    bankRepairs: bank.repairs,
+    checks: { zeroLoss: true, bankValid: true, pass: true }
   };
 
   fs.mkdirSync(OUT_DIR, { recursive: true });
   const writeJson = (name, data) => fs.writeFileSync(path.join(OUT_DIR, name), JSON.stringify(data, null, 2), 'utf8');
   writeJson('notes.json', notes);
   writeJson('questions.json', questions);
+  writeJson('bank.json', bank);
   writeJson('manifest.json', manifest);
 
-  const inline = `/* 自动生成：WebView file:// 回退数据，请勿手改 */\nwindow.__AGRI_DATA__ = {\n  notes: ${JSON.stringify(notes)},\n  questions: ${JSON.stringify(questions)},\n  manifest: ${JSON.stringify(manifest)}\n};\n`;
+  const inline = `/* 自动生成：WebView file:// 回退数据，请勿手改 */\nwindow.__AGRI_DATA__ = {\n  notes: ${JSON.stringify(notes)},\n  questions: ${JSON.stringify(questions)},\n  bank: ${JSON.stringify(bank)},\n  manifest: ${JSON.stringify(manifest)}\n};\n`;
   fs.writeFileSync(path.join(OUT_DIR, 'data-inline.js'), inline, 'utf8');
 
   console.log('[build-agri-data] 段落', paragraphs.length, '模块', notes.modules.length, '题目', notes.questions.length);
   console.log('[build-agri-data] 派生题', JSON.stringify(questions.counts));
+  console.log('[build-agri-data] 新题库', bank.meta.total, '题（理论', bank.meta.theory, '/ 实操', bank.meta.practical, '，修正', bank.meta.repairedCount, '题）');
   console.log('[build-agri-data] 零丢失自检通过，已写入 www/data/');
 }
 

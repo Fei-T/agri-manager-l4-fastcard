@@ -4,6 +4,8 @@
   "description": "农业经理人四级速记 - 离线安卓学习应用",
   "scripts": {
     "build:data": "node scripts/build-agri-data.js",
+    "export:bank": "python scripts/export-question-bank.py",
+    "icons": "python scripts/generate-icons.py",
     "verify": "node scripts/verify-data.js",
     "serve": "node scripts/serve.js"
   },

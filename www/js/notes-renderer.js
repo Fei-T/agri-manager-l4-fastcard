@@ -21,9 +21,14 @@
   function renderModules(container, ctx) {
     const notes = ctx.notes;
     const stats = global.AgriSRS.stats(notes.questions.map(q => q.id));
+    const bankMeta = (ctx.bank && ctx.bank.meta) || { total: 0, theory: 0, practical: 0 };
     container.innerHTML =
-      '<h2 class="section-title">12 个模块</h2>' +
-      '<p class="section-sub">全部 48 题已收录 · 点击模块查看速记卡 · 飞行模式也能用</p>' +
+      '<h2 class="section-title">首页 · 实操速记</h2>' +
+      '<p class="section-sub">12 模块 / 48 张速记卡 / ' + bankMeta.total + ' 道题库 · 完全离线</p>' +
+      '<div class="card quick-card tappable" id="home-random">' +
+      '<div class="quick-title">⚡ 随机15题</div>' +
+      '<div class="src-note" style="margin-top:4px">从 ' + bankMeta.theory + ' 道理论题随机抽题 · 答对自动跳下一题</div>' +
+      '</div>' +
       '<div class="card"><div class="q-stem">今日复习进度</div>' +
       '<div class="progress"><div style="width:' + Math.round((stats.dist[5] / 48) * 100) + '%"></div></div>' +
       '<div class="src-note">已掌握 ' + stats.mastered + ' / 48 · 今日待复习 ' + stats.due + ' 张</div></div>' +
@@ -35,6 +40,8 @@
         '</div>'
       ).join('') + '</div>';
 
+    const randomEntry = container.querySelector('#home-random');
+    if (randomEntry) randomEntry.addEventListener('click', () => ctx.showView('random'));
     container.querySelectorAll('[data-module]').forEach(el => {
       el.addEventListener('click', () => ctx.showCards(el.getAttribute('data-module')));
     });

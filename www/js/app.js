@@ -1,7 +1,7 @@
 (function (global) {
   'use strict';
 
-  const views = ['modules', 'cards', 'review', 'practice', 'exam', 'wrong'];
+  const views = ['modules', 'random', 'cards', 'review', 'practice', 'exam', 'wrong'];
   let data = null;
   let current = 'modules';
   let practiceMode = 'objective';
@@ -29,6 +29,7 @@
     const box = $('view-' + current);
     const ctx = makeCtx();
     if (current === 'modules') global.AgriNotes.renderModules(box, ctx);
+    else if (current === 'random') global.AgriRandom.render(box, ctx);
     else if (current === 'cards') global.AgriNotes.renderCards(box, ctx, ctxState.module || '');
     else if (current === 'review') global.AgriReview.render(box, ctx);
     else if (current === 'practice') {
@@ -42,6 +43,7 @@
     return {
       notes: data.notes,
       questions: data.questions,
+      bank: data.bank,
       manifest: data.manifest,
       toast,
       showView,
@@ -74,7 +76,7 @@
     global.AgriData.load().then(d => {
       data = d;
       const c = d.manifest.counts;
-      $('app-subtitle').textContent = c.modules + ' 模块 · ' + c.questions + ' 题 · 离线学习';
+      $('app-subtitle').textContent = c.modules + ' 模块 · ' + c.questions + ' 卡 · ' + c.bankTotal + ' 题库';
       const allIds = d.notes.questions.map(q => q.id);
       global.AgriSRS.ensureToday(allIds);
       showView('modules');
