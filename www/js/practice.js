@@ -9,10 +9,16 @@
     let idx = 0;
     let answered = false;
     let selected = null;
+    let autoTimer = null;
+
+    function goNext() {
+      idx++; answered = false; selected = null; draw();
+    }
 
     function items() { return global.AgriQuestions.byKind(ctx, kind, moduleId); }
 
     function draw() {
+      if (autoTimer) { clearTimeout(autoTimer); autoTimer = null; }
       const list = items();
       if (!list.length) {
         container.innerHTML = '<h2 class="section-title">客观题练习</h2><div class="empty">该模块暂无此类题目</div>';
@@ -52,7 +58,7 @@
 
       const feedback = answered
         ? '<div class="feedback ' + (isCorrect(it) ? 'ok' : 'no') + '">' +
-          (isCorrect(it) ? '回答正确！' : '正确答案：' + esc(it.answer != null ? it.answer : (it.options ? it.options[it.answerIndex] : '—'))) +
+          (isCorrect(it) ? '回答正确！即将进入下一题…' : '正确答案：' + esc(it.answer != null ? it.answer : (it.options ? it.options[it.answerIndex] : '—'))) +
           '</div>'
         : '';
 
@@ -87,7 +93,7 @@
         check(it);
       });
       const next = container.querySelector('#next-q');
-      if (next) next.addEventListener('click', () => { idx++; answered = false; selected = null; draw(); });
+      if (next) next.addEventListener('click', goNext);
       bindHeader();
     }
 
@@ -98,9 +104,19 @@
 
     function check(it) {
       answered = true;
-      if (isCorrect(it)) ctx.toast('答对了');
-      else { ctx.toast('答错了，已加入错题本'); global.AgriState.addWrong(it.sourceQuestionId); }
-      draw();
+      if (isCorrect(it)) {
+        ctx.toast('答对了');
+        draw();
+        if (idx < items().length - 1) {
+          autoTimer = setTimeout(goNext, 1100);
+        } else {
+          autoTimer = setTimeout(() => { ctx.toast('本组练习已完成！'); idx++; answered = false; selected = null; draw(); }, 1400);
+        }
+      } else {
+        ctx.toast('答错了，已加入错题本');
+        global.AgriState.addWrong(it.sourceQuestionId);
+        draw();
+      }
     }
 
     function headerHtml() {
@@ -116,12 +132,13 @@
 
     function bindHeader() {
       const sel = container.querySelector('#module-select');
-      if (sel) sel.addEventListener('change', () => { moduleId = sel.value; idx = 0; answered = false; selected = null; draw(); });
+      if (sel) sel.addEventListener('change', () => { if (autoTimer) clearTimeout(autoTimer); moduleId = sel.value; idx = 0; answered = false; selected = null; draw(); });
       container.querySelectorAll('[data-kind]').forEach(el => el.addEventListener('click', () => {
+        if (autoTimer) clearTimeout(autoTimer);
         kind = el.getAttribute('data-kind'); idx = 0; answered = false; selected = null; draw();
       }));
       const link = container.querySelector('#order-link');
-      if (link) link.addEventListener('click', () => { if (ctx.showOrder) ctx.showOrder(); });
+      if (link) link.addEventListener('click', () => { if (autoTimer) clearTimeout(autoTimer); if (ctx.showOrder) ctx.showOrder(); });
     }
 
     draw();

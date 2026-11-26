@@ -5,6 +5,8 @@ android/app/build/
 android/captures/
 android/local.properties
 *.apk
+*.sha256
+release/
 *.zip
 tmp_pdf/
 *.traineddata

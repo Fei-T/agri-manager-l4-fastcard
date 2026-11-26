@@ -9,6 +9,9 @@
     let order = [];
     let picked = null;
     let answered = false;
+    let autoTimer = null;
+
+    function goNext() { idx++; startItem(); draw(); }
 
     function list() { return global.AgriQuestions.byKind(ctx, 'order', moduleId); }
 
@@ -25,6 +28,7 @@
     }
 
     function draw() {
+      if (autoTimer) { clearTimeout(autoTimer); autoTimer = null; }
       const l = list();
       if (!l.length) {
         container.innerHTML = '<h2 class="section-title">实操排序题</h2><div class="empty">该模块暂无排序题</div>' + header();
@@ -43,7 +47,7 @@
 
       const fb = answered
         ? '<div class="feedback ' + (isCorrect(it) ? 'ok' : 'no') + '">' +
-          (isCorrect(it) ? '顺序正确！' : '正确顺序：<br>' + correctOrder(it).map((s, i) => (i + 1) + '. ' + esc(it.steps[s])).join('<br>')) +
+          (isCorrect(it) ? '顺序正确！即将进入下一题…' : '正确顺序：<br>' + correctOrder(it).map((s, i) => (i + 1) + '. ' + esc(it.steps[s])).join('<br>')) +
           '</div>'
         : '';
 
@@ -69,14 +73,21 @@
       const submit = container.querySelector('#submit');
       if (submit) submit.addEventListener('click', () => {
         answered = true;
-        if (isCorrect(it)) ctx.toast('排序正确');
-        else { ctx.toast('排序错误，已加入错题本'); global.AgriState.addWrong(it.sourceQuestionId); }
-        draw();
+        if (isCorrect(it)) {
+          ctx.toast('排序正确');
+          draw();
+          if (idx < l.length - 1) autoTimer = setTimeout(goNext, 1100);
+          else autoTimer = setTimeout(() => { ctx.toast('本组排序题已完成！'); goNext(); }, 1400);
+        } else {
+          ctx.toast('排序错误，已加入错题本');
+          global.AgriState.addWrong(it.sourceQuestionId);
+          draw();
+        }
       });
       const reset = container.querySelector('#reset');
       if (reset) reset.addEventListener('click', () => { startItem(); draw(); });
       const next = container.querySelector('#next');
-      if (next) next.addEventListener('click', () => { idx++; startItem(); draw(); });
+      if (next) next.addEventListener('click', goNext);
       bindHeader();
     }
 
@@ -90,9 +101,9 @@
 
     function bindHeader() {
       const sel = container.querySelector('#order-module');
-      if (sel) sel.addEventListener('change', () => { moduleId = sel.value; idx = 0; startItem(); draw(); });
+      if (sel) sel.addEventListener('change', () => { if (autoTimer) clearTimeout(autoTimer); moduleId = sel.value; idx = 0; startItem(); draw(); });
       const back = container.querySelector('#back-objective');
-      if (back) back.addEventListener('click', () => { if (ctx.showObjective) ctx.showObjective(); });
+      if (back) back.addEventListener('click', () => { if (autoTimer) clearTimeout(autoTimer); if (ctx.showObjective) ctx.showObjective(); });
     }
 
     startItem();
